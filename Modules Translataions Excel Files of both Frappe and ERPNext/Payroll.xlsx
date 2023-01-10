@@ -1,0 +1,426 @@
+Module: Payroll
+DocType: Additional Salary
+Field: Employee Details
+Field: Series
+Field: Employee
+Field: Employee Name
+Field: Company
+Field: Department
+Field: Salary Details
+Field: Salary Component
+Field: Salary Component Type
+Field: Currency
+Field: Amount
+Field: Is Recurring
+Field: Payroll Date
+Field: From Date
+Field: To Date
+Field: Properties and References
+Field: Deduct Full Tax on Selected Payroll Date
+Field: Reference Document Type
+Field: Reference Document
+Field: Overwrite Salary Structure Amount
+
+DocType: Employee Benefit Application
+Field: Employee
+Field: Employee Name
+Field: Currency
+Field: Max Benefits (Yearly)
+Field: Remaining Benefits (Yearly)
+Field: Date
+Field: Payroll Period
+Field: Department
+Field: Company
+Field: Benefits Applied
+Field: Employee Benefits
+Field: Totals
+Field: Total Amount
+Field: Dispensed Amount (Pro-rated)
+
+DocType: Employee Benefit Application Detail
+Field: Earning Component
+Field: Pay Against Benefit Claim
+Field: Max Benefit Amount
+Field: Amount
+
+DocType: Employee Benefit Claim
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Claim Date
+Field: Currency
+Field: Company
+Field: Benefit Type and Amount
+Field: Claim Benefit For
+Field: Max Amount Eligible
+Field: Pay Against Benefit Claim
+Field: Claimed Amount
+Field: Salary Slip
+Field: Expense Proof
+Field: Attachments
+
+DocType: Employee Incentive
+Field: Employee
+Field: Employee Name
+Field: Company
+Field: Currency
+Field: Incentive Amount
+Field: Salary Component
+Field: Payroll Date
+Field: Department
+
+DocType: Employee Other Income
+Field: Employee
+Field: Employee Name
+Field: Payroll Period
+Field: Company
+Field: Source
+Field: Amount
+
+DocType: Employee Tax Exemption Category
+Field: Max Exemption Amount
+Field: Is Active
+
+DocType: Employee Tax Exemption Declaration
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Payroll Period
+Field: Company
+Field: Currency
+Field: Declarations
+Field: Total Declared Amount
+Field: Total Exemption Amount
+
+DocType: Employee Tax Exemption Declaration Category
+Field: Exemption Sub Category
+Field: Exemption Category
+Field: Maximum Exempted Amount
+Field: Declared Amount
+
+DocType: Employee Tax Exemption Proof Submission
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Currency
+Field: Submission Date
+Field: Payroll Period
+Field: Company
+Field: Tax Exemption Proofs
+Field: Total Actual Amount
+Field: Total Exemption Amount
+Field: Attachments
+
+DocType: Employee Tax Exemption Proof Submission Detail
+Field: Exemption Sub Category
+Field: Exemption Category
+Field: Maximum Exemption Amount
+Field: Type of Proof
+Field: Actual Amount
+
+DocType: Employee Tax Exemption Sub Category
+Field: Tax Exemption Category
+Field: Max Exemption Amount
+Field: Is Active
+
+DocType: Gratuity
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Designation
+Field: Posting date
+Field: Status
+Field: Company
+Field: Gratuity Rule
+Field: Payment Configuration
+Field: Pay via Salary Slip
+Field: Payroll Date
+Field: Salary Component
+Field: Payable Account
+Field: Expense Account
+Field: Mode of Payment
+Field: Cost Center
+Field: Current Work Experience
+Field: Total Amount
+Field: Paid Amount
+
+DocType: Gratuity Applicable Component
+Field: Salary Component 
+
+DocType: Gratuity Rule
+Field: Applicable Earnings Component
+Field: Work Experience Calculation method
+Field: Total working Days Per Year
+Field: Disable
+Field: Calculate Gratuity Amount Based On
+Field: Minimum Year for Gratuity
+Field: Gratuity Rules
+Field: Current Work Experience
+
+DocType: Gratuity Rule Slab
+Field: From(Year)
+Field: To(Year)
+Field: Fraction of Applicable Earnings 
+
+DocType: Income Tax Slab
+Field: Effective from
+Field: Company
+Field: Currency
+Field: Standard Tax Exemption Amount
+Field: Allow Tax Exemption
+Field: Disabled
+Field: Taxable Salary Slabs
+Field: Taxable Salary Slabs
+Field: Taxes and Charges on Income Tax
+Field: Other Taxes and Charges
+
+DocType: Income Tax Slab Other Charges
+Field: Description
+Field: Percent
+Field: Conditions
+Field: Min Taxable Income
+Field: Max Taxable Income
+
+DocType: Payroll Employee Detail
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Designation
+
+DocType: Payroll Entry
+Field: Select Employees
+Field: Posting Date
+Field: Payroll Frequency
+Field: Company
+Field: Currency
+Field: Exchange Rate
+Field: Payroll Payable Account
+Field: Employees
+Field: Branch
+Field: Department
+Field: Designation
+Field: Number Of Employees
+Field: Employee Details
+Field: Validate Attendance
+Field: Salary Slip Based on Timesheet
+Field: Select Payroll Period
+Field: Start Date
+Field: End Date
+Field: Deduct Tax For Unclaimed Employee Benefits
+Field: Deduct Tax For Unsubmitted Tax Exemption Proof
+Field: Accounting Dimensions
+Field: Project
+Field: Cost Center
+Field: Payment Entry
+Field: Payment Account
+Field: Bank Account
+Field: Salary Slips Created
+Field: Salary Slips Submitted
+
+DocType: Payroll Period
+Field: Company
+Field: Start Date
+Field: End Date
+Field: Payroll Periods
+Field: Payroll Periods
+
+DocType: Payroll Period Date
+Field: Start Date
+Field: End Date
+
+DocType: Payroll Settings
+Field: Calculate Payroll Working Days Based On
+Field: Consider Unmarked Attendance As
+Field: Max working hours against Timesheet
+Field: Include holidays in Total no. of Working Days
+Field: Disable Rounded Total
+Field: Define Opening Balance for Earning and Deductions
+Field: Fraction of Daily Salary for Half Day
+Field: Email Salary Slip to Employee
+Field: Encrypt Salary Slips in Emails
+Field: Show Leave Balances in Salary Slip
+Field: Password Policy
+
+DocType: Retention Bonus
+Field: Company
+Field: Employee
+Field: Bonus Payment Date
+Field: Bonus Amount
+Field: Salary Component
+Field: Employee Name
+Field: Department
+Field: Date of Joining
+Field: Currency
+
+DocType: Salary Component
+Field: Name
+Field: Abbr
+Field: Type
+Field: Description
+Field: Depends on Payment Days
+Field: Is Tax Applicable
+Field: Is Income Tax Component
+Field: Deduct Full Tax on Selected Payroll Date
+Field: Variable Based On Taxable Salary
+Field: Exempted from Income Tax
+Field: Round to the Nearest Integer
+Field: Statistical Component
+Field: Do Not Include in Total
+Field: Disabled
+Field: Flexible Benefits
+Field: Is Flexible Benefit
+Field: Max Benefit Amount (Yearly)
+Field: Pay Against Benefit Claim
+Field: Only Tax Impact (Cannot Claim But Part of Taxable Income)
+Field: Create Separate Payment Entry Against Benefit Claim
+Field: Accounts
+Field: Accounts
+Field: Condition and Formula
+Field: Condition
+Field: Amount
+Field: Amount based on formula
+Field: Formula
+Field: Help
+
+DocType: Salary Detail
+Field: Component
+Field: Abbr
+Field: Amount
+Field: Year To Date
+Field: Component properties and references 
+Field: Additional Salary 
+Field: Is Recurring Additional Salary
+Field: Statistical Component
+Field: Depends on Payment Days
+Field: Exempted from Income Tax
+Field: Is Tax Applicable
+Field: Is Flexible Benefit
+Field: Variable Based On Taxable Salary
+Field: Do not include in total
+Field: Deduct Full Tax on Selected Payroll Date
+Field: Condition and formula
+Field: Condition
+Field: Amount based on formula
+Field: Formula
+Field: Default Amount
+Field: Additional Amount
+Field: Tax on flexible benefit
+Field: Tax on additional salary
+
+DocType: Salary Slip
+Field: Posting Date
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Designation
+Field: Branch
+Field: Payroll Cost Center
+Field: Status
+Field: Journal Entry
+Field: Payroll Entry
+Field: Company
+Field: Currency
+Field: Exchange Rate
+Field: Letter Head
+Field: Start Date
+Field: End Date
+Field: Salary Structure
+Field: Salary Slip Based on Timesheet
+Field: Payroll Frequency
+Field: Working Days
+Field: Unmarked days
+Field: Leave Without Pay
+Field: Absent Days
+Field: Payment Days
+Field: Salary Slip Timesheet
+Field: Total Working Hours
+Field: Hour Rate
+Field: Hour Rate (Company Currency)
+Field: Bank Name
+Field: Bank Account No.
+Field: Mode Of Payment
+Field: Deduct Tax For Unclaimed Employee Benefits
+Field: Deduct Tax For Unsubmitted Tax Exemption Proof
+Field: Earnings & Deductions
+Field: Earnings
+Field: Deductions
+Field: Gross Pay
+Field: Gross Pay (Company Currency)
+Field: Gross Year To Date
+Field: Gross Year To Date(Company Currency)
+Field: Total Deduction
+Field: Total Deduction (Company Currency)
+Field: Loan Repayment
+Field: Employee Loan
+Field: Total Principal Amount
+Field: Total Interest Amount
+Field: Total Loan Repayment
+Field: Net Pay Info
+Field: Net Pay
+Field: Net Pay (Company Currency)
+Field: Year To Date
+Field: Year To Date(Company Currency)
+Field: Rounded Total
+Field: Rounded Total (Company Currency)
+Field: Month To Date
+Field: Month To Date(Company Currency)
+Field: Total in words
+Field: Total in words (Company Currency)
+Field: Leave Details
+Field: Leave Details
+
+DocType: Salary Slip Leave
+Field: Leave Type
+Field: Total Allocated Leave(s)
+Field: Expired Leave(s)
+Field: Used Leave(s)
+Field: Leave(s) Pending Approval
+Field: Available Leave(s)
+
+DocType: Salary Slip Timesheet
+Field: Time Sheet
+Field: Working Hours
+
+DocType: Salary Structure
+Field: Company
+Field: Letter Head
+Field: Is Active
+Field: Payroll Frequency
+Field: Currency
+Field: Is Default
+Field: Salary Slip Based on Timesheet
+Field: Salary Component
+Field: Hour Rate
+Field: Leave Encashment Amount Per Day
+Field: Max Benefits (Amount)
+Field: Earnings
+Field: Deductions
+Field: Conditions and Formula variable and example
+Field: Total Earning
+Field: Total Deduction
+Field: Net Pay
+Field: Account
+Field: Mode of Payment
+Field: Payment Account
+
+DocType: Salary Structure Assignment
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Company
+Field: Payroll Payable Account
+Field: Designation
+Field: Salary Structure
+Field: From Date
+Field: Income Tax Slab
+Field: Currency
+Field: Base
+Field: Variable
+Field: Taxable Earnings Till Date
+Field: Tax Deducted Till Date
+
+DocType: Taxable Salary Slab
+Field: From Amount
+Field: To Amount
+Field: Percent Deduction
+Field: Condition

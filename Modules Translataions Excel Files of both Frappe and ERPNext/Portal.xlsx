@@ -1,0 +1,47 @@
+Module: Portal
+DocType: Homepage
+Field: Company
+Field: Hero Section Based On
+Field: Title
+Field: Hero Section
+Field: Tag Line
+Field: Description
+Field: Hero Image
+Field: Homepage Slideshow
+Field: Homepage Section
+Field: Products
+Field: URL for "All Products"
+Field: Products
+
+DocType: Homepage Featured Product
+Field: Item
+Field: Item Name
+Field: View
+Field: Details
+Field: Description
+Field: Image
+Field: Thumbnail
+Field: route
+
+DocType: Homepage Section
+Field: Section Based On
+Field: Section Cards
+Field: Section Cards
+Field: Number of Columns
+Field: Custom HTML
+Field: Section HTML
+Field: 
+Field: Section Order
+
+DocType: Homepage Section Card
+Field: Title
+Field: Subtitle
+Field: Image
+Field: Content
+Field: Route
+
+DocType: Website Attribute
+Field: Attribute
+
+DocType: Website Filter Field
+Field: Fieldname

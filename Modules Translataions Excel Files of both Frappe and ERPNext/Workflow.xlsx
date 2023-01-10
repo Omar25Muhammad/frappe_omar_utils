@@ -1,0 +1,48 @@
+Module: Workflow
+DocType: Workflow
+Field: Workflow Name
+Field: Document Type
+Field: Is Active
+Field: Don't Override Status
+Field: Send Email Alert
+Field: States
+Field: Document States
+Field: Transition Rules
+Field: Transitions
+Field: Workflow State Field
+
+DocType: Workflow Action
+Field: Status
+Field: Reference Name
+Field: Reference Document Type
+Field: User
+Field: Workflow State
+Field: Completed By
+
+DocType: Workflow Action Master
+Field: Workflow Action Name
+
+DocType: Workflow Document State
+Field: State
+Field: Doc Status
+Field: Update Field
+Field: Update Value
+Field: Is Optional State
+Field: Next Action Email Template
+Field: Only Allow Edit For
+Field: Message
+
+DocType: Workflow State
+Field: State
+Field: Icon
+Field: Style
+
+DocType: Workflow Transition
+Field: State
+Field: Action
+Field: Next State
+Field: Allowed
+Field: Allow Self Approval
+Field: Conditions
+Field: Condition
+Field: Example

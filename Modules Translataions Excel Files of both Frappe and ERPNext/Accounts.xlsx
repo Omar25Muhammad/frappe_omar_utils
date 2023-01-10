@@ -1,0 +1,2442 @@
+Module: Accounts
+DocType: Account
+Field: Disable
+Field: Account Name
+Field: Account Number
+Field: Is Group
+Field: Company
+Field: Root Type
+Field: Report Type
+Field: Currency
+Field: Inter Company Account
+Field: Parent Account
+Field: Account Type
+Field: Rate
+Field: Frozen
+Field: Balance must be
+Field: Lft
+Field: Rgt
+Field: Old Parent
+Field: Include in gross
+
+DocType: Accounting Dimension
+Field: Reference Document Type
+Field: Dimension Name
+Field: Fieldname
+Field: Dimension Defaults
+Field: Disable
+
+DocType: Accounting Dimension Detail
+Field: Company
+Field: Reference Document
+Field: Default Dimension
+Field: Mandatory For Balance Sheet
+Field: Mandatory For Profit and Loss Account
+
+DocType: Accounting Dimension Filter
+Field: Accounting Dimension
+Field: Disabled
+Field: Company
+Field: Allow Or Restrict Dimension
+Field: Applicable On Account
+Field: Applicable Dimension
+Field: Dimension Filter Help
+
+DocType: Accounting Period
+Field: Period Name
+Field: Start Date
+Field: End Date
+Field: Company
+Field: Closed Documents
+
+DocType: Accounts Settings
+Field: Transactions Settings
+Field: Over Billing Allowance (%)
+Field: Role Allowed to Over Bill 
+Field: Make Payment via Journal Entry
+Field: Check Supplier Invoice Number Uniqueness
+Field: Unlink Payment on Cancellation of Invoice
+Field: Automatically Fetch Payment Terms from Order
+Field: Delete Accounting and Stock Ledger Entries on deletion of Transaction
+Field: Book Asset Depreciation Entry Automatically
+Field: Unlink Advance Payment on Cancellation of Order
+Field: Enable Common Party Accounting
+Field: Allow multi-currency invoices against single party account
+Field: Create Ledger Entries for Change Amount
+Field: Enable Discount Accounting
+Field: Tax Settings
+Field: Determine Address Tax Category From
+Field: Automatically Add Taxes and Charges from Item Tax Template
+Field: Period Closing Settings
+Field: Accounts Frozen Till Date
+Field: Role Allowed to Set Frozen Accounts and Edit Frozen Entries
+Field: Credit Controller
+Field: Deferred Accounting Settings
+Field: Book Deferred Entries Based On
+Field: Automatically Process Deferred Accounting Entry
+Field: Book Deferred Entries Via Journal Entry
+Field: Submit Journal Entries
+Field: Print Settings
+Field: Show Inclusive Tax in Print
+Field: Show Payment Schedule in Print
+Field: Currency Exchange Settings
+Field: Allow Stale Exchange Rates
+Field: Stale Days
+Field: Report Settings
+Field: Use Custom Cash Flow Format
+
+DocType: Advance Tax
+Field: Reference Type
+Field: Reference Name
+Field: Reference Detail
+Field: Account Head
+Field: Allocated Amount
+
+DocType: Advance Taxes and Charges
+Field: Add Or Deduct
+Field: Type
+Field: Reference Row #
+Field: Account Head
+Field: Description
+Field: Considered In Paid Amount
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Rate
+Field: Account Currency
+Field: Amount
+Field: Total
+Field: Allocated Amount
+Field: Amount (Company Currency)
+Field: Total (Company Currency)
+
+DocType: Allowed Dimension
+Field: Accounting Dimension
+
+DocType: Allowed To Transact With
+Field: Company
+
+DocType: Applicable On Account
+Field: Accounts
+Field: Is Mandatory
+
+DocType: Bank
+Field: Bank Details
+Field: Bank Name
+Field: SWIFT number
+Field: Website
+Field: Address and Contact
+Field: Address HTML
+Field: Contact HTML
+Field: Data Import Configuration
+Field: Bank Transaction Mapping
+Field: Plaid Access Token
+
+DocType: Bank Account
+Field: Account Name
+Field: Company Account
+Field: Bank
+Field: Account Type
+Field: Account Subtype
+Field: Is Default Account
+Field: Is Company Account
+Field: Company
+Field: Party Details
+Field: Party Type
+Field: Party
+Field: Account Details
+Field: IBAN
+Field: Branch Code
+Field: Bank Account No
+Field: Address and Contact
+Field: Address HTML
+Field: Website
+Field: Contact HTML
+Field: Integration Details
+Field: Integration ID
+Field: Last Integration Date
+Field: Mask
+
+DocType: Bank Account Subtype
+Field: Account Subtype
+
+DocType: Bank Account Type
+Field: Account Type
+
+DocType: Bank Clearance
+Field: Account
+Field: Account Currency
+Field: From Date
+Field: To Date
+Field: Bank Account
+Field: Include Reconciled Entries
+Field: Include POS Transactions
+Field: Get Payment Entries
+Field: Payment Entries
+Field: Update Clearance Date
+Field: Total Amount
+
+DocType: Bank Clearance Detail
+Field: Payment Document
+Field: Payment Entry
+Field: Against Account
+Field: Amount
+Field: Posting Date
+Field: Cheque Number
+Field: Cheque Date
+Field: Clearance Date
+
+DocType: Bank Guarantee
+Field: Bank Guarantee Type
+Field: Reference Document Type
+Field: Reference Document Name
+Field: Customer
+Field: Supplier
+Field: Project
+Field: Amount
+Field: Start Date
+Field: Validity in Days
+Field: End Date
+Field: Bank Account Info
+Field: Bank
+Field: Bank Account
+Field: Account
+Field: Bank Account No
+Field: IBAN
+Field: Branch Code
+Field: SWIFT number
+Field: 
+Field: Clauses and Conditions
+Field: Other Details
+Field: Bank Guarantee Number
+Field: Name of Beneficiary
+Field: Margin Money
+Field: Charges Incurred
+Field: Fixed Deposit Number
+
+DocType: Bank Reconciliation Tool
+Field: Company
+Field: Bank Account
+Field: From Date
+Field: To Date
+Field: Account Opening Balance
+Field: Closing Balance
+Field: Reconcile
+
+DocType: Bank Statement Import
+Field: Company
+Field: Bank Account
+Field: Bank
+Field: Import from Google Sheets
+Field: Refresh Google Sheet
+Field: Import File
+Field: Download Template
+Field: Status
+Field: Template Options
+Field: Import File Errors and Warnings
+Field: Template Warnings
+Field: Import Warnings
+Field: Preview
+Field: Import Preview
+Field: Import Log
+Field: Import Log
+Field: Show Failed Logs
+Field: Import Log Preview
+Field: Document Type
+Field: Import Type
+Field: Submit After Import
+Field: Don't Send Emails
+
+DocType: Bank Transaction
+Field: Series
+Field: Date
+Field: Status
+Field: Bank Account
+Field: Company
+Field: Deposit
+Field: Withdrawal
+Field: Currency
+Field: Description
+Field: Reference Number
+Field: Transaction ID
+Field: Payment Entries
+Field: Allocated Amount
+Field: Unallocated Amount
+Field: Payment From / To
+Field: Party Type
+Field: Party
+
+DocType: Bank Transaction Mapping
+Field: Field in Bank Transaction
+Field: Column in Bank File
+
+DocType: Bank Transaction Payments
+Field: Payment Document
+Field: Payment Entry
+Field: Allocated Amount
+Field: Clearance Date
+
+DocType: Budget
+Field: Budget Against
+Field: Company
+Field: Cost Center
+Field: Project
+Field: Fiscal Year
+Field: Monthly Distribution
+Field: Control Action
+Field: Applicable on Material Request
+Field: Action if Annual Budget Exceeded on MR
+Field: Action if Accumulated Monthly Budget Exceeded on MR
+Field: Applicable on Purchase Order
+Field: Action if Annual Budget Exceeded on PO
+Field: Action if Accumulated Monthly Budget Exceeded on PO
+Field: Applicable on booking actual expenses
+Field: Action if Annual Budget Exceeded on Actual
+Field: Action if Accumulated Monthly Budget Exceeded on Actual
+Field: Budget Accounts
+
+DocType: Budget Account
+Field: Account
+Field: Budget Amount
+
+DocType: C-Form
+Field: Series
+Field: C-Form No
+Field: Received Date
+Field: Customer
+Field: Company
+Field: Quarter
+Field: Total Amount
+Field: State
+Field: Invoices
+Field: Total Invoiced Amount
+
+DocType: C-Form Invoice Detail
+Field: Invoice No
+Field: Invoice Date
+Field: Territory
+Field: Net Total
+Field: Grand Total
+
+DocType: Campaign Item
+Field: Campaign
+
+DocType: Cash Flow Mapper
+Field: Section Name
+Field: Section Header
+Field: Section Leader
+Field: Section Subtotal
+Field: Section Footer
+Field: Accounts
+Field: Position
+
+DocType: Cash Flow Mapping
+Field: Name
+Field: Label
+Field: Accounts
+Field: Select Maximum Of 1
+Field: Is Finance Cost
+Field: Is Working Capital
+Field: Is Finance Cost Adjustment
+Field: Is Income Tax Liability
+Field: Is Income Tax Expense
+
+DocType: Cash Flow Mapping Accounts
+Field: account
+
+DocType: Cash Flow Mapping Template
+Field: Template Name
+Field: Cash Flow Mapping
+
+DocType: Cash Flow Mapping Template Details
+Field: Mapping
+
+DocType: Cashier Closing
+Field: Series
+Field: User
+Field: Date
+Field: From Time
+Field: To Time
+Field: Expense
+Field: Custody
+Field: Returns
+Field: Outstanding Amount
+Field: Payments
+Field: Net Amount
+
+DocType: Cashier Closing Payments
+Field: Mode of Payment
+Field: Amount
+
+DocType: Chart of Accounts Importer
+Field: Company
+Field: Download Template
+Field: Attach custom Chart of Accounts file
+Field: Chart Preview
+Field: Chart Tree
+
+DocType: Cheque Print Template
+Field: 
+Field: Has Print Format
+Field: Primary Settings
+Field: Bank Name
+Field: Cheque Size
+Field: Starting position from top edge
+Field: Cheque Width
+Field: Cheque Height
+Field: Scanned Cheque
+Field: Is Account Payable
+Field: Distance from top edge
+Field: Distance from left edge
+Field: Message to show
+Field: 
+Field: Date Settings
+Field: Distance from top edge
+Field: Starting location from left edge
+Field: Payer Settings
+Field: Distance from top edge
+Field: Starting location from left edge
+Field: 
+Field: Distance from top edge
+Field: Starting location from left edge
+Field: Width of amount in word
+Field: Line spacing for amount in words
+Field: Amount In Figure
+Field: Distance from top edge
+Field: Starting location from left edge
+Field: 
+Field: Distance from top edge
+Field: Starting location from left edge
+Field: Signatory Position
+Field: Distance from top edge
+Field: Starting location from left edge
+Field: Preview
+
+DocType: Closed Document
+Field: Document Type
+Field: Closed
+
+DocType: Cost Center
+Field: Cost Center Name
+Field: Cost Center Number
+Field: Parent Cost Center
+Field: Company
+Field: Is Group
+Field: Disabled
+Field: Enable Distributed Cost Center
+Field: Distributed Cost Center
+Field: lft
+Field: rgt
+Field: old_parent
+
+DocType: Coupon Code
+Field: Coupon Name
+Field: Coupon Type
+Field: Customer
+Field: Coupon Code
+Field: Pricing Rule
+Field: Validity and Usage
+Field: Valid From
+Field: Valid Upto
+Field: Maximum Use
+Field: Used
+Field: Coupon Description
+
+DocType: Customer Group Item
+Field: Customer Group
+
+DocType: Customer Item
+Field: Customer 
+
+DocType: Discounted Invoice
+Field: Invoice
+Field: Customer
+Field: Date
+Field: Outstanding Amount
+Field: Debit to
+
+DocType: Distributed Cost Center
+Field: Cost Center
+Field: Percentage Allocation
+
+DocType: Dunning
+Field: Title
+Field: Series
+Field: Sales Invoice
+Field: Customer
+Field: Customer Name
+Field: Outstanding Amount
+Field: Currency
+Field: Conversion Rate
+Field: Company
+Field: Date
+Field: Posting Time
+Field: Due Date
+Field: Overdue Days
+Field: Address and Contact
+Field: Address
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Company Address
+Field: Dunning Type
+Field: Dunning Fee
+Field: Rate of Interest (%) Yearly
+Field: Interest Amount
+Field: Dunning Amount
+Field: Grand Total
+Field: Income Account
+Field: Status
+Field: Printing Setting
+Field: Print Language
+Field: Body Text
+Field: Letter Head
+Field: Closing Text
+
+DocType: Dunning Letter Text
+Field: Language
+Field: Is Default Language
+Field: Body Text
+Field: Closing Text
+Field: Body and Closing Text Help
+
+DocType: Dunning Type
+Field: Dunning Type
+Field: Overdue Interval
+Field: Start Day
+Field: End Day
+Field: Dunning Fee
+Field: Rate of Interest (%) Yearly
+Field: Dunning Letter
+
+DocType: Exchange Rate Revaluation
+Field: Posting Date
+Field: Company
+Field: Get Entries
+Field: Exchange Rate Revaluation Account
+Field: Total Gain/Loss
+
+DocType: Exchange Rate Revaluation Account
+Field: Account
+Field: Party Type
+Field: Party
+Field: Account Currency
+Field: Balance In Account Currency
+Field: 
+Field: Current Exchange Rate
+Field: Balance In Base Currency
+Field: New Exchange Rate
+Field: New Balance In Base Currency
+Field: Gain/Loss
+
+DocType: Finance Book
+Field: Name
+
+DocType: Fiscal Year
+Field: Year Name
+Field: Disabled
+Field: Is Short Year
+Field: Year Start Date
+Field: Year End Date
+Field: Companies
+Field: Auto Created
+
+DocType: Fiscal Year Company
+Field: Company
+
+DocType: GL Entry
+Field: Posting Date
+Field: Transaction Date
+Field: Account
+Field: Party Type
+Field: Party
+Field: Cost Center
+Field: Debit Amount
+Field: Credit Amount
+Field: Account Currency
+Field: Debit Amount in Account Currency
+Field: Credit Amount in Account Currency
+Field: Against
+Field: Against Voucher Type
+Field: Against Voucher
+Field: Voucher Type
+Field: Voucher No
+Field: Voucher Detail No
+Field: Project
+Field: Remarks
+Field: Is Opening
+Field: Is Advance
+Field: Fiscal Year
+Field: Company
+Field: Finance Book
+Field: To Rename
+Field: Due Date
+Field: Is Cancelled
+
+DocType: GST Account
+Field: Company
+Field: CGST Account
+Field: SGST Account
+Field: IGST Account
+Field: CESS Account
+Field: UTGST Account
+Field: Is Reverse Charge Account
+
+DocType: Invoice Discounting
+Field: Posting Date
+Field: Loan Start Date
+Field: Loan Period (Days)
+Field: Loan End Date
+Field: Status
+Field: Company
+Field: Invoices
+Field: Total Amount
+Field: Bank Charges
+Field: Short Term Loan Account
+Field: Bank Account
+Field: Bank Charges Account
+Field: Accounts Receivable Credit Account
+Field: Accounts Receivable Discounted Account
+Field: Accounts Receivable Unpaid Account
+
+DocType: Item Tax Template
+Field: Title
+Field: Company
+Field: Disabled
+Field: Tax Rates
+
+DocType: Item Tax Template Detail
+Field: Tax
+Field: Tax Rate
+
+DocType: Journal Entry
+Field: Title
+Field: Entry Type
+Field: Series
+Field: Finance Book
+Field: Process Deferred Accounting
+Field: Reversal Of
+Field: Tax Withholding Category
+Field: From Template
+Field: Company
+Field: Posting Date
+Field: Apply Tax Withholding Amount 
+Field: Accounting Entries
+Field: Reference Number
+Field: Reference Date
+Field: User Remark
+Field: Total Debit
+Field: Total Credit
+Field: Difference (Dr - Cr)
+Field: Make Difference Entry
+Field: Multi Currency
+Field: Total Amount Currency
+Field: Total Amount
+Field: Total Amount in Words
+Field: Reference
+Field: Clearance Date
+Field: Remark
+Field: Paid Loan
+Field: Inter Company Journal Entry Reference
+Field: Bill No
+Field: Bill Date
+Field: Due Date
+Field: Write Off
+Field: Write Off Based On
+Field: Get Outstanding Invoices
+Field: Write Off Amount
+Field: Printing Settings
+Field: Pay To / Recd From
+Field: Letter Head
+Field: Print Heading
+Field: More Information
+Field: Mode of Payment
+Field: Payment Order
+Field: Is Opening
+Field: Stock Entry
+Field: Subscription Section
+Field: Auto Repeat
+
+DocType: Journal Entry Account
+Field: Account
+Field: Account Type
+Field: Account Balance
+Field: Bank Account
+Field: Party Type
+Field: Party
+Field: Party Balance
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Project
+Field: Currency
+Field: Account Currency
+Field: Exchange Rate
+Field: Amount
+Field: Debit
+Field: Debit in Company Currency
+Field: Credit
+Field: Credit in Company Currency
+Field: Reference
+Field: Reference Type
+Field: Reference Name
+Field: Reference Due Date
+Field: Reference Detail No
+Field: Is Advance
+Field: User Remark
+Field: Against Account
+
+DocType: Journal Entry Template
+Field: Template Title
+Field: Journal Entry Type
+Field: Series
+Field: Company
+Field: Is Opening
+Field: Multi Currency
+Field: Accounting Entries
+
+DocType: Journal Entry Template Account
+Field: Account
+
+DocType: Loyalty Point Entry
+Field: Loyalty Program
+Field: Loyalty Program Tier
+Field: Customer
+Field: Invoice Type
+Field: Invoice
+Field: Redeem Against
+Field: Loyalty Points
+Field: Purchase Amount
+Field: Expiry Date
+Field: Posting Date
+Field: Company
+
+DocType: Loyalty Point Entry Redemption
+Field: Sales Invoice
+Field: Redemption Date
+Field: Redeemed Points
+
+DocType: Loyalty Program
+Field: Loyalty Program Name
+Field: Loyalty Program Type
+Field: From Date
+Field: To Date
+Field: Customer Group
+Field: Customer Territory
+Field: Auto Opt In (For all customers)
+Field: Collection Tier
+Field: Collection Rules
+Field: Redemption
+Field: Conversion Factor
+Field: Expiry Duration (in days)
+Field: Expense Account
+Field: Company
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Help Section
+Field: Loyalty Program Help
+
+DocType: Loyalty Program Collection
+Field: Tier Name
+Field: Minimum Total Spent
+Field: Collection Factor (=1 LP)
+
+DocType: Mode of Payment
+Field: Mode of Payment
+Field: Enabled
+Field: Type
+Field: Accounts
+
+DocType: Mode of Payment Account
+Field: Company
+Field: Default Account
+
+DocType: Monthly Distribution
+Field: Distribution Name
+Field: Fiscal Year
+Field: Monthly Distribution Percentages
+
+DocType: Monthly Distribution Percentage
+Field: Month
+Field: Percentage Allocation
+
+DocType: Opening Invoice Creation Tool
+Field: Company
+Field: Create Missing Party
+Field: Invoice Type
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Invoices
+
+DocType: Opening Invoice Creation Tool Item
+Field: Invoice Number
+Field: Party Type
+Field: Party
+Field: Temporary Opening Account
+Field: Posting Date
+Field: Due Date
+Field: Item Name
+Field: Outstanding Amount
+Field: Quantity
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: Party Account
+Field: Company
+Field: Account
+
+DocType: Party Link
+Field: Primary Role
+Field: Secondary Role
+Field: Primary Party
+Field: Secondary Party
+
+DocType: Payment Entry
+Field: Type of Payment
+Field: Series
+Field: Payment Type
+Field: Payment Order Status
+Field: Posting Date
+Field: Company
+Field: Mode of Payment
+Field: Payment From / To
+Field: Party Type
+Field: Party
+Field: Party Name
+Field: Company Bank Account
+Field: Party Bank Account
+Field: Contact
+Field: Email
+Field: Accounts
+Field: Party Balance
+Field: Account Paid From
+Field: Paid From Account Type
+Field: Account Currency
+Field: Account Balance
+Field: Account Paid To
+Field: Paid To Account Type
+Field: Account Currency
+Field: Account Balance
+Field: Amount
+Field: Paid Amount
+Field: Paid Amount After Tax
+Field: Exchange Rate
+Field: Paid Amount (Company Currency)
+Field: Paid Amount After Tax (Company Currency)
+Field: Received Amount
+Field: Received Amount After Tax
+Field: Exchange Rate
+Field: Received Amount (Company Currency)
+Field: Received Amount After Tax (Company Currency)
+Field: Reference
+Field: Get Outstanding Invoice
+Field: Payment References
+Field: Writeoff
+Field: Total Allocated Amount
+Field: Total Allocated Amount (Company Currency)
+Field: Set Exchange Gain / Loss
+Field: Unallocated Amount
+Field: Difference Amount (Company Currency)
+Field: Write Off Difference Amount
+Field: Taxes and Charges
+Field: Taxes and Charges Template
+Field: Taxes and Charges Template
+Field: Apply Tax Withholding Amount
+Field: Tax Withholding Category
+Field: Advance Taxes and Charges
+Field: Total Taxes and Charges (Company Currency)
+Field: Total Taxes and Charges
+Field: Deductions or Loss
+Field: Payment Deductions or Loss
+Field: Transaction ID
+Field: Cheque/Reference No
+Field: Cheque/Reference Date
+Field: Clearance Date
+Field: Accounting Dimensions
+Field: Project
+Field: Cost Center
+Field: More Information
+Field: Status
+Field: Custom Remarks
+Field: Remarks
+Field: Letter Head
+Field: Print Heading
+Field: Bank
+Field: Bank Account No
+Field: Payment Order
+Field: Subscription Section
+Field: Auto Repeat
+Field: Title
+
+DocType: Payment Entry Deduction
+Field: Account
+Field: Cost Center
+Field: Amount
+Field: Description
+
+DocType: Payment Entry Reference
+Field: Type
+Field: Name
+Field: Due Date
+Field: Supplier Invoice No
+Field: Payment Term
+Field: Grand Total
+Field: Outstanding
+Field: Allocated
+Field: Exchange Rate
+Field: Exchange Gain/Loss
+
+DocType: Payment Gateway Account
+Field: Payment Gateway
+Field: Payment Channel
+Field: Is Default
+Field: Payment Account
+Field: Currency
+Field: Default Payment Request Message
+Field: Message Examples
+
+DocType: Payment Order
+Field: Series
+Field: Company
+Field: Payment Order Type
+Field: Supplier
+Field: Posting Date
+Field: Bank
+Field: Company Bank Account
+Field: Account
+Field: Payment Order Reference
+
+DocType: Payment Order Reference
+Field: Type
+Field: Name
+Field: Amount
+Field: Supplier
+Field: Payment Request
+Field: Mode of Payment
+Field: Bank Account Details
+Field: Bank Account
+Field: Account
+Field: Payment Reference
+
+DocType: Payment Reconciliation
+Field: Company
+Field: Party Type
+Field: Party
+Field: Receivable / Payable Account
+Field: Filters
+Field: From Invoice Date
+Field: From Payment Date
+Field: Minimum Invoice Amount
+Field: Minimum Payment Amount
+Field: To Invoice Date
+Field: To Payment Date
+Field: Maximum Invoice Amount
+Field: Maximum Payment Amount
+Field: Invoice Limit
+Field: Payment Limit
+Field: Bank / Cash Account
+Field: Cost Center
+Field: Unreconciled Entries
+Field: Invoices
+Field: Payments
+Field: Allocated Entries
+Field: Allocation
+
+DocType: Payment Reconciliation Allocation
+Field: Reference Type
+Field: Reference Name
+Field: Reference Row
+Field: Invoice Type
+Field: Invoice Number
+Field: Allocated Amount
+Field: Unreconciled Amount
+Field: Amount
+Field: Is Advance
+Field: Difference Amount
+Field: Difference Account
+
+DocType: Payment Reconciliation Invoice
+Field: Invoice Type
+Field: Invoice Number
+Field: Invoice Date
+Field: Amount
+Field: Outstanding Amount
+Field: Currency
+
+DocType: Payment Reconciliation Payment
+Field: Reference Type
+Field: Reference Name
+Field: Posting Date
+Field: Is Advance
+Field: Reference Row
+Field: Amount
+Field: Difference Amount
+Field: Remark
+Field: Currency
+
+DocType: Payment Request
+Field: Payment Request Type
+Field: Transaction Date
+Field: Series
+Field: Mode of Payment
+Field: Party Details
+Field: Party Type
+Field: Party
+Field: Reference Doctype
+Field: Reference Name
+Field: Transaction Details
+Field: Amount
+Field: Is a Subscription
+Field: Transaction Currency
+Field: Subscription Section
+Field: Subscription Plans
+Field: Bank Account Details
+Field: Bank Account
+Field: Bank
+Field: Bank Account No
+Field: Account
+Field: IBAN
+Field: Branch Code
+Field: SWIFT Number
+Field: Recipient Message And Payment Details
+Field: Print Format
+Field: To
+Field: Subject
+Field: Payment Gateway Account
+Field: Status
+Field: Make Sales Invoice
+Field: Message
+Field: Message Examples
+Field: Mute Email
+Field: payment_url
+Field: Payment Gateway Details
+Field: Payment Gateway
+Field: Payment Account
+Field: Payment Channel
+Field: Payment Order
+
+DocType: Payment Schedule
+Field: Payment Term
+Field: Description
+Field: Description
+Field: Due Date
+Field: Mode of Payment
+Field: Invoice Portion
+Field: Discount Type
+Field: Discount Date
+Field: Discount
+Field: Payment Amount
+Field: Outstanding
+Field: Paid Amount
+Field: Discounted Amount
+Field: Payment Amount (Company Currency)
+
+DocType: Payment Term
+Field: Payment Term Name
+Field: Invoice Portion (%)
+Field: Mode of Payment
+Field: Due Date Based On
+Field: Credit Days
+Field: Credit Months
+Field: Discount Settings
+Field: Discount Type
+Field: Discount
+Field: Discount Validity Based On
+Field: Discount Validity
+Field: Description
+
+DocType: Payment Terms Template
+Field: Template Name
+Field: Allocate Payment Based On Payment Terms
+Field: Payment Terms
+
+DocType: Payment Terms Template Detail
+Field: Payment Term
+Field: Description
+Field: Description
+Field: Invoice Portion (%)
+Field: Mode of Payment
+Field: Due Date Based On
+Field: Credit Days
+Field: Credit Months
+Field: Discount Settings
+Field: Discount Type
+Field: Discount
+Field: Discount Validity Based On
+Field: Discount Validity
+
+DocType: Period Closing Voucher
+Field: Transaction Date
+Field: Posting Date
+Field: Closing Fiscal Year
+Field: Company
+Field: Closing Account Head
+Field: Remarks
+Field: GL Entry Processing Status
+Field: Error Message
+
+DocType: POS Closing Entry
+Field: Period Details
+Field: Period Start Date
+Field: Period End Date
+Field: Posting Date
+Field: Posting Time
+Field: POS Opening Entry
+Field: Status
+Field: User Details
+Field: Company
+Field: POS Profile
+Field: Cashier
+Field: Linked Invoices
+Field: POS Transactions
+Field: Modes of Payment
+Field: Payment Reconciliation
+Field: Totals
+Field: Grand Total
+Field: Net Total
+Field: Total Quantity
+Field: Taxes
+Field: Failure Description
+Field: Error
+
+DocType: POS Closing Entry Detail
+Field: Mode of Payment
+Field: Opening Amount
+Field: Expected Amount
+Field: Closing Amount
+Field: Difference
+
+DocType: POS Closing Entry Taxes
+Field: Account Head
+Field: Rate
+Field: Amount
+
+DocType: POS Customer Group
+Field: Customer Group
+
+DocType: POS Field
+Field: Fieldname
+Field: Label
+Field: Fieldtype
+Field: Options
+Field: Default Value
+Field: Mandatory
+Field: Read Only
+
+DocType: POS Invoice
+Field: Title
+Field: Series
+Field: Customer
+Field: Customer Name
+Field: Tax Id
+Field: POS Profile
+Field: Consolidated Sales Invoice
+Field: Include Payment (POS)
+Field: Is Return (Credit Note)
+Field: Update Billed Amount in Sales Order
+Field: Company
+Field: Date
+Field: Posting Time
+Field: Edit Posting Date and Time
+Field: Payment Due Date
+Field: Return Against
+Field: Accounting Dimensions
+Field: Project
+Field: Cost Center
+Field: Customer PO Details
+Field: Customer's Purchase Order
+Field: Customer's Purchase Order Date
+Field: Address and Contact
+Field: Customer Address
+Field: Address
+Field: Contact Person
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Territory
+Field: Shipping Address Name
+Field: Shipping Address
+Field: Company Address Name
+Field: Company Address
+Field: Currency and Price List
+Field: Currency
+Field: Exchange Rate
+Field: Price List
+Field: Price List Currency
+Field: Price List Exchange Rate
+Field: Ignore Pricing Rule
+Field: Warehouse
+Field: Source Warehouse
+Field: Items
+Field: Update Stock
+Field: Scan Barcode
+Field: Items
+Field: Pricing Rules
+Field: Pricing Rule Detail
+Field: Packing List
+Field: Packed Items
+Field: Product Bundle Help
+Field: Time Sheet List
+Field: Time Sheets
+Field: Total Billing Amount
+Field: Total Quantity
+Field: Total (Company Currency)
+Field: Net Total (Company Currency)
+Field: Total
+Field: Net Total
+Field: Total Net Weight
+Field: Sales Taxes and Charges Template
+Field: Shipping Rule
+Field: Tax Category
+Field: Sales Taxes and Charges
+Field: Tax Breakup
+Field: Taxes and Charges Calculation
+Field: Total Taxes and Charges (Company Currency)
+Field: Total Taxes and Charges
+Field: Loyalty Points Redemption
+Field: Loyalty Points
+Field: Loyalty Amount
+Field: Redeem Loyalty Points
+Field: Loyalty Program
+Field: Redemption Account
+Field: Redemption Cost Center
+Field: Additional Discount
+Field: Coupon Code
+Field: Apply Additional Discount On
+Field: Additional Discount Amount (Company Currency)
+Field: Additional Discount Percentage
+Field: Additional Discount Amount
+Field: Grand Total (Company Currency)
+Field: Rounding Adjustment (Company Currency)
+Field: Rounded Total (Company Currency)
+Field: In Words (Company Currency)
+Field: Grand Total
+Field: Rounding Adjustment
+Field: Rounded Total
+Field: In Words
+Field: Total Advance
+Field: Outstanding Amount
+Field: Advance Payments
+Field: Allocate Advances Automatically (FIFO)
+Field: Get Advances Received
+Field: Advances
+Field: Payment Terms
+Field: Payment Terms Template
+Field: Payment Schedule
+Field: Payments
+Field: Cash/Bank Account
+Field: Sales Invoice Payment
+Field: Paid Amount (Company Currency)
+Field: Paid Amount
+Field: Base Change Amount (Company Currency)
+Field: Change Amount
+Field: Account for Change Amount
+Field: Write Off
+Field: Write Off Amount
+Field: Write Off Amount (Company Currency)
+Field: Write Off Outstanding Amount
+Field: Write Off Account
+Field: Write Off Cost Center
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions Details
+Field: Printing Settings
+Field: Letter Head
+Field: Group same items
+Field: Print Language
+Field: Print Heading
+Field: More Information
+Field: Inter Company Invoice Reference
+Field: Customer Group
+Field: Campaign
+Field: Is Discounted
+Field: Status
+Field: Source
+Field: Accounting Details
+Field: Debit To
+Field: Party Account Currency
+Field: Is Opening Entry
+Field: C-Form Applicable
+Field: C-Form No
+Field: Remarks
+Field: Commission
+Field: Sales Partner
+Field: Amount Eligible for Commission
+Field: Commission Rate (%)
+Field: Total Commission
+Field: Sales Team
+Field: Sales Team
+Field: Subscription Section
+Field: From Date
+Field: To Date
+Field: Auto Repeat
+Field: Update Auto Repeat Reference
+Field: Against Income Account
+
+DocType: POS Invoice Item
+Field: Barcode
+Field: Item
+Field: Item Name
+Field: Customer's Item Code
+Field: Description
+Field: Description
+Field: Item Group
+Field: Brand Name
+Field: Image
+Field: Image
+Field: Image View
+Field: Quantity
+Field: Stock UOM
+Field: UOM
+Field: UOM Conversion Factor
+Field: Qty as per Stock UOM
+Field: Price List Rate
+Field: Price List Rate (Company Currency)
+Field: Discount and Margin
+Field: Margin Type
+Field: Margin Rate or Amount
+Field: Rate With Margin
+Field: Discount (%) on Price List Rate with Margin
+Field: Discount Amount
+Field: Rate With Margin (Company Currency)
+Field: Rate
+Field: Amount
+Field: Item Tax Template
+Field: Rate (Company Currency)
+Field: Amount (Company Currency)
+Field: Pricing Rules
+Field: Is Free Item
+Field: Grant Commission
+Field: Net Rate
+Field: Net Amount
+Field: Net Rate (Company Currency)
+Field: Net Amount (Company Currency)
+Field: Drop Ship
+Field: Delivered By Supplier
+Field: Accounting Details
+Field: Income Account
+Field: Is Fixed Asset
+Field: Asset
+Field: Finance Book
+Field: Expense Account
+Field: Deferred Revenue
+Field: Deferred Revenue Account
+Field: Service Stop Date
+Field: Enable Deferred Revenue
+Field: Service Start Date
+Field: Service End Date
+Field: Item Weight Details
+Field: Weight Per Unit
+Field: Total Weight
+Field: Weight UOM
+Field: Stock Details
+Field: Warehouse
+Field: Customer Warehouse (Optional)
+Field: Quality Inspection
+Field: Batch No
+Field: Allow Zero Valuation Rate
+Field: Serial No
+Field: Item Tax Rate
+Field: Available Batch Qty at Warehouse
+Field: Available Qty at Warehouse
+Field: References
+Field: Sales Order
+Field: Sales Order Item
+Field: POS Invoice Item
+Field: Delivery Note
+Field: Delivery Note Item
+Field: Delivered Qty
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Project
+Field: Page Break
+
+DocType: POS Invoice Merge Log
+Field: Posting Date
+Field: Posting Time
+Field: Merge Invoices Based On
+Field: POS Closing Entry
+Field: Customer
+Field: Customer Group
+Field: POS Invoices
+Field: References
+Field: Consolidated Sales Invoice
+Field: Consolidated Credit Note
+
+DocType: POS Invoice Reference
+Field: POS Invoice
+Field: Date
+Field: Customer
+Field: Amount
+Field: Is Return
+Field: Return Against
+
+DocType: POS Item Group
+Field: Item Group
+
+DocType: POS Opening Entry
+Field: Period Start Date
+Field: Period End Date
+Field: Status
+Field: Posting Date
+Field: Set Posting Date
+Field: Company
+Field: POS Profile
+Field: POS Closing Entry
+Field: Cashier
+Field: Opening Balance Details
+
+DocType: POS Opening Entry Detail
+Field: Mode of Payment
+Field: Opening Amount
+
+DocType: POS Payment Method
+Field: Default
+Field: Allow In Returns
+Field: Mode of Payment
+
+DocType: POS Profile
+Field: Company
+Field: Customer
+Field: Country
+Field: Disabled
+Field: Warehouse
+Field: Campaign
+Field: Company Address
+Field: Applicable for Users
+Field: Applicable for Users
+Field: Payment Methods
+Field: Payment Methods
+Field: Configuration
+Field: Hide Images
+Field: Hide Unavailable Items
+Field: Automatically Add Filtered Item To Cart
+Field: Validate Stock on Save
+Field: Update Stock
+Field: Ignore Pricing Rule
+Field: Allow User to Edit Rate
+Field: Allow User to Edit Discount
+Field: Filters
+Field: Item Groups
+Field: Customer Groups
+Field: Print Settings
+Field: Print Format
+Field: Letter Head
+Field: Terms and Conditions
+Field: Print Heading
+Field: Accounting
+Field: Price List
+Field: Currency
+Field: Write Off Account
+Field: Write Off Cost Center
+Field: Write Off Limit
+Field: Account for Change Amount
+Field: Disable Rounded Total
+Field: Income Account
+Field: Expense Account
+Field: Taxes and Charges
+Field: Tax Category
+Field: Apply Discount On
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: POS Profile User
+Field: Default
+Field: User
+
+DocType: POS Search Fields
+Field: Field
+Field: Fieldname
+
+DocType: POS Settings
+Field: POS Field
+Field: POS Search Fields
+
+DocType: Pricing Rule
+Field: Naming Series
+Field: Title
+Field: Disable
+Field: Apply On
+Field: Price or Product Discount
+Field: Warehouse
+Field: Apply Rule On Item Code
+Field: Apply Rule On Item Group
+Field: Apply Rule On Brand
+Field: Mixed Conditions
+Field: Is Cumulative
+Field: Coupon Code Based
+Field: Discount on Other Item
+Field: Apply Rule On Other
+Field: Item Code
+Field: Item Group
+Field: Brand
+Field: Party Information
+Field: Selling
+Field: Buying
+Field: Applicable For
+Field: Customer
+Field: Customer Group
+Field: Territory
+Field: Sales Partner
+Field: Campaign
+Field: Supplier
+Field: Supplier Group
+Field: Quantity and Amount
+Field: Min Qty
+Field: Max Qty
+Field: Min Amt
+Field: Max Amt
+Field: Product Discount Scheme
+Field: Same Item
+Field: Free Item
+Field: Qty
+Field: Rate
+Field: UOM
+Field: Is Recursive
+Field: Period Settings
+Field: Valid From
+Field: Valid Upto
+Field: Company
+Field: Currency
+Field: Margin
+Field: Margin Type
+Field: Margin Rate or Amount
+Field: Price Discount Scheme
+Field: Rate or Discount
+Field: Apply Discount On
+Field: Rate
+Field: Discount Amount
+Field: Discount Percentage
+Field: For Price List
+Field: Advanced Settings
+Field: Threshold for Suggestion
+Field: Priority
+Field: Condition
+Field: Apply Multiple Pricing Rules
+Field: Apply Discount on Discounted Rate
+Field: Validate Applied Rule
+Field: Rule Description
+Field: Pricing Rule Help
+Field: Reference
+Field: Promotional Scheme Id
+Field: Promotional Scheme
+
+DocType: Pricing Rule Brand
+Field: Brand
+Field: UOM
+
+DocType: Pricing Rule Detail
+Field: Pricing Rule
+Field: Item Code
+Field: Margin Type
+Field: Rate or Discount
+Field: Child Docname
+Field: Rule Applied
+
+DocType: Pricing Rule Item Code
+Field: Item Code
+Field: UOM
+
+DocType: Pricing Rule Item Group
+Field: Item Group
+Field: UOM
+
+DocType: Process Deferred Accounting
+Field: Company
+Field: Type
+Field: Account
+Field: Posting Date
+Field: Service Start Date
+Field: Service End Date
+
+DocType: Process Statement Of Accounts
+Field: General Ledger Filters
+Field: From Date
+Field: Company
+Field: Account
+Field: Group By
+Field: Cost Center
+Field: To Date
+Field: Finance Book
+Field: Currency
+Field: Project
+Field: Customers
+Field: Select Customers By
+Field: Recipient
+Field: Fetch Customers
+Field: Send To Primary Contact
+Field: Customers
+Field: Print Preferences
+Field: Orientation
+Field: Page Break After Each SoA
+Field: Include Ageing Summary
+Field: Ageing Based On
+Field: Letter Head
+Field: Terms and Conditions
+Field: Email Settings
+Field: Enable Auto Email
+Field: Frequency
+Field: Filter Duration (Months)
+Field: Start Date
+Field: Subject
+Field: CC To
+Field: Body
+Field: Help Text
+
+DocType: Process Statement Of Accounts Customer
+Field: Customer
+Field: Billing Email
+Field: Primary Contact Email
+
+DocType: Promotional Scheme
+Field: Apply On
+Field: Disable
+Field: Pricing Rule Item Code
+Field: Pricing Rule Item Group
+Field: Pricing Rule Brand
+Field: Mixed Conditions
+Field: Is Cumulative
+Field: Discount on Other Item
+Field: Apply Rule On Other
+Field: Item Code
+Field: Item Group
+Field: Brand
+Field: Party Information
+Field: Selling
+Field: Buying
+Field: Applicable For
+Field: Customer
+Field: Customer Group
+Field: Territory
+Field: Sales Partner
+Field: Campaign
+Field: Supplier
+Field: Supplier Group
+Field: Period Settings
+Field: Valid From
+Field: Valid Upto
+Field: Company
+Field: Currency
+Field: Price Discount Slabs
+Field: Promotional Scheme Price Discount
+Field: Product Discount Slabs
+Field: Promotional Scheme Product Discount
+
+DocType: Promotional Scheme Price Discount
+Field: Disable
+Field: Apply Multiple Pricing Rules
+Field: Rule Description
+Field: Min Qty
+Field: Max Qty
+Field: Min Amount
+Field: Max Amount
+Field: Discount Type
+Field: Rate
+Field: Discount Amount
+Field: Discount Percentage
+Field: Warehouse
+Field: Threshold for Suggestion
+Field: Validate Applied Rule
+Field: Priority
+Field: Apply Discount on Rate
+
+DocType: Promotional Scheme Product Discount
+Field: Disable
+Field: Apply Multiple Pricing Rules
+Field: Rule Description
+Field: Min Qty
+Field: Max Qty
+Field: Min Amount
+Field: Max Amount
+Field: Free Item
+Field: Same Item
+Field: Item Code
+Field: Qty
+Field: UOM
+Field: Rate
+Field: Warehouse
+Field: Threshold for Suggestion
+Field: Priority
+Field: Is Recursive
+
+DocType: PSOA Cost Center
+Field: Cost Center
+
+DocType: PSOA Project
+Field: Project
+
+DocType: Purchase Invoice
+Field: Title
+Field: Series
+Field: Supplier
+Field: Supplier Name
+Field: Tax Id
+Field: Due Date
+Field: Tax Withholding Category
+Field: Company
+Field: Date
+Field: Posting Time
+Field: Edit Posting Date and Time
+Field: Is Paid
+Field: Is Return (Debit Note)
+Field: Apply Tax Withholding Amount
+Field: Accounting Dimensions 
+Field: Cost Center
+Field: Project
+Field: Supplier Invoice Details
+Field: Supplier Invoice No
+Field: Supplier Invoice Date
+Field: Returns
+Field: Return Against Purchase Invoice
+Field: Address and Contact
+Field: Select Supplier Address
+Field: Address
+Field: Contact Person
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Select Shipping Address
+Field: Shipping Address
+Field: Select Billing Address
+Field: Billing Address
+Field: Currency and Price List
+Field: Currency
+Field: Exchange Rate
+Field: Price List
+Field: Price List Currency
+Field: Price List Exchange Rate
+Field: Ignore Pricing Rule
+Field: Set Accepted Warehouse
+Field: Rejected Warehouse
+Field: Set From Warehouse
+Field: Supplier Warehouse
+Field: Raw Materials Supplied
+Field: Update Stock
+Field: Scan Barcode
+Field: Items
+Field: Pricing Rules
+Field: Pricing Rule Detail
+Field: Raw Materials Supplied
+Field: Supplied Items
+Field: Total Quantity
+Field: Total (Company Currency)
+Field: Net Total (Company Currency)
+Field: Total Net Weight
+Field: Total
+Field: Net Total
+Field: Tax Category
+Field: Shipping Rule
+Field: Purchase Taxes and Charges Template
+Field: Purchase Taxes and Charges
+Field: Tax Withheld Vouchers
+Field: Tax Withheld Vouchers
+Field: Tax Breakup
+Field: Taxes and Charges Calculation
+Field: Taxes and Charges Added (Company Currency)
+Field: Taxes and Charges Deducted (Company Currency)
+Field: Total Taxes and Charges (Company Currency)
+Field: Taxes and Charges Added
+Field: Taxes and Charges Deducted
+Field: Total Taxes and Charges
+Field: Additional Discount
+Field: Apply Additional Discount On
+Field: Additional Discount Amount (Company Currency)
+Field: Additional Discount Account
+Field: Additional Discount Percentage
+Field: Additional Discount Amount
+Field: Grand Total (Company Currency)
+Field: Rounding Adjustment (Company Currency)
+Field: Rounded Total (Company Currency)
+Field: In Words (Company Currency)
+Field: Grand Total
+Field: Rounding Adjustment
+Field: Rounded Total
+Field: In Words
+Field: Total Advance
+Field: Outstanding Amount
+Field: Disable Rounded Total
+Field: Payments
+Field: Mode of Payment
+Field: Cash/Bank Account
+Field: Clearance Date
+Field: Paid Amount
+Field: Paid Amount (Company Currency)
+Field: Write Off
+Field: Write Off Amount
+Field: Write Off Amount (Company Currency)
+Field: Write Off Account
+Field: Write Off Cost Center
+Field: Advance Payments
+Field: Set Advances and Allocate (FIFO)
+Field: Get Advances Paid
+Field: Advances
+Field: Advance Tax
+Field: Payment Terms
+Field: Payment Terms Template
+Field: Ignore Default Payment Terms Template
+Field: Payment Schedule
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions1
+Field: Printing Settings
+Field: Letter Head
+Field: Print Heading
+Field: Group same items
+Field: Print Language
+Field: Hold Invoice
+Field: Hold Invoice
+Field: Release Date
+Field: Reason For Putting On Hold
+Field: More Information
+Field: Status
+Field: Inter Company Invoice Reference
+Field: Represents Company
+Field: Is Internal Supplier
+Field: Accounting Details
+Field: Credit To
+Field: Party Account Currency
+Field: Is Opening Entry
+Field: Against Expense Account
+Field: Unrealized Profit / Loss Account
+Field: Remarks
+Field: Subscription Section
+Field: From Date
+Field: To Date
+Field: Auto Repeat
+Field: Update Auto Repeat Reference
+Field: Per Received
+
+DocType: Purchase Invoice Advance
+Field: Reference Type
+Field: Reference Name
+Field: Remarks
+Field: Reference Row
+Field: Advance Amount
+Field: Allocated Amount
+Field: Exchange Gain/Loss
+Field: Reference Exchange Rate
+
+DocType: Purchase Invoice Item
+Field: Item
+Field: Product Bundle
+Field: Item Name
+Field: Description
+Field: Description
+Field: Brand
+Field: Item Group
+Field: Image
+Field: Image View
+Field: Quantity and Rate
+Field: Received Qty
+Field: Accepted Qty
+Field: Rejected Qty
+Field: UOM
+Field: UOM Conversion Factor
+Field: Stock UOM
+Field: Accepted Qty in Stock UOM
+Field: Price List Rate
+Field: Price List Rate (Company Currency)
+Field: Discount and Margin
+Field: Margin Type
+Field: Margin Rate or Amount
+Field: Rate With Margin
+Field: Discount on Price List Rate (%)
+Field: Discount Amount
+Field: Rate With Margin (Company Currency)
+Field: Rate
+Field: Amount
+Field: Item Tax Template
+Field: Rate (Company Currency)
+Field: Amount (Company Currency)
+Field: Pricing Rules
+Field: Rate of Stock UOM
+Field: Is Free Item
+Field: Net Rate
+Field: Net Amount
+Field: Net Rate (Company Currency)
+Field: Net Amount (Company Currency)
+Field: Valuation Rate
+Field: Item Tax Amount Included in Value
+Field: Landed Cost Voucher Amount
+Field: Raw Materials Supplied Cost
+Field: Warehouse
+Field: Accepted Warehouse
+Field: From Warehouse
+Field: Quality Inspection
+Field: Serial No
+Field: Rejected Warehouse
+Field: Batch No
+Field: Rejected Serial No
+Field: Manufacture
+Field: Manufacturer
+Field: Manufacturer Part Number
+Field: Accounting
+Field: Expense Head
+Field: Discount Account
+Field: Is Fixed Asset
+Field: Asset Location
+Field: Asset Category
+Field: Deferred Expense
+Field: Deferred Expense Account
+Field: Service Stop Date
+Field: Enable Deferred Expense
+Field: Service Start Date
+Field: Service End Date
+Field: Reference
+Field: Allow Zero Valuation Rate
+Field: Item Tax Rate
+Field: BOM
+Field: Include Exploded Items
+Field: Purchase Invoice Item
+Field: Purchase Order
+Field: Purchase Order Item
+Field: Purchase Receipt
+Field: Purchase Receipt Detail
+Field: Sales Invoice Item
+Field: Item Weight Details
+Field: Weight Per Unit
+Field: Total Weight
+Field: Weight UOM
+Field: Accounting Dimensions
+Field: Project
+Field: Cost Center
+Field: Page Break
+
+DocType: Purchase Taxes and Charges
+Field: Consider Tax or Charge for
+Field: Add or Deduct
+Field: Type
+Field: Reference Row #
+Field: Is this Tax included in Basic Rate?
+Field: Considered In Paid Amount
+Field: Account Head
+Field: Description
+Field: Rate
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Account Currency
+Field: Amount
+Field: Tax Amount After Discount Amount
+Field: Total
+Field: Amount (Company Currency)
+Field: Total (Company Currency)
+Field: Tax Amount After Discount Amount
+Field: Item Wise Tax Detail 
+
+DocType: Purchase Taxes and Charges Template
+Field: Title
+Field: Default
+Field: Disabled
+Field: Company
+Field: Tax Category
+Field: Purchase Taxes and Charges
+
+DocType: Salary Component Account
+Field: Company
+Field: Account
+
+DocType: Sales Invoice
+Field: Title
+Field: Series
+Field: Customer
+Field: Customer Name
+Field: Tax Id
+Field: POS Profile
+Field: Include Payment (POS)
+Field: Is Consolidated
+Field: Is Return (Credit Note)
+Field: Is Rate Adjustment Entry (Debit Note)
+Field: Update Billed Amount in Sales Order
+Field: Company
+Field: Company Tax ID
+Field: Date
+Field: Posting Time
+Field: Edit Posting Date and Time
+Field: Payment Due Date
+Field: Return Against
+Field: Accounting Dimensions
+Field: Project
+Field: Cost Center
+Field: Customer PO Details
+Field: Customer's Purchase Order
+Field: Customer's Purchase Order Date
+Field: Address and Contact
+Field: Customer Address
+Field: Address
+Field: Contact Person
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Territory
+Field: Shipping Address Name
+Field: Shipping Address
+Field: Company Address Name
+Field: Company Address
+Field: Dispatch Address Name
+Field: Dispatch Address
+Field: Currency and Price List
+Field: Currency
+Field: Exchange Rate
+Field: Price List
+Field: Price List Currency
+Field: Price List Exchange Rate
+Field: Ignore Pricing Rule
+Field: Warehouse
+Field: Source Warehouse
+Field: Set Target Warehouse
+Field: Items
+Field: Update Stock
+Field: Scan Barcode
+Field: Items
+Field: Pricing Rules
+Field: Pricing Rule Detail
+Field: Packing List
+Field: Packed Items
+Field: Product Bundle Help
+Field: Time Sheet List
+Field: Time Sheets
+Field: Total Billing Amount
+Field: Total Billing Hours
+Field: Total Quantity
+Field: Total (Company Currency)
+Field: Net Total (Company Currency)
+Field: Total Net Weight
+Field: Total
+Field: Net Total
+Field: Sales Taxes and Charges Template
+Field: Shipping Rule
+Field: Tax Category
+Field: Sales Taxes and Charges
+Field: Tax Breakup
+Field: Taxes and Charges Calculation
+Field: Total Taxes and Charges (Company Currency)
+Field: Total Taxes and Charges
+Field: Loyalty Points Redemption
+Field: Loyalty Points
+Field: Loyalty Amount
+Field: Redeem Loyalty Points
+Field: Loyalty Program
+Field: Redemption Account
+Field: Redemption Cost Center
+Field: Additional Discount
+Field: Apply Additional Discount On
+Field: Is Cash or Non Trade Discount
+Field: Additional Discount Amount (Company Currency)
+Field: Discount Account
+Field: Additional Discount Percentage
+Field: Additional Discount Amount
+Field: Grand Total (Company Currency)
+Field: Rounding Adjustment (Company Currency)
+Field: Rounded Total (Company Currency)
+Field: In Words (Company Currency)
+Field: Grand Total
+Field: Rounding Adjustment
+Field: Rounded Total
+Field: In Words
+Field: Total Advance
+Field: Outstanding Amount
+Field: Disable Rounded Total
+Field: Write Off
+Field: Write Off Amount
+Field: Write Off Amount (Company Currency)
+Field: Write Off Outstanding Amount
+Field: Write Off Account
+Field: Write Off Cost Center
+Field: Advance Payments
+Field: Allocate Advances Automatically (FIFO)
+Field: Get Advances Received
+Field: Advances
+Field: Payment Terms
+Field: Ignore Default Payment Terms Template
+Field: Payment Terms Template
+Field: Payment Schedule
+Field: Payments
+Field: Cash/Bank Account
+Field: Sales Invoice Payment
+Field: Paid Amount (Company Currency)
+Field: Paid Amount
+Field: Base Change Amount (Company Currency)
+Field: Change Amount
+Field: Account for Change Amount
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions Details
+Field: Printing Settings
+Field: Letter Head
+Field: Group same items
+Field: Print Heading
+Field: Print Language
+Field: More Information
+Field: Status
+Field: Inter Company Invoice Reference
+Field: Represents Company
+Field: Customer Group
+Field: Campaign
+Field: Is Internal Customer
+Field: Is Discounted
+Field: Source
+Field: Accounting Details
+Field: Debit To
+Field: Party Account Currency
+Field: Is Opening Entry
+Field: C-Form Applicable
+Field: C-Form No
+Field: Unrealized Profit / Loss Account
+Field: Remarks
+Field: Commission
+Field: Sales Partner
+Field: Amount Eligible for Commission
+Field: Commission Rate (%)
+Field: Total Commission
+Field: Sales Team
+Field: Sales Contributions and Incentives
+Field: Subscription Section
+Field: From Date
+Field: To Date
+Field: Auto Repeat
+Field: Update Auto Repeat Reference
+Field: Against Income Account
+
+DocType: Sales Invoice Advance
+Field: Reference Type
+Field: Reference Name
+Field: Remarks
+Field: Reference Row
+Field: Advance amount
+Field: Allocated amount
+Field: Exchange Gain/Loss
+Field: Reference Exchange Rate
+
+DocType: Sales Invoice Item
+Field: Barcode
+Field: Item
+Field: Item Name
+Field: Customer's Item Code
+Field: Description
+Field: Description
+Field: Item Group
+Field: Brand Name
+Field: Image
+Field: Image
+Field: Image View
+Field: Quantity
+Field: Stock UOM
+Field: UOM
+Field: UOM Conversion Factor
+Field: Qty as per Stock UOM
+Field: Price List Rate
+Field: Price List Rate (Company Currency)
+Field: Discount and Margin
+Field: Margin Type
+Field: Margin Rate or Amount
+Field: Rate With Margin
+Field: Discount (%) on Price List Rate with Margin
+Field: Discount Amount
+Field: Rate With Margin (Company Currency)
+Field: Rate
+Field: Amount
+Field: Item Tax Template
+Field: Rate (Company Currency)
+Field: Amount (Company Currency)
+Field: Pricing Rules
+Field: Rate of Stock UOM
+Field: Is Free Item
+Field: Grant Commission
+Field: Net Rate
+Field: Net Amount
+Field: Net Rate (Company Currency)
+Field: Net Amount (Company Currency)
+Field: Drop Ship
+Field: Delivered By Supplier
+Field: Accounting Details
+Field: Income Account
+Field: Is Fixed Asset
+Field: Asset
+Field: Finance Book
+Field: Expense Account
+Field: Discount Account
+Field: Deferred Revenue
+Field: Deferred Revenue Account
+Field: Service Stop Date
+Field: Enable Deferred Revenue
+Field: Service Start Date
+Field: Service End Date
+Field: Item Weight Details
+Field: Weight Per Unit
+Field: Total Weight
+Field: Weight UOM
+Field: Stock Details
+Field: Warehouse
+Field: Target Warehouse
+Field: Quality Inspection
+Field: Batch No
+Field: Incoming Rate (Costing)
+Field: Allow Zero Valuation Rate
+Field: Serial No
+Field: Item Tax Rate
+Field: Available Batch Qty at Warehouse
+Field: Available Qty at Warehouse
+Field: References
+Field: Sales Order
+Field: Sales Order Item
+Field: Sales Invoice Item
+Field: Delivery Note
+Field: Delivery Note Item
+Field: Delivered Qty
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Project
+Field: Page Break
+
+DocType: Sales Invoice Payment
+Field: Default
+Field: Mode of Payment
+Field: Amount
+Field: Account
+Field: Type
+Field: Base Amount (Company Currency)
+Field: Clearance Date
+
+DocType: Sales Invoice Timesheet
+Field: Activity Type
+Field: Description
+Field: Time
+Field: From Time
+Field: To Time
+Field: Totals
+Field: Billing Hours
+Field: Billing Amount
+Field: Reference
+Field: Time Sheet
+Field: Timesheet Detail
+Field: Project Name
+
+DocType: Sales Partner Item
+Field: Sales Partner 
+
+DocType: Sales Taxes and Charges
+Field: Type
+Field: Reference Row #
+Field: Account Head
+Field: Description
+Field: Is this Tax included in Basic Rate?
+Field: Considered In Paid Amount
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Rate
+Field: Account Currency
+Field: Amount
+Field: Total
+Field: Tax Amount After Discount Amount
+Field: Amount (Company Currency)
+Field: Total (Company Currency)
+Field: Tax Amount After Discount Amount (Company Currency)
+Field: Item Wise Tax Detail
+Field: Dont Recompute tax
+
+DocType: Sales Taxes and Charges Template
+Field: Title
+Field: Default
+Field: Disabled
+Field: Company
+Field: Tax Category
+Field: Sales Taxes and Charges
+
+DocType: Share Balance
+Field: Share Type
+Field: From No
+Field: Rate
+Field: No of Shares
+Field: To No
+Field: Amount
+Field: Is Company
+Field: Current State
+
+DocType: Share Transfer
+Field: Transfer Type
+Field: Date
+Field: From Shareholder
+Field: From Folio No
+Field: To Shareholder
+Field: To Folio No
+Field: Equity/Liability Account
+Field: Asset Account
+Field: Share Type
+Field: From No
+Field: Rate
+Field: No of Shares
+Field: To No
+Field: Amount
+Field: Company
+Field: Remarks
+
+DocType: Share Type
+Field: Title
+Field: Description
+
+DocType: Shareholder
+Field: Title
+Field: Folio no.
+Field: Company
+Field: Is Company
+Field: Address and Contacts
+Field: Address HTML
+Field: Contact HTML
+Field: Share Balance
+Field: Share Balance
+Field: Contact List
+
+DocType: Shipping Rule
+Field: Shipping Rule Label
+Field: Disabled
+Field: Shipping Rule Type
+Field: Accounting
+Field: Company
+Field: Shipping Account
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Calculate Based On
+Field: Shipping Amount
+Field: Shipping Rule Conditions
+Field: Shipping Rule Conditions
+Field: Restrict to Countries
+Field: Valid for Countries
+
+DocType: Shipping Rule Condition
+Field: From Value
+Field: To Value
+Field: Shipping Amount
+
+DocType: Shipping Rule Country
+Field: Country
+
+DocType: South Africa VAT Account
+Field: Account
+
+DocType: Subscription
+Field: Party Type
+Field: Party
+Field: Company
+Field: Status
+Field: Subscription Period
+Field: Subscription Start Date
+Field: Subscription End Date
+Field: Cancelation Date
+Field: Trial Period Start Date
+Field: Trial Period End Date
+Field: Follow Calendar Months
+Field: Generate New Invoices Past Due Date
+Field: Current Invoice Start Date
+Field: Current Invoice End Date
+Field: Days Until Due
+Field: Cancel At End Of Period
+Field: Generate Invoice At Beginning Of Period
+Field: Plans
+Field: Plans
+Field: Taxes
+Field: Sales Taxes and Charges Template
+Field: Purchase Taxes and Charges Template
+Field: Discounts
+Field: Apply Additional Discount On
+Field: Additional DIscount Percentage
+Field: Additional DIscount Amount
+Field: Invoices
+Field: Submit Invoice Automatically
+Field: Invoices
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: Subscription Invoice
+Field: Document Type 
+Field: Invoice
+
+DocType: Subscription Plan
+Field: Plan Name
+Field: Currency
+Field: Item
+Field: Subscription Price Based On
+Field: Cost
+Field: Price List
+Field: Billing Interval
+Field: Billing Interval Count
+Field: Payment Plan
+Field: Product Price ID
+Field: Payment Gateway
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: Subscription Plan Detail
+Field: Plan
+Field: Quantity
+
+DocType: Subscription Settings
+Field: Grace Period
+Field: Cancel Subscription After Grace Period
+Field: Prorate
+
+DocType: Supplier Group Item
+Field: Supplier Group
+
+DocType: Supplier Item
+Field: Supplier
+
+DocType: Tax Category
+Field: Title
+Field: Disabled
+
+DocType: Tax Rule
+Field: Tax Type
+Field: Use for Shopping Cart
+Field: Sales Tax Template
+Field: Purchase Tax Template
+Field: Filters
+Field: Customer
+Field: Supplier
+Field: Item
+Field: Billing City
+Field: Billing County
+Field: Billing State
+Field: Billing Zipcode
+Field: Billing Country
+Field: Tax Category
+Field: Customer Group
+Field: Supplier Group
+Field: Item Group
+Field: Shipping City
+Field: Shipping County
+Field: Shipping State
+Field: Shipping Zipcode
+Field: Shipping Country
+Field: Validity
+Field: From Date
+Field: To Date
+Field: Priority
+Field: Company
+
+DocType: Tax Withheld Vouchers
+Field: Voucher Type
+Field: Voucher Name
+Field: Taxable Amount
+
+DocType: Tax Withholding Account
+Field: Company
+Field: Account
+
+DocType: Tax Withholding Category
+Field: Category Details
+Field: Category Name
+Field: Round Off Tax Amount
+Field: Consider Entire Party Ledger Amount
+Field: Only Deduct Tax On Excess Amount 
+Field: Tax Withholding Rates
+Field: Rates
+Field: Account Details
+Field: Accounts
+
+DocType: Tax Withholding Rate
+Field: From Date
+Field: To Date
+Field: Tax Withholding Rate
+Field: Single Transaction Threshold
+Field: Cumulative Transaction Threshold
+
+DocType: Territory Item
+Field: Territory

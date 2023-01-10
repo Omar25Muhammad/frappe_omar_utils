@@ -1,0 +1,45 @@
+Module: Telephony
+DocType: Call Log
+Field: Call Details
+Field: ID
+Field: From
+Field: To
+Field: Call Received By
+Field: Employee User Id
+Field: Medium
+Field: Start Time
+Field: End Time
+Field: Type
+Field: Customer
+Field: Status
+Field: Duration
+Field: Recording URL
+Field: Recording HTML
+Field: Call Summary
+Field: Type Of Call
+Field: Summary
+Field: Reference
+Field: Links
+
+DocType: Incoming Call Handling Schedule
+Field: Day Of Week
+Field: From Time
+Field: To Time
+Field: Agent Group
+
+DocType: Incoming Call Settings
+Field: Call Routing
+Field: Greeting Message
+Field: Agent Busy Message
+Field: Agent Unavailable Message
+Field: Call Handling Schedule
+
+DocType: Telephony Call Type
+Field: Call Type
+
+DocType: Voice Call Settings
+Field: User
+Field: Call Receiving Device
+Field: Greeting Message
+Field: Agent Busy Message
+Field: Agent Unavailable Message

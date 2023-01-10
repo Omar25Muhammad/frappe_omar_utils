@@ -1,0 +1,155 @@
+Module: Regional
+DocType: DATEV Settings
+Field: Client
+Field: Client ID
+Field: Consultant ID
+Field: Consultant
+Field: Account Number Length
+Field: Temporary Against Account Number
+
+DocType: E Invoice Request Log
+Field: User
+Field: URL
+Field: Headers
+Field: Response
+Field: Timestamp
+Field: Reference Invoice
+Field: Data
+
+DocType: E Invoice Settings
+Field: Enable
+Field: Sandbox Mode
+Field: Applicable From
+Field: Don't show discounts in e-Invoice
+Field: Credentials
+Field: Advanced Settings
+Field: Client ID
+Field: Client Secret
+
+DocType: E Invoice User
+Field: Company
+Field: GSTIN
+Field: Username
+Field: Password
+
+DocType: GST HSN Code
+Field: HSN Code
+Field: Description
+Field: GST Rates
+Field: Taxes
+
+DocType: GST Settings
+Field: GST Summary
+Field: GST Tax Settings
+Field: Round Off GST Values
+Field: Tax Breakup Table Based On HSN Code
+Field: GSTIN Email Sent On
+Field: GST Accounts
+Field: B2C Limit
+
+DocType: GSTR 3B Report
+Field: Company
+Field: Company Address
+Field: Year
+Field: Month
+Field: JSON Output
+Field: Invoices with no Place Of Supply
+
+DocType: HSN Tax Rate
+Field: Minimum Taxable Value
+Field: Tax Rate
+
+DocType: Import Supplier Invoice
+Field: Invoice Series
+Field: Company
+Field: Item Code
+Field: Supplier Group
+Field: Tax Account
+Field: Default Buying Price List
+Field: Upload XML Invoices
+Field: Zip File
+Field: Import Invoices
+Field: Status
+
+DocType: KSA VAT Purchase Account
+Field: Title
+Field: Item Tax Template
+Field: Account
+
+DocType: KSA VAT Sales Account
+Field: Title
+Field: Item Tax Template
+Field: Account
+
+DocType: KSA VAT Setting
+Field: Company
+Field: KSA VAT Sales Accounts
+Field: KSA VAT Purchase Accounts
+
+DocType: Lower Deduction Certificate
+Field: Certificate Details
+Field: Tax Withholding Category
+Field: Fiscal Year
+Field: Certificate No
+Field: Deductee Details
+Field: Supplier
+Field: PAN No
+Field: Validity Details
+Field: Valid From
+Field: Valid Upto
+Field: Rate Of TDS As Per Certificate
+Field: Certificate Limit
+
+DocType: Product Tax Category
+Field: Product Tax Code
+Field: Category Name
+Field: Description
+
+DocType: South Africa VAT Settings
+Field: Company
+Field: VAT Accounts
+
+DocType: Tax Exemption 80G Certificate
+Field: Naming Series
+Field: Certificate Recipient
+Field: Member
+Field: Member Name
+Field: Email
+Field: PAN Details
+Field: Donor
+Field: Donor Name
+Field: Email
+Field: PAN Details
+Field: Date
+Field: Fiscal Year
+Field: Company Details
+Field: Company
+Field: Company Address
+Field: Company Address Display
+Field: PAN Number
+Field: 80G Number
+Field: 80G With Effect From
+Field: Title
+Field: Get Memberships
+Field: Payments
+Field: Total
+Field: Donation Details
+Field: Donation
+Field: Date of Donation
+Field: Amount
+Field: Mode of Payment
+Field: Payment ID
+
+DocType: Tax Exemption 80G Certificate Detail
+Field: Date
+Field: Amount
+Field: Invoice ID
+Field: Payment ID
+Field: Membership
+
+DocType: UAE VAT Account
+Field: Account
+
+DocType: UAE VAT Settings
+Field: Company
+Field: UAE VAT Accounts

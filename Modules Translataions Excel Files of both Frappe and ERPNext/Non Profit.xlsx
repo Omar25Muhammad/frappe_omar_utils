@@ -1,0 +1,188 @@
+Module: Non Profit
+DocType: Certification Application
+Field: Name of Applicant
+Field: Email
+Field: Certification Status
+Field: Payment Details
+Field: Paid
+Field: Currency
+Field: Amount
+
+DocType: Certified Consultant
+Field: Name of Consultant
+Field: Country
+Field: Email
+Field: Phone
+Field: Website
+Field: Address
+Field: Image
+Field: Certification Application
+Field: Certification Validity
+Field: From
+Field: To
+Field: 
+Field: Introduction
+Field: Details
+Field: Discuss ID
+Field: GitHub ID
+Field: Show in Website
+
+DocType: Chapter
+Field: Chapter Head
+Field: Region
+Field: Introduction
+Field: Meetup Embed HTML
+Field: Address
+Field: Route
+Field: Published
+Field: Chapter Members
+Field: Members
+
+DocType: Chapter Member
+Field: User
+Field: Introduction
+Field: Website URL
+Field: Enabled
+Field: Leave Reason
+
+DocType: Donation
+Field: Naming Series
+Field: Donor
+Field: Donor Name
+Field: Email
+Field: Company
+Field: Date
+Field: Payment Details
+Field: Paid
+Field: Amount
+Field: Mode of Payment
+Field: Payment ID
+
+DocType: Donor
+Field: Donor Name
+Field: Donor Type
+Field: Email
+Field: Image
+Field: Address and Contact
+Field: Address HTML
+Field: Contact HTML
+
+DocType: Donor Type
+Field: Donor Type
+
+DocType: Grant Application
+Field: Applicant Type
+Field: Name
+Field: Contact Person
+Field: Email
+Field: Status
+Field: Website URL
+Field: Company
+Field: Address and Contact
+Field: Address HTML
+Field: Contact HTML
+Field: Grant Application Details 
+Field: Grant Description
+Field: Requested Amount
+Field: Has any past Grant Record
+Field: Route
+Field: Show on Website
+Field: Assessment Result
+Field: Assessment  Mark (Out of 10)
+Field: Note
+Field: Assessment  Manager
+Field: Email Notification Sent
+
+DocType: Member
+Field: Series
+Field: Member Name
+Field: Membership Expiry Date
+Field: Membership Type
+Field: Email Address
+Field: Image
+Field: Customer
+Field: Customer
+Field: Customer Name
+Field: Supplier
+Field: Supplier
+Field: Address and Contact
+Field: Address HTML
+Field: Contact HTML
+Field: Razorpay Details
+Field: Subscription ID
+Field: Customer ID
+Field: Subscription Status
+Field: Subscription Start 
+Field: Subscription End
+
+DocType: Membership
+Field: Member
+Field: Member Name
+Field: Membership Type
+Field: Company
+Field: Membership Status
+Field: Validity
+Field: From
+Field: To
+Field: Member Since
+Field: Payment Details
+Field: Paid
+Field: Currency
+Field: Amount
+Field: Invoice
+Field: Razorpay Details
+Field: Subscription ID
+Field: Payment ID
+
+DocType: Membership Type
+Field: Membership Type
+Field: Amount
+Field: Razorpay Plan ID
+Field: Linked Item
+
+DocType: Non Profit Settings
+Field: Enable RazorPay For Memberships
+Field: RazorPay Settings for Memberships
+Field: Billing Cycle
+Field: Billing Frequency
+Field: Membership Webhook Secret
+Field: Membership Invoicing
+Field: Allow Invoicing for Memberships
+Field: Automate Invoicing for Web Forms
+Field: Automate Payment Entry Creation
+Field: Company
+Field: Debit Account
+Field: Membership Payment To
+Field: Send Membership Acknowledgement
+Field: Send Invoice with Email
+Field: Membership Print Format
+Field: Invoice Print Format
+Field: Email Template
+Field: Donation Settings
+Field: Company
+Field: Default Donor Type
+Field: Donation Webhook Secret
+Field: Automate Donation Payment Entries
+Field: Debit Account
+Field: Donation Payment To
+Field: Creation User
+
+DocType: Volunteer
+Field: Volunteer Name
+Field: Volunteer Type
+Field: Email
+Field: Image
+Field: Address and Contact
+Field: Address HTML
+Field: Contact HTML
+Field: Availability and Skills
+Field: Availability
+Field: Availability Timeslot
+Field: Volunteer Skills
+Field: Note
+
+DocType: Volunteer Skill
+Field: Volunteer Skill
+
+DocType: Volunteer Type
+Field: Amount

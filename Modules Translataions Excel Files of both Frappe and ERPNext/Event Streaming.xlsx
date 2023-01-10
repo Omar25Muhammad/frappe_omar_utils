@@ -1,0 +1,73 @@
+Module: Event Streaming
+DocType: Document Type Field Mapping
+Field: Local Fieldname
+Field: Mapping Type
+Field: Mapping
+Field: Remote Value Filters
+Field: Remote Fieldname
+Field: Default Value
+
+DocType: Document Type Mapping
+Field: Mapping Name
+Field: Local Document Type
+Field: Remote Document Type
+Field: Field Mapping
+
+DocType: Event Consumer
+Field: Event Consumer Document Types
+Field: Callback URL
+Field: API Key
+Field: API Secret
+Field: Event Subscriber
+Field: Incoming Change
+
+DocType: Event Consumer Document Type
+Field: Document Type
+Field: Approval Status
+Field: Unsubscribed
+Field: Condition
+
+DocType: Event Producer
+Field: Producer URL
+Field: Event Producer Document Types
+Field: API Key
+Field: API Secret
+Field: Event Subscriber
+Field: Incoming Change
+
+DocType: Event Producer Document Type
+Field: Document Type
+Field: Approval Status
+Field: Use Same Name
+Field: Unsubscribe
+Field: Has Mapping
+Field: Mapping
+Field: Condition
+
+DocType: Event Producer Last Update
+Field: Event Producer
+Field: Last Update
+
+DocType: Event Sync Log
+Field: Update Type
+Field: Doctype
+Field: Document Name
+Field: Status
+Field: Event Producer
+Field: Producer Document Name
+Field: Event Configurations
+Field: Use Same Name
+Field: Mapping
+Field: Data
+Field: Data
+Field: Error
+
+DocType: Event Update Log
+Field: Update Type
+Field: DocType
+Field: Document Name
+Field: Data
+Field: Consumers
+
+DocType: Event Update Log Consumer
+Field: Consumer

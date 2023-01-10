@@ -1,0 +1,16 @@
+Module: Geo
+DocType: Country
+Field: Country Name
+Field: Date Format
+Field: Time format
+Field: Time Zones
+Field: Code
+
+DocType: Currency
+Field: Currency Name
+Field: Enabled
+Field: Fraction
+Field: Fraction Units
+Field: Smallest Currency Fraction Value
+Field: Symbol
+Field: Number Format

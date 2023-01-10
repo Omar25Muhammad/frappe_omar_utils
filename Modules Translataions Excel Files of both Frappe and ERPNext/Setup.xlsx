@@ -1,0 +1,338 @@
+Module: Setup
+DocType: Authorization Control
+
+DocType: Authorization Rule
+Field: Transaction
+Field: Based On
+Field: Customer or Item
+Field: Customer / Item Name
+Field: Company
+Field: Authorized Value
+Field: Applicable To (Role)
+Field: Applicable To (Employee)
+Field: Applicable To (User)
+Field: Applicable To (Designation)
+Field: Approving Role (above authorized value)
+Field: Approving User  (above authorized value)
+
+DocType: Brand
+Field: Brand Name
+Field: Image
+Field: Description
+Field: Defaults
+Field: Brand Defaults
+
+DocType: Company
+Field: Company
+Field: Abbr
+Field: Is Group
+Field: Domain
+Field: Parent Company
+Field: Default Values
+Field: Default Currency
+Field: Default Letter Head
+Field: Default Holiday List
+Field: Default Finance Book
+Field: Default Selling Terms
+Field: Default Buying Terms
+Field: Default Warehouse for Sales Return
+Field: Default In-Transit Warehouse
+Field: Country
+Field: Create Chart Of Accounts Based On
+Field: Chart Of Accounts Template
+Field: Existing Company 
+Field: Tax ID
+Field: Date of Establishment
+Field: Sales Settings
+Field: Monthly Sales Target
+Field: Sales Monthly History
+Field: Transactions Annual History
+Field: Total Monthly Sales
+Field: Accounts Settings
+Field: Default Bank Account
+Field: Default Cash Account
+Field: Default Receivable Account
+Field: Round Off Account
+Field: Round Off Cost Center
+Field: Write Off Account
+Field: Exchange Gain / Loss Account
+Field: Unrealized Exchange Gain/Loss Account
+Field: Unrealized Profit / Loss Account
+Field: Allow Account Creation Against Child Company
+Field: Default Payable Account
+Field: Default Employee Advance Account
+Field: Default Cost of Goods Sold Account
+Field: Default Income Account
+Field: Default Deferred Revenue Account
+Field: Default Deferred Expense Account
+Field: Default Payroll Payable Account
+Field: Default Expense Claim Payable Account
+Field: Default Payment Discount Account
+Field: Default Cost Center
+Field: Credit Limit
+Field: Default Payment Terms Template
+Field: Stock Settings
+Field: Enable Perpetual Inventory
+Field: Enable Provisional Accounting For Non Stock Items
+Field: Default Inventory Account
+Field: Stock Adjustment Account
+Field: Stock Received But Not Billed
+Field: Default Provisional Account
+Field: Expenses Included In Valuation
+Field: Fixed Asset Defaults
+Field: Accumulated Depreciation Account
+Field: Depreciation Expense Account
+Field: Series for Asset Depreciation Entry (Journal Entry)
+Field: Expenses Included In Asset Valuation
+Field: Gain/Loss Account on Asset Disposal
+Field: Asset Depreciation Cost Center
+Field: Capital Work In Progress Account
+Field: Repair and Maintenance Account
+Field: Asset Received But Not Billed
+Field: Budget Detail
+Field: Exception Budget Approver Role
+Field: Company Info
+Field: Company Logo
+Field: Date of Incorporation
+Field: Date of Commencement
+Field: Phone No
+Field: Fax
+Field: Email
+Field: Website
+Field: Company Description
+Field: Registration Details
+Field: Lft
+Field: Rgt
+Field: old_parent
+Field: Chart of Accounts
+
+DocType: Currency Exchange
+Field: Date
+Field: From Currency
+Field: To Currency
+Field: Exchange Rate
+Field: For Buying
+Field: For Selling
+
+DocType: Customer Group
+Field: Customer Group Name
+Field: Parent Customer Group
+Field: Is Group
+Field: Default Price List
+Field: Default Payment Terms Template
+Field: lft
+Field: rgt
+Field: old_parent
+Field: Default Receivable Account
+Field: Accounts
+Field: Credit Limits
+Field: Credit Limit
+
+DocType: Email Digest
+Field: Email Digest Settings
+Field: Enabled
+Field: For Company
+Field: How frequently?
+Field: Next email will be sent on:
+Field: Recipients
+Field: Accounts
+Field: Profit & Loss
+Field: New Income
+Field: New Expenses
+Field: Annual Income
+Field: Annual Expenses
+Field: Balance Sheet
+Field: Bank Balance
+Field: Bank Credit Balance
+Field: Receivables
+Field: Payables
+Field: Work in Progress
+Field: Sales Orders to Bill
+Field: Purchase Orders to Bill
+Field: Operations
+Field: New Sales Orders
+Field: New Purchase Orders
+Field: Sales Orders to Deliver
+Field: Purchase Orders to Receive
+Field: New Sales Invoice
+Field: New Purchase Invoice
+Field: New Quotations
+Field: Open Quotations
+Field: Open Issues
+Field: Open Projects
+Field: Purchase Orders Items Overdue
+Field: Other
+Field: Tools
+Field: Upcoming Calendar Events
+Field: Open To Do
+Field: Open Notifications
+Field:   
+Field: Add Quote
+
+DocType: Email Digest Recipient
+Field: Recipient
+
+DocType: Global Defaults
+Field: Default Company
+Field: Current Fiscal Year
+Field: Country
+Field: Default Distance Unit
+Field: Default Currency
+Field: Hide Currency Symbol
+Field: Disable Rounded Total
+Field: Disable In Words
+
+DocType: Item Group
+Field: General Settings
+Field: Item Group Name
+Field: Parent Item Group
+Field: Is Group
+Field: Image
+Field: Defaults
+Field: Item Group Defaults
+Field: Item Tax
+Field: Taxes
+Field: Website Settings
+Field: Route
+Field: Title
+Field: Description
+Field: Show in Website
+Field: Include Descendants
+Field: Weightage
+Field: Slideshow
+Field: Website Specifications
+Field: Website Filters
+Field: Item Fields
+Field: Attributes
+Field: lft
+Field: rgt
+Field: old_parent
+
+DocType: Naming Series
+Field: Setup Series
+Field: Select Transaction
+Field: Help HTML
+Field: Try a naming Series
+Field: Preview of generated names
+Field: Add this Series
+Field: Series List for this Transaction
+Field: User must always select
+Field: Update
+Field: Update Series
+Field: Prefix
+Field: Current Value
+Field: Update Series Number
+
+DocType: Party Type
+Field: Party Type
+Field: Account Type
+
+DocType: Print Heading
+Field: Print Heading
+Field: Description
+
+DocType: Quotation Lost Reason
+Field: Quotation Lost Reason
+
+DocType: Quotation Lost Reason Detail
+Field: Quotation Lost Reason
+
+DocType: Sales Partner
+Field: Sales Partner Name
+Field: Partner Type
+Field: Territory
+Field: Commission Rate
+Field: Address & Contacts
+Field: Address Desc
+Field: Address HTML
+Field: Contact Desc
+Field: Contact HTML
+Field: Sales Partner Target
+Field: Targets
+Field: Website
+Field: Show In Website
+Field: Referral Code
+Field: Route
+Field: Logo
+Field: Partner website
+Field: Introduction
+Field: Description
+
+DocType: Sales Person
+Field: Name and Employee ID
+Field: Sales Person Name
+Field: Parent Sales Person
+Field: Commission Rate
+Field: Is Group
+Field: Enabled
+Field: Employee
+Field: Department
+Field: lft
+Field: rgt
+Field: old_parent
+Field: Sales Person Targets
+Field: Targets
+
+DocType: Supplier Group
+Field: Supplier Group Name
+Field: Parent Supplier Group
+Field: Is Group
+Field: Credit Limit
+Field: Default Payment Terms Template
+Field: Default Payable Account
+Field: Accounts
+Field: lft
+Field: rgt
+Field: Old Parent
+
+DocType: Target Detail
+Field: Item Group
+Field: Fiscal Year
+Field: Target Qty
+Field: Target  Amount
+Field: Target Distribution
+
+DocType: Terms and Conditions
+Field: Title
+Field: Disabled
+Field: Applicable Modules
+Field: Selling
+Field: Buying
+Field: HR
+Field: Terms and Conditions
+Field: Terms and Conditions Help
+
+DocType: Territory
+Field: Territory Name
+Field: Parent Territory
+Field: Is Group
+Field: Territory Manager
+Field: lft
+Field: rgt
+Field: old_parent
+Field: Territory Targets
+Field: Targets
+
+DocType: Transaction Deletion Record
+Field: Company
+Field: Summary
+Field: Excluded DocTypes
+Field: Status
+
+DocType: Transaction Deletion Record Item
+Field: DocType
+Field: Number of Docs
+
+DocType: UOM
+Field: Enabled
+Field: UOM Name
+Field: Must be Whole Number
+
+DocType: UOM Conversion Factor
+Field: Category
+Field: From
+Field: To
+Field: Value
+
+DocType: Website Item Group
+Field: Item Group

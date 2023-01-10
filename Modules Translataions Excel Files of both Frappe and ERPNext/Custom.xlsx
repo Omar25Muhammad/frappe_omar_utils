@@ -1,0 +1,168 @@
+Module: Custom
+DocType: Client Script
+Field: DocType
+Field: Apply To
+Field: Enabled
+Field: Script
+Field: Sample
+
+DocType: Custom Field
+Field: Document
+Field: Label
+Field: Label Help
+Field: Fieldname
+Field: Insert After
+Field: Length
+Field: Field Type
+Field: Precision
+Field: Hide Seconds
+Field: Hide Days
+Field: Options
+Field: Fetch From
+Field: Fetch If Empty
+Field: Options Help
+Field: Collapsible
+Field: Collapsible Depends On
+Field: Default Value
+Field: Depends On
+Field: Mandatory Depends On
+Field: Read Only Depends On
+Field: Non Negative
+Field: Is Mandatory Field
+Field: Unique
+Field: Read Only
+Field: Ignore User Permissions
+Field: Hidden
+Field: Print Hide
+Field: Print Hide If No Value
+Field: Print Width
+Field: No Copy
+Field: Allow on Submit
+Field: In List View
+Field: In Standard Filter
+Field: In Global Search
+Field: In Preview
+Field: Bold
+Field: Report Hide
+Field: Index
+Field: Allow in Quick Entry
+Field: Ignore XSS Filter
+Field: Translatable
+Field: Hide Border
+Field: Field Description
+Field: Permission Level
+Field: Width
+Field: Columns
+
+DocType: Customize Form
+Field: Enter Form Type
+Field: Change Label (via Custom Translation)
+Field: Search Fields
+Field: Is Table
+Field: Editable Grid
+Field: Quick Entry
+Field: Track Changes
+Field: Track Views
+Field: Allow Auto Repeat
+Field: Allow Import (via Data Import Tool)
+Field: Fields
+Field: Fields
+Field: Naming
+Field: Auto Name
+Field: Form Settings
+Field: Image Field
+Field: Max Attachments
+Field: Hide Copy
+Field: Make Attachments Public by Default
+Field: View Settings
+Field: Title Field
+Field: Translate Link Fields
+Field: Default Print Format
+Field: Show Preview Popup
+Field: Email Settings
+Field: Default Email Template
+Field: Allow document creation via Email
+Field: Sender Field
+Field: Subject Field
+Field: Document Actions
+Field: Actions
+Field: Document Links
+Field: Links
+Field: List Settings
+Field: Sort Field
+Field: Sort Order
+
+DocType: Customize Form Field
+Field: Label and Type
+Field: Label
+Field: Type
+Field: Name
+Field: Non Negative
+Field: Mandatory
+Field: Unique
+Field: In List View
+Field: In Standard Filter
+Field: In Global Search
+Field: In Preview
+Field: Bold
+Field: No Copy
+Field: Allow in Quick Entry
+Field: Translatable
+Field: Default
+Field: Precision
+Field: Length
+Field: Options
+Field: Fetch From
+Field: Fetch If Empty
+Field: Permissions
+Field: Depends On
+Field: Perm Level
+Field: Hidden
+Field: Read Only
+Field: Collapsible
+Field: Allow Bulk Edit
+Field: Collapsible Depends On
+Field: Ignore User Permissions
+Field: Allow on Submit
+Field: Report Hide
+Field: Remember Last Selected Value
+Field: Hide Border
+Field: Ignore XSS Filter
+Field: Property Depends On
+Field: Mandatory Depends On
+Field: Read Only Depends On
+Field: Display
+Field: In Filter
+Field: Hide Seconds
+Field: Hide Days
+Field: Description
+Field: Print Hide
+Field: Print Hide If No Value
+Field: Print Width
+Field: Columns
+Field: Width
+Field: Is Custom Field
+
+DocType: DocType Layout
+Field: Document Type
+Field: Route
+Field: Fields
+Field: Client Script
+
+DocType: DocType Layout Field
+Field: Label
+Field: Fieldname
+
+DocType: Property Setter
+Field: Help
+Field: Applied On
+Field: DocType
+Field: Field Name
+Field: Row Name
+Field: Property
+Field: Property Type
+Field: Set Value
+Field: Default Value
+
+DocType: Test rename new
+Field: random

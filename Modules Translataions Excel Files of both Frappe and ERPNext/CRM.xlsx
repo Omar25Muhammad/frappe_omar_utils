@@ -1,0 +1,257 @@
+Module: CRM
+DocType: Appointment
+Field: Scheduled Time
+Field: Status
+Field: Customer Details
+Field: Name
+Field: Phone Number
+Field: Skype ID
+Field: Email
+Field: Details
+Field: Linked Documents
+Field: Appointment With
+Field: Party
+Field: Calendar Event
+
+DocType: Appointment Booking Settings
+Field: Enable Appointment Scheduling
+Field: Agent Details
+Field: Availability Of Slots
+Field: Number of Concurrent Appointments
+Field: Agents
+Field: Holiday List
+Field: Appointment Details
+Field: Appointment Duration (In Minutes)
+Field: Notify Via Email
+Field: Number of days appointments can be booked in advance
+Field: Success Settings
+Field: Success Redirect URL
+
+DocType: Appointment Booking Slots
+Field: Day Of Week
+Field: From Time 
+Field: To Time
+
+DocType: Availability Of Slots
+Field: Day Of Week
+Field: From Time
+Field: To Time
+
+DocType: Campaign Email Schedule
+Field: Email Template
+Field: Send After (days)
+
+DocType: Contract
+Field: Naming Series
+Field: Party Type
+Field: Signed
+Field: Party Name
+Field: Party User
+Field: Status
+Field: Fulfilment Status
+Field: Contract Period
+Field: Start Date
+Field: End Date
+Field: Signee Details
+Field: Signee
+Field: Signed On
+Field: IP Address
+Field: Contract Details
+Field: Contract Template
+Field: Contract Terms
+Field: Fulfilment Details
+Field: Requires Fulfilment
+Field: Fulfilment Deadline
+Field: Fulfilment Terms
+Field: Authorised By
+Field: Signee (Company)
+Field: Signed By (Company)
+Field: References
+Field: Document Type
+Field: Document Name
+
+DocType: Contract Fulfilment Checklist
+Field: Fulfilled
+Field: Requirement
+Field: Notes
+
+DocType: Contract Template
+Field: Title
+Field: Contract Terms and Conditions
+Field: Requires Fulfilment
+Field: Fulfilment Terms and Conditions
+Field: Contract Template Help
+
+DocType: Contract Template Fulfilment Terms
+Field: Requirement
+
+DocType: Email Campaign
+Field: Campaign
+Field: Email Campaign For 
+Field: Recipient
+Field: Sender
+Field: Start Date
+Field: End Date
+Field: Status
+
+DocType: Lead
+Field: Lead is an Organization
+Field: Series
+Field: Person Name
+Field: Organization Name
+Field: Email Address
+Field: Lead Owner
+Field: Status
+Field: Salutation
+Field: Designation
+Field: Gender
+Field: Source
+Field: From Customer
+Field: Campaign Name
+Field: Image
+Field: Follow Up
+Field: Next Contact By
+Field: Next Contact Date
+Field: Ends On
+Field: Notes
+Field: Notes
+Field: Address & Contact
+Field: Address HTML
+Field: Address Type
+Field: Address Title
+Field: Address Line 1
+Field: Address Line 2
+Field: City/Town
+Field: County
+Field: Contact HTML
+Field: State
+Field: Country
+Field: Postal Code
+Field: Contact
+Field: Phone
+Field: Mobile No.
+Field: Fax
+Field: Website
+Field: More Information
+Field: Lead Type
+Field: Market Segment
+Field: Industry
+Field: Request Type
+Field: Company
+Field: Territory
+Field: Print Language
+Field: Unsubscribed
+Field: Blog Subscriber
+Field: Title
+
+DocType: Lead Source
+Field: Source Name
+Field: Details
+
+DocType: LinkedIn Settings
+Field: Account Name
+Field: Company ID
+Field: OAuth Credentials
+Field: Consumer Key
+Field: Consumer Secret
+Field: User Details
+Field: Access Token
+Field: Person URN
+Field: Session Status
+
+DocType: Lost Reason Detail
+Field: Opportunity Lost Reason
+
+DocType: Market Segment
+Field: Market Segment
+
+DocType: Opportunity
+Field: Series
+Field: Opportunity From
+Field: Party
+Field: Customer / Lead Name
+Field: Source
+Field: Title
+Field: Opportunity Type
+Field: Status
+Field: Converted By
+Field: Sales Stage
+Field: Lost Reason
+Field: First Response Time
+Field: Expected Closing Date
+Field: Follow Up
+Field: Next Contact By
+Field: Next Contact Date
+Field: To Discuss
+Field: Sales
+Field: Currency
+Field: Opportunity Amount
+Field: With Items
+Field: Probability (%)
+Field: Items
+Field: Items
+Field: Contact Info
+Field: Customer / Lead Address
+Field: Address
+Field: Territory
+Field: Customer Group
+Field: Contact Person
+Field: Contact
+Field: Contact Email
+Field: Contact Mobile No
+Field: More Information
+Field: Company
+Field: Campaign
+Field: Opportunity Date
+Field: Print Language
+Field: Lost Reasons
+
+DocType: Opportunity Item
+Field: Item Code
+Field: Qty
+Field: Item Group
+Field: Brand
+Field: UOM
+Field: Item Name
+Field: Description
+Field: Image
+Field: Image View
+Field: Basic Rate
+
+DocType: Opportunity Lost Reason
+Field: Lost Reason
+
+DocType: Opportunity Lost Reason Detail
+Field: Opportunity Lost Reason
+
+DocType: Opportunity Type
+Field: Description
+
+DocType: Sales Stage
+Field: Stage Name
+
+DocType: Social Media Post
+Field: Title
+Field: Campaign
+Field: Scheduled Time
+Field: Post Status
+Field: Share On
+Field: Twitter
+Field: LinkedIn
+Field: Twitter Post Id
+Field: LinkedIn Post Id
+Field: Twitter
+Field: Tweet
+Field: LinkedIn
+Field: Post
+Field: Attachments
+Field: Image
+
+DocType: Twitter Settings
+Field: Account Name
+Field: OAuth Credentials
+Field: API Key
+Field: API Secret Key
+Field: Access Token
+Field: Access Token Secret
+Field: Session Status

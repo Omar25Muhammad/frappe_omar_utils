@@ -1,0 +1,62 @@
+Module: Automation
+DocType: Assignment Rule
+Field: Document Type
+Field: Due Date Based On
+Field: Priority
+Field: Disabled
+Field: Description
+Field: Assignment Rules
+Field: Assign Condition
+Field: Unassign Condition
+Field: Close Condition
+Field: Assignment Days
+Field: Assignment Days
+Field: Assign To Users
+Field: Rule
+Field: Field
+Field: Users
+Field: Last User
+
+DocType: Assignment Rule Day
+Field: Day
+
+DocType: Assignment Rule User
+Field: User
+
+DocType: Auto Repeat
+Field: Disabled
+Field: Reference Document Type
+Field: Reference Document
+Field: Submit on Creation
+Field: Start Date
+Field: End Date
+Field: Frequency
+Field: Repeat on Day
+Field: Repeat on Last Day of the Month
+Field: Next Schedule Date
+Field: Repeat on Days
+Field: Notification
+Field: Notify by Email
+Field: Recipients
+Field: Get Contacts
+Field: Template
+Field: Subject
+Field: Message
+Field: Preview Message
+Field: Print Format
+Field: Status
+
+DocType: Auto Repeat Day
+Field: Day
+
+DocType: Milestone
+Field: Document Type
+Field: Document
+Field: Track Field
+Field: Value
+Field: Milestone Tracker
+
+DocType: Milestone Tracker
+Field: Document Type to Track
+Field: Field to Track
+Field: Disabled

@@ -1,0 +1,26 @@
+Module: Hub Node
+DocType: Hub Tracked Item
+Field: Item Code
+Field: Hub Category
+Field: Published
+Field: Image List
+
+DocType: Hub User
+Field: User
+Field: Hub User
+Field: Hub Password
+
+DocType: Hub Users
+Field: User
+
+DocType: Marketplace Settings
+Field: Disable Marketplace
+Field: Marketplace Settings
+Field: Marketplace URL (to hide and update label)
+Field: Registered
+Field: Sync in Progress
+Field: Company
+Field: Hub Seller Name
+Field: Users
+Field: Last Sync On
+Field: Custom Data

@@ -1,0 +1,131 @@
+Module: E-commerce
+DocType: E Commerce Settings
+Field: Products per Page
+Field: Filters and Categories
+Field: Enable Field Filters (Categories)
+Field: Website Item Fields
+Field: Enable Attribute Filters
+Field: Attributes
+Field: Display Settings
+Field: Hide Variants
+Field: Enable Variant Selection
+Field: Show Price
+Field: Show Stock Availability
+Field: Show Stock Quantity
+Field: Allow items not in stock to be added to cart
+Field: Show Apply Coupon Code
+Field: Show Contact Us Button
+Field: Show Public Attachments
+Field: Shopping Cart
+Field: Company
+Field: Price List
+Field: Enable Shopping Cart
+Field: Default Customer Group
+Field: Quotation Series
+Field: Checkout Settings
+Field: Enable Checkout
+Field: Show Price in Quotation
+Field: Save Quotations as Draft
+Field: Payment Gateway Account
+Field: Payment Success Url
+Field: Add-ons
+Field: Enable Wishlist
+Field: Enable Reviews and Ratings
+Field: Enable Recommendations
+Field: Item Search Settings
+Field: Redisearch Warning
+Field: Search Index Fields
+Field: Enable Redisearch
+Field: Is Redisearch Loaded
+Field: Shop by Category
+Field: Slideshow
+Field: Guest Display Settings
+Field: Hide Price for Guest
+Field: Redirect on Action
+
+DocType: Item Review
+Field: Website Item
+Field: User
+Field: Customer
+Field: Item
+Field: Published on
+Field: Reviews
+Field: Review Title
+Field: Rating
+Field: Comment
+
+DocType: Recommended Items
+Field: Website Item
+Field: Website Item Name
+Field: Item Code
+Field: More Information
+Field: Route
+Field: Website Item Image
+Field: Website Item Thumbnail
+
+DocType: Website Item
+Field: Naming Series
+Field: Website Item Name
+Field: Route
+Field: Has Variants
+Field: Variant Of
+Field: Published
+Field: Item Code
+Field: Item Name
+Field: Item Group
+Field: Stock UOM
+Field: Item Description
+Field: Brand
+Field: Display Images
+Field: Website Image
+Field: Image Description
+Field: Slideshow
+Field: Thumbnail
+Field: Stock Information
+Field: Website Warehouse
+Field: On Backorder
+Field: Display Information
+Field: Short Website Description
+Field: Website Description
+Field: Website Specifications
+Field: Copy From Item Group
+Field: Display Additional Information
+Field: Add Section with Tabs
+Field: Tabs
+Field: Recommended Items
+Field: Recommended/Similar Items
+Field: Offers
+Field: Offers to Display
+Field: Search and SEO
+Field: Ranking
+Field: Set Meta Tags
+Field: Website Item Groups
+Field: Advanced Display Content
+Field: Website Content
+
+DocType: Website Item Tabbed Section
+Field: Label
+Field: Content
+
+DocType: Website Offer
+Field: Offer Title
+Field: Offer Subtitle
+Field: Offer Details
+
+DocType: Wishlist
+Field: User
+Field: Items
+
+DocType: Wishlist Item
+Field: Item Code
+Field: Website Item
+Field: Website Item Name
+Field: Item Name
+Field: Item Group
+Field: Item Details
+Field: Description
+Field: Route
+Field: Image
+Field: Image View
+Field: Warehouse
+Field: Warehouse

@@ -1,0 +1,207 @@
+Module: ERPNext Integrations
+DocType: Amazon MWS Settings
+Field: Enable Amazon
+Field: MWS Credentials
+Field: Seller ID
+Field: AWS Access Key ID
+Field: MWS Auth Token
+Field: Secret Key
+Field: Market Place ID
+Field: Region
+Field: Domain
+Field: Company
+Field: Warehouse
+Field: Item Group
+Field: Price List
+Field: Customer Group
+Field: Territory
+Field: Customer Type
+Field: Market Place Account Group
+Field: After Date
+Field: Sync Taxes and Charges
+Field: Sync Products
+Field: Sync Orders
+Field: Enable Scheduled Sync
+Field: Max Retry Limit
+
+DocType: Exotel Settings
+Field: Enabled
+Field: Account SID
+Field: API Key
+Field: API Token
+
+DocType: GoCardless Mandate
+Field: Disabled
+Field: Customer
+Field: Mandate
+Field: GoCardless Customer
+
+DocType: GoCardless Settings
+Field: Payment Gateway Name
+Field: Access Token
+Field: Webhooks Secret
+Field: Use Sandbox
+
+DocType: Mpesa Settings
+Field: Payment Gateway Name
+Field: Consumer Key
+Field: Consumer Secret
+Field: Initiator Name
+Field: Till Number
+Field: Transaction Limit
+Field: Sandbox
+Field: Business Shortcode
+Field:  Online PassKey
+Field: Security Credential
+Field: Get Account Balance
+Field: Account Balance
+
+DocType: Plaid Settings
+Field: Enabled
+Field: Synchronize all accounts every hour
+Field: Plaid Client ID
+Field: Plaid Secret
+Field: Plaid Environment
+Field: Enable European Access
+
+DocType: QuickBooks Migrator
+Field: Status
+Field: Application Settings
+Field: Client ID
+Field: Redirect URL
+Field: Token Endpoint
+Field: Client Secret
+Field: Scope
+Field: API Endpoint
+Field: Authorization Settings
+Field: Authorization Endpoint
+Field: Refresh Token
+Field: Code
+Field: Authorization URL
+Field: Access Token
+Field: Quickbooks Company ID
+Field: Company Settings
+Field: Company
+Field: Default Shipping Account
+Field: Default Warehouse
+Field: Default Cost Center
+Field: Undeposited Funds Account
+
+DocType: Shopify Log
+Field: Title
+Field: Status
+Field: Method
+Field: Message
+Field: Traceback
+Field: Request Data
+
+DocType: Shopify Settings
+Field: status html
+Field: Enable Shopify
+Field: App Type
+Field: Last Sync Datetime
+Field: Shop URL
+Field: API Key
+Field: Password
+Field: Shared secret
+Field: Access Token
+Field: Webhooks Details
+Field: Webhooks
+Field: Customer Settings
+Field: Default Customer
+Field: Customer Group
+Field: For Company
+Field: Cash/Bank Account
+Field: Cost Center
+Field: Price List
+Field: Update Price from Shopify To ERPNext Price List
+Field: Warehouse
+Field: Sales Order Series
+Field: Import Delivery Notes from Shopify on Shipment
+Field: Delivery Note Series
+Field: Import Sales Invoice from Shopify if Payment is marked
+Field: Sales Invoice Series
+Field: Shopify Tax Account
+Field: Syncing Missing Orders
+Field: Sync Missing Old Shopify Orders
+Field: Sync Based On
+Field: From Date
+Field: To Date
+Field: From Order Id
+Field: To Order Id
+Field: Last Order Id
+
+DocType: Shopify Tax Account
+Field: Shopify Tax/Shipping Title
+Field: ERPNext Account
+
+DocType: Shopify Webhook Detail
+Field: Webhook ID
+Field: Method
+
+DocType: Tally Migration
+Field: Status
+Field: Master Data
+Field: Is Master Data Processed
+Field: Is Master Data Imported
+Field: Tally Creditors Account
+Field: Tally Debtors Account
+Field: Tally Company
+Field: Default UOM
+Field: ERPNext Company
+Field: Processed Files
+Field: Chart of Accounts
+Field: Parties
+Field: Addresses
+Field: UOMs
+Field: Items
+Field: Vouchers
+Field: Accounts
+Field: Default Warehouse
+Field: Default Round Off Account
+Field: Default Cost Center
+Field: Day Book Data
+Field: Is Day Book Data Processed
+Field: Is Day Book Data Imported
+Field: Import Log
+Field: Failed Import Log
+Field: Fixed Error Log
+
+DocType: TaxJar Nexus
+Field: Region
+Field: Region Code
+Field: Country
+Field: Country Code
+
+DocType: TaxJar Settings
+Field: Enable Tax Calculation
+Field: Sandbox Mode
+Field: Create TaxJar Transaction
+Field: Credentials
+Field: Live API Key
+Field: Sandbox API Key
+Field: Configuration
+Field: Company
+Field: Tax Account Head
+Field: Shipping Account Head
+Field: Nexus List
+Field: Nexus
+
+DocType: Woocommerce Settings
+Field: Enable Sync
+Field: Woocommerce Server URL
+Field: Secret
+Field: API consumer key
+Field: API consumer secret
+Field: Accounting Details
+Field: Tax Account
+Field: Freight and Forwarding Account
+Field: Defaults
+Field: Creation User
+Field: Warehouse
+Field: Sales Order Series
+Field: Company
+Field: Delivery After (Days)
+Field: UOM
+Field: Endpoints
+Field: Endpoint

@@ -1,0 +1,238 @@
+Module: Email
+DocType: Auto Email Report
+Field: Report
+Field: Based on Permissions For User
+Field: Enabled
+Field: Report Type
+Field: Reference Report
+Field: Filter Data
+Field: Send only if there is any data
+Field: Only Send Records Updated in Last X Hours
+Field: No of Rows (Max 500)
+Field: Report Filters
+Field: Filters Display
+Field: Filters
+Field: Filter Meta
+Field: Dynamic Report Filters
+Field: From Date Field
+Field: To Date Field
+Field: Period
+Field: Email Settings
+Field: Email To
+Field: Day of Week
+Field: Frequency
+Field: Format
+Field: Message
+Field: Message
+
+DocType: Document Follow
+Field: Doctype
+Field: Document Name
+Field: User
+
+DocType: Email Account
+Field: Account
+Field: Email Address
+Field: Email Account Name
+Field: Domain (optional)
+Field: Service (optional)
+Field: Authentication
+Field: Password
+Field: Awaiting password
+Field: Use ASCII encoding for password
+Field: Use different login
+Field: Email Login ID
+Field: Incoming (POP/IMAP) Settings
+Field: Enable Incoming
+Field: Default Incoming
+Field: Use IMAP
+Field: Use SSL
+Field: Use STARTTLS
+Field: Email Server
+Field: Port
+Field: Attachment Limit (MB)
+Field: Email Sync Option
+Field: Initial Sync Count
+Field: Document Linking
+Field: Append Emails to Sent Folder
+Field: Append To
+Field: Create Contacts from Incoming Emails
+Field: Enable Automatic Linking in Documents
+Field: Notify if unreplied
+Field: Notify if unreplied for (in mins)
+Field: Send Notification to
+Field: Outgoing (SMTP) Settings
+Field: Enable Outgoing
+Field: SMTP Server
+Field: Use TLS
+Field: Use SSL for Outgoing
+Field: Port
+Field: Default Outgoing
+Field: Always use this email address as sender address
+Field: Always use this name as sender name
+Field: Send unsubscribe message in email
+Field: Track Email Status
+Field: Disable SMTP server authentication
+Field: Signature
+Field: Add Signature
+Field: Signature
+Field: Auto Reply
+Field: Enable Auto Reply
+Field: Auto Reply Message
+Field: Footer
+Field: Footer Content
+Field: Brand Logo
+Field: UIDVALIDITY
+Field: UIDNEXT
+Field: No of emails remaining to be synced
+Field: no failed attempts
+
+DocType: Email Domain
+Field: domain name
+Field: Example Email Address
+Field: Email Server
+Field: Use IMAP
+Field: Use SSL
+Field: Use STARTTLS
+Field: Port
+Field: Attachment Limit (MB)
+Field: Append To
+Field: SMTP Server
+Field: Use TLS
+Field: Use SSL for Outgoing
+Field: Append Emails to Sent Folder
+Field: Port
+
+DocType: Email Flag Queue
+Field: Is Completed
+Field: Communication
+Field: Action
+Field: Email Account
+Field: UID
+
+DocType: Email Group
+Field: Title
+Field: Total Subscribers
+Field: Confirmation Email Template
+Field: Welcome Email Template
+
+DocType: Email Group Member
+Field: Email Group
+Field: Email
+Field: Unsubscribed
+
+DocType: Email Queue
+Field: Sender
+Field: Recipient
+Field: Show as cc
+Field: Message
+Field: Status
+Field: Error
+Field: Message ID
+Field: Reference Document Type
+Field: Reference DocName
+Field: Communication
+Field: Send After
+Field: Priority
+Field: Add Unsubscribe Link
+Field: Unsubscribe Param
+Field: Unsubscribe Method
+Field: Expose Recipients
+Field: Attachments
+Field: Retry
+
+DocType: Email Queue Recipient
+Field: Recipient
+Field: Status
+Field: Error
+
+DocType: Email Rule
+Field: Email ID
+Field: Is Spam
+
+DocType: Email Template
+Field: Subject
+Field: Use HTML
+Field: Response 
+Field: Response
+Field: Owner
+Field: Email Reply Help
+
+DocType: Email Unsubscribe
+Field: Email
+Field: Reference Document Type
+Field: Reference Name
+Field: Global Unsubscribe
+
+DocType: Newsletter
+Field: Sender
+Field: Schedule Sending
+Field: Schedule Send
+Field: Recipients
+Field: Email Group
+Field: Email Sent
+Field: Content
+Field: Subject
+Field: Content Type
+Field: Message
+Field: Message (Markdown)
+Field: Message (HTML)
+Field: Send Unsubscribe Link
+Field: Send Attachments
+Field: Published
+Field: Send Web View Link
+Field: Route
+Field: Testing
+Field: Test Email Address
+Field: Test
+Field: Scheduled To Send
+
+DocType: Newsletter Email Group
+Field: Email Group
+Field: Total Subscribers
+
+DocType: Notification
+Field: Enabled
+Field: Channel
+Field: Slack Channel
+Field: Filters
+Field: Subject
+Field: Document Type
+Field: Is Standard
+Field: Module
+Field: Send Alert On
+Field: Trigger Method
+Field: Reference Date
+Field: Days Before or After
+Field: Value Changed
+Field: Sender
+Field: Send System Notification
+Field: Sender Email
+Field: Condition
+Field: Set Property After Alert
+Field: Set Property After Alert
+Field: Value To Be Set
+Field: Recipients
+Field: Send To All Assignees
+Field: Recipients
+Field: Message
+Field: Message
+Field: Message Examples
+Field: View Properties (via Customize Form)
+Field: Print Settings
+Field: Attach Print
+Field: Print Format
+
+DocType: Notification Recipient
+Field: Receiver By Document Field
+Field: Receiver By Role
+Field: CC
+Field: BCC
+Field: Condition
+
+DocType: Unhandled Email
+Field: Email Account
+Field: UID
+Field: Reason
+Field: Message-id
+Field: Raw Email

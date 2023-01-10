@@ -1,0 +1,426 @@
+Module: Website
+DocType: About Us Settings
+Field: Page Title
+Field: Company Introduction
+Field: Org History
+Field: Org History Heading
+Field: Org History
+Field: Team Members
+Field: Team Members Heading
+Field: Team Members Subtitle
+Field: Team Members
+Field: Footer
+
+DocType: About Us Team Member
+Field: Full Name
+Field: Image Link
+Field: Bio
+
+DocType: Blog Category
+Field: Title
+Field: Published
+Field: Route
+
+DocType: Blog Post
+Field: Title
+Field: Blog Category
+Field: Blogger
+Field: Route
+Field: Read Time
+Field: Published On
+Field: Published
+Field: Featured
+Field: Hide CTA
+Field: Disable Comments
+Field: Disable Feedback
+Field: Blog Intro
+Field: Content Type
+Field: Content
+Field: Content (Markdown)
+Field: Content (HTML)
+Field: Email Sent
+Field: Meta Tags
+Field: Meta Title
+Field: Meta Description
+Field: Meta Image
+Field: Google Snippet Preview
+
+DocType: Blog Settings
+Field: Blog Title
+Field: Blog Introduction
+Field: Enable Social Sharing
+Field: Show CTA in Blog
+Field: CTA
+Field: Title
+Field: Subtitle
+Field: CTA Label
+Field: CTA URL
+Field: Feedback limit
+
+DocType: Blogger
+Field: Disabled
+Field: Short Name
+Field: Full Name
+Field: User
+Field: Bio
+Field: Avatar
+
+DocType: Color
+Field: Color
+
+DocType: Company History
+Field: Year
+Field: Highlight
+
+DocType: Contact Us Settings
+Field: Introduction
+Field: Forward To Email Address
+Field: Heading
+Field: Introduction
+Field: Query Options
+Field: Address
+Field: Address Title
+Field: Address Line 1
+Field: Address Line 2
+Field: City
+Field: State
+Field: Pincode
+Field: Country
+Field: Phone
+Field: Email Id
+Field: Skype
+
+DocType: Discussion Reply
+Field: Topic
+Field: Reply
+
+DocType: Discussion Topic
+Field: Title
+Field: Reference Doctype
+Field: Reference Docname
+
+DocType: Help Article
+Field: Title
+Field: Category
+Field: Published
+Field: Author
+Field: Level
+Field: Content
+Field: Likes
+Field: Route
+Field: Helpful
+Field: Not Helpful
+
+DocType: Help Category
+Field: Category Name
+Field: Category Description
+Field: Published
+Field: Help Articles
+Field: Route
+
+DocType: Personal Data Deletion Request
+Field: Email
+Field: Status
+Field: Anonymization Matrix
+Field: Deletion Steps 
+
+DocType: Personal Data Deletion Step
+Field: Document Type
+Field: Status
+Field: Partial
+Field: Fields
+Field: Filtered By
+
+DocType: Personal Data Download Request
+Field: User
+Field: User Name
+
+DocType: Portal Menu Item
+Field: Title
+Field: Enabled
+Field: Route
+Field: Reference Document Type
+Field: Role
+Field: Target
+
+DocType: Portal Settings
+Field: Default Role at Time of Signup
+Field: Default Portal Home
+Field: Standard Sidebar Menu
+Field: Hide Standard Menu
+Field: Portal Menu
+Field: Custom Sidebar Menu
+Field: Custom Menu Items
+
+DocType: Social Link Settings
+Field: Social Link Type
+Field: Color
+Field: Background Color
+
+DocType: Top Bar Item
+Field: Label
+Field: URL
+Field: Open URL in a New Tab
+Field: Align Right
+Field: Parent Label
+Field: Icon
+
+DocType: Web Form
+Field: Title
+Field: Route
+Field: Select DocType
+Field: Module
+Field: Is Standard
+Field: Is Multi Step Form
+Field: Published
+Field: Login Required
+Field: Route to Success Link
+Field: Allow Edit
+Field: Allow Multiple
+Field: Apply Document Permissions
+Field: Show as Grid
+Field: Allow Delete
+Field: Allow Print
+Field: Print Format
+Field: Allow Comments
+Field: Show Attachments
+Field: Allow Incomplete Forms
+Field: Introduction
+Field: Introduction
+Field: Fields
+Field: Web Form Fields
+Field: Max Attachment Size (in MB)
+Field: Client Script
+Field: Client Script
+Field: Custom CSS
+Field: Custom CSS
+Field: Actions
+Field: Button Label
+Field: Success Message
+Field: Success URL
+Field: Sidebar Settings
+Field: Show Sidebar
+Field: Sidebar Items
+Field: Payments
+Field: Accept Payment
+Field: Payment Gateway
+Field: Button Label
+Field: Button Help
+Field: Amount Based On Field
+Field: Amount Field
+Field: Amount
+Field: Currency
+Field: Advanced
+Field: Web Page Link Text
+Field: Breadcrumbs
+
+DocType: Web Form Field
+Field: Fieldname
+Field: Fieldtype
+Field: Label
+Field: Allow Read On All Link Options
+Field: Mandatory
+Field: Depends On
+Field: Read Only
+Field: Show in filter
+Field: Hidden
+Field: Options
+Field: Max Length
+Field: Max Value
+Field: Property Depends On
+Field: Mandatory Depends On
+Field: Read Only Depends On
+Field: Description
+Field: Default
+
+DocType: Web Page
+Field: Title
+Field: Title
+Field: Route
+Field: Dynamic Route
+Field: Slideshow
+Field: Published
+Field: Full Width
+Field: Show Title
+Field: Start Date
+Field: End Date
+Field: Content
+Field: Content Type
+Field: Dynamic Template
+Field: Main Section
+Field: Main Section (Markdown)
+Field: Main Section (HTML)
+Field: Page Building Blocks
+Field: Context
+Field: Context Script
+Field: Script
+Field: Javascript
+Field: Style
+Field: Insert Style
+Field: Text Align
+Field: CSS
+Field: Settings
+Field: Sidebar and Comments
+Field: Show Sidebar
+Field: Website Sidebar
+Field: Enable Comments
+Field: Priority
+Field: Header and Breadcrumbs
+Field: Header
+Field: Breadcrumbs
+Field: Meta Tags
+Field: Title
+Field: Description
+Field: Image
+Field: Add Custom Tags
+
+DocType: Web Page Block
+Field: Web Template
+Field: Edit Values
+Field: Web Template Values
+Field: CSS Class
+Field: Add Container
+Field: Add Space on Top
+Field: Add Space on Bottom
+Field: Add Gray Background
+Field: Hide Block
+
+DocType: Web Page View
+Field: Path
+Field: Referrer
+Field: Browser
+Field: Browser Version
+Field: Is Unique
+Field: Time Zone
+Field: User Agent
+
+DocType: Web Template
+Field: Type
+Field: Standard
+Field: Module
+Field: Template
+Field: Fields
+
+DocType: Web Template Field
+Field: Label
+Field: Fieldname
+Field: Fieldtype
+Field: Mandatory
+Field: Options
+Field: Default
+
+DocType: Website Meta Tag
+Field: Key
+Field: Value
+
+DocType: Website Route Meta
+Field: Meta Tags
+
+DocType: Website Route Redirect
+Field: Source
+Field: Target
+
+DocType: Website Script
+Field: Javascript
+
+DocType: Website Settings
+Field: Landing Page
+Field: Home Page
+Field: Title Prefix
+Field: Website Theme
+Field: Website Theme Image
+Field: Website Theme Image Link
+Field: Brand
+Field: Brand Image
+Field: Splash Image
+Field: Brand HTML
+Field: Set Banner from Image
+Field: FavIcon
+Field: Navbar
+Field: Top Bar Items
+Field: Hide Login
+Field: Include Search in Top Bar
+Field: Show Language Picker
+Field: Navbar Template
+Field: Navbar Template
+Field: Navbar Template Values
+Field: Edit Values
+Field: Call To Action
+Field: Call To Action URL
+Field: Banner
+Field: Banner HTML
+Field: Footer
+Field: Footer Logo
+Field: Copyright
+Field: Address
+Field: Footer Items
+Field: Footer Template
+Field: Footer Template Values
+Field: Edit Values
+Field: Hide Footer Signup
+Field: Integrations
+Field: Enable In App Website Tracking
+Field: Enable Google Indexing
+Field: Authorize API Indexing  Access
+Field: Indexing Refresh Token
+Field: Indexing Authorization Code
+Field: Google Analytics ID
+Field: Google Analytics Anonymize IP
+Field: Login Page
+Field: App Name
+Field: App Logo
+Field: Disable Signup
+Field: HTML Header, Robots and Redirects
+Field: Subdomain
+Field: &lt;head&gt; HTML
+Field: Robots.txt
+Field: Route Redirects
+
+DocType: Website Sidebar
+Field: Title
+Field: Sidebar Items
+
+DocType: Website Sidebar Item
+Field: Title
+Field: Route
+Field: Group
+
+DocType: Website Slideshow
+Field: Slideshow Name
+Field: 
+Field: Slideshow Items
+Field: Header
+
+DocType: Website Slideshow Item
+Field: Image
+Field: Heading
+Field: Description
+Field: URL
+
+DocType: Website Theme
+Field: Theme
+Field: Module
+Field: Custom?
+Field: Theme Configuration
+Field: Google Font
+Field: Font Size
+Field: Font Properties
+Field: Button Rounded Corners
+Field: Button Shadows
+Field: Button Gradients
+Field: Primary Color
+Field: Text Color
+Field: Light Color
+Field: Dark Color
+Field: Background Color
+Field: Stylesheet
+Field: Custom Overrides
+Field: Custom SCSS
+Field: Ignored Apps
+Field: Theme
+Field: Theme URL
+Field: Custom JS
+Field: JavaScript
+
+DocType: Website Theme Ignore App
+Field: App

@@ -1,0 +1,107 @@
+Module: Quality Management
+DocType: Non Conformance
+Field: Subject
+Field: Procedure
+Field: Process Owner
+Field: Full Name
+Field: Status
+Field: Details
+Field: Corrective Action
+Field: Preventive Action
+
+DocType: Quality Action
+Field: Corrective/Preventive
+Field: Review
+Field: Feedback
+Field: Status
+Field: Date
+Field: Goal
+Field: Procedure
+Field: Resolution
+Field: Resolutions
+
+DocType: Quality Action Resolution
+Field: Problem
+Field: Resolution
+Field: Status
+Field: Responsible
+Field: Completion By
+
+DocType: Quality Feedback
+Field: Template
+Field: Type
+Field: Feedback By
+Field: Parameters
+
+DocType: Quality Feedback Parameter
+Field: Parameter
+Field: Rating
+Field: Feedback
+
+DocType: Quality Feedback Template
+Field: Template Name
+Field: Parameters
+
+DocType: Quality Feedback Template Parameter
+Field: Parameter
+
+DocType: Quality Goal
+Field: Goal
+Field: Monitoring Frequency
+Field: Procedure
+Field: Weekday
+Field: Date
+Field: Objectives
+Field: Objectives
+
+DocType: Quality Goal Objective
+Field: Objective
+Field: Target
+Field: UOM
+
+DocType: Quality Meeting
+Field: Status
+Field: Agenda
+Field: Minutes
+
+DocType: Quality Meeting Agenda
+Field: Agenda
+
+DocType: Quality Meeting Minutes
+Field: Document Type
+Field: Document Name
+Field: Minute
+
+DocType: Quality Procedure
+Field: Quality Procedure
+Field: Process Owner
+Field: Process Owner Full Name
+Field: Processes
+Field: Parent
+Field: Parent Procedure
+Field: Is Group
+Field: Right Index
+Field: Left Index
+Field: old_parent
+
+DocType: Quality Procedure Process
+Field: Process Description
+Field: Sub Procedure
+
+DocType: Quality Review
+Field: Goal
+Field: Date
+Field: Procedure
+Field: Status
+Field: Review
+Field: Reviews
+Field: Notes
+Field: Additional Information
+
+DocType: Quality Review Objective
+Field: Objective
+Field: Target
+Field: UOM
+Field: Review
+Field: Status
+Field: Review

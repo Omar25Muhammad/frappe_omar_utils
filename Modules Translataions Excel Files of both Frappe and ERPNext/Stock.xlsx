@@ -1,0 +1,1405 @@
+Module: Stock
+DocType: Batch
+Field: Disabled
+Field: Batch Details
+Field: Batch ID
+Field: Item
+Field: Item Name
+Field: image
+Field: Parent Batch
+Field: Manufacturing Date
+Field: Batch Quantity
+Field: Batch UOM
+Field: Expiry Date
+Field: Source
+Field: Supplier
+Field: Source Document Type
+Field: Source Document Name
+Field: Batch Description
+Field: Manufacturing
+Field: Qty To Produce
+Field: Produced Qty
+
+DocType: Bin
+Field: Warehouse
+Field: Item Code
+Field: Reserved Quantity
+Field: Actual Quantity
+Field: Ordered Quantity
+Field: Requested Quantity
+Field: Planned Qty
+Field: Projected Qty
+Field: Reserved Qty for Production
+Field: Reserved Qty for sub contract
+Field: Moving Average Rate
+Field: UOM
+Field: FCFS Rate
+Field: Valuation Rate
+Field: Stock Value
+
+DocType: Customs Tariff Number
+Field: Tariff Number
+Field: Description
+
+DocType: Delivery Note
+Field: Delivery To
+Field: Title
+Field: Series
+Field: Customer
+Field: Customer Name
+Field: Company
+Field: Date
+Field: Posting Time
+Field: Edit Posting Date and Time
+Field: Is Return
+Field: Issue Credit Note
+Field: Return Against Delivery Note
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Project
+Field: Customer PO Details
+Field: Customer's Purchase Order No
+Field: Customer's Purchase Order Date
+Field: Pick List
+Field: Address and Contact
+Field: Shipping Address
+Field: Shipping Address
+Field: Dispatch Address Name
+Field: Dispatch Address
+Field: Contact Person
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Billing Address Name
+Field: Tax Id
+Field: Billing Address
+Field: Company Address Name
+Field: Company Address
+Field: Currency and Price List
+Field: Currency
+Field: Exchange Rate
+Field: Price List
+Field: Price List Currency
+Field: Price List Exchange Rate
+Field: Ignore Pricing Rule
+Field: Set Source Warehouse
+Field: Set Target Warehouse
+Field: Scan Barcode
+Field: Items
+Field: Pricing Rules
+Field: Pricing Rule Detail
+Field: Packing List
+Field: Packed Items
+Field: Product Bundle Help
+Field: Total Quantity
+Field: Total (Company Currency)
+Field: Net Total (Company Currency)
+Field: Total Net Weight
+Field: Total
+Field: Net Total
+Field: Taxes and Charges
+Field: Tax Category
+Field: Shipping Rule
+Field: Sales Taxes and Charges Template
+Field: Sales Taxes and Charges
+Field: Tax Breakup
+Field: Taxes and Charges Calculation
+Field: Total Taxes and Charges (Company Currency)
+Field: Total Taxes and Charges
+Field: Additional Discount
+Field: Apply Additional Discount On
+Field: Additional Discount Amount (Company Currency)
+Field: Additional Discount Percentage
+Field: Additional Discount Amount
+Field: Grand Total (Company Currency)
+Field: Rounding Adjustment (Company Currency)
+Field: Rounded Total (Company Currency)
+Field: In Words (Company Currency)
+Field: Grand Total
+Field: Rounding Adjustment
+Field: Rounded Total
+Field: In Words
+Field: Disable Rounded Total
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions Details
+Field: Transporter Info
+Field: Transporter
+Field: Driver
+Field: Transport Receipt No
+Field: Vehicle No
+Field: Transporter Name
+Field: Driver Name
+Field: Transport Receipt Date
+Field: More Information
+Field: Campaign
+Field: Source
+Field: Is Internal Customer
+Field: Represents Company
+Field: Inter Company Reference
+Field: % Amount Billed
+Field: Customer Group
+Field: Territory
+Field: Print Settings
+Field: Letter Head
+Field: Print Heading
+Field: Print Language
+Field: Print Without Amount
+Field: Group same items
+Field: Status
+Field: Status
+Field: % Installed
+Field: Installation Status
+Field: % Returned
+Field: Excise Page Number
+Field: Instructions
+Field: Subscription Section
+Field: Auto Repeat
+Field: Commission
+Field: Sales Partner
+Field: Amount Eligible for Commission
+Field: Commission Rate (%)
+Field: Total Commission
+Field: Sales Team
+Field: Sales Team
+
+DocType: Delivery Note Item
+Field: Barcode
+Field: Item Code
+Field: Item Name
+Field: Customer's Item Code
+Field: Description
+Field: Description
+Field: Brand Name
+Field: Item Group
+Field: Image
+Field: Image
+Field: Image View
+Field: Quantity and Rate
+Field: Quantity
+Field: Stock UOM
+Field: UOM
+Field: UOM Conversion Factor
+Field: Qty in Stock UOM
+Field: Returned Qty in Stock UOM
+Field: Price List Rate
+Field: Price List Rate (Company Currency)
+Field: Discount and Margin
+Field: Margin Type
+Field: Margin Rate or Amount
+Field: Rate With Margin
+Field: Discount (%) on Price List Rate with Margin
+Field: Discount Amount
+Field: Rate With Margin (Company Currency)
+Field: Rate
+Field: Amount
+Field: Rate (Company Currency)
+Field: Amount (Company Currency)
+Field: Pricing Rules
+Field: Rate of Stock UOM
+Field: Is Free Item
+Field: Grant Commission
+Field: Net Rate
+Field: Net Amount
+Field: Item Tax Template
+Field: Net Rate (Company Currency)
+Field: Net Amount (Company Currency)
+Field: Billed Amt
+Field: Incoming Rate
+Field: Item Weight Details
+Field: Weight Per Unit
+Field: Total Weight
+Field: Weight UOM
+Field: Warehouse and Reference
+Field: Warehouse
+Field: Target Warehouse
+Field: Quality Inspection
+Field: Against Sales Order
+Field: Against Sales Order Item
+Field: Against Sales Invoice
+Field: Against Sales Invoice Item
+Field: Against Delivery Note Item
+Field: Pick List Item
+Field: Batch No
+Field: Serial No
+Field: Available Batch Qty at From Warehouse
+Field: Available Qty at From Warehouse
+Field: Installed Qty
+Field: Item Tax Rate
+Field: Accounting Details
+Field: Expense Account
+Field: Allow Zero Valuation Rate
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Project
+Field: Page Break
+
+DocType: Delivery Settings
+Field: Dispatch Settings
+Field: Dispatch Notification Template
+Field: Dispatch Notification Attachment
+Field: Send with Attachment
+Field: Delay between Delivery Stops
+
+DocType: Delivery Stop
+Field: Customer
+Field: Address Name
+Field: Lock
+Field: Customer Address
+Field: Visited
+Field: Order Information
+Field: Delivery Note
+Field: Grand Total
+Field: Contact Information
+Field: Contact Name
+Field: Email sent to
+Field: Customer Contact
+Field: Dispatch Information
+Field: Distance
+Field: Estimated Arrival
+Field: Latitude
+Field: UOM
+Field: Longitude
+Field: More Information
+Field: Details
+
+DocType: Delivery Trip
+Field: Series
+Field: Company
+Field: Initial Email Notification Sent
+Field: Delivery Details
+Field: Driver
+Field: Driver Name
+Field: Driver Email
+Field: Driver Address
+Field: Total Estimated Distance
+Field: Distance UOM
+Field: Vehicle
+Field: Departure Time
+Field: Employee
+Field: Delivery Stops
+Field: Delivery Stop
+Field: Calculate Estimated Arrival Times
+Field: Optimize Route
+Field: Status
+
+DocType: Item
+Field: Series
+Field: Item Code
+Field: Variant Of
+Field: Item Name
+Field: Item Group
+Field: Is Item from Hub
+Field: Default Unit of Measure
+Field: Disabled
+Field: Allow Alternative Item
+Field: Maintain Stock
+Field: Include Item In Manufacturing
+Field: Opening Stock
+Field: Valuation Rate
+Field: Standard Selling Rate
+Field: Is Fixed Asset
+Field: Auto Create Assets on Purchase
+Field: Asset Category
+Field: Asset Naming Series
+Field: Over Delivery/Receipt Allowance (%)
+Field: Over Billing Allowance (%)
+Field: Image
+Field: Description
+Field: Brand
+Field: Description
+Field: Barcodes
+Field: Barcodes
+Field: Inventory
+Field: Shelf Life In Days
+Field: End of Life
+Field: Default Material Request Type
+Field: Valuation Method
+Field: Warranty Period (in days)
+Field: Weight Per Unit
+Field: Weight UOM
+Field: Auto re-order
+Field: Reorder level based on Warehouse
+Field: Units of Measure
+Field: UOMs
+Field: Serial Nos and Batches
+Field: Has Batch No
+Field: Automatically Create New Batch
+Field: Batch Number Series
+Field: Has Expiry Date
+Field: Retain Sample
+Field: Max Sample Quantity
+Field: Has Serial No
+Field: Serial Number Series
+Field: Variants
+Field: Has Variants
+Field: Variant Based On
+Field: Attributes
+Field: Sales, Purchase, Accounting Defaults
+Field: Item Defaults
+Field: Purchase, Replenishment Details
+Field: Is Purchase Item
+Field: Default Purchase Unit of Measure
+Field: Minimum Order Qty
+Field: Safety Stock
+Field: Lead Time in days
+Field: Last Purchase Rate
+Field: Is Customer Provided Item
+Field: Customer
+Field: Supplier Details
+Field: Delivered by Supplier (Drop Ship)
+Field: Supplier Items
+Field: Foreign Trade Details
+Field: Country of Origin
+Field: Customs Tariff Number
+Field: Sales Details
+Field: Default Sales Unit of Measure
+Field: Is Sales Item
+Field: Grant Commission
+Field: Max Discount (%)
+Field: Deferred Revenue
+Field: Deferred Revenue Account
+Field: Enable Deferred Revenue
+Field: No of Months
+Field: Deferred Expense
+Field: Deferred Expense Account
+Field: Enable Deferred Expense
+Field: No of Months
+Field: Customer Details
+Field: Customer Items
+Field: Item Tax
+Field: Taxes
+Field: Inspection Criteria
+Field: Quality Inspection Template
+Field: Inspection Required before Purchase
+Field: Inspection Required before Delivery
+Field: Manufacturing
+Field: Default BOM
+Field: Supply Raw Materials for Purchase
+Field: Customer Code
+Field: Default Item Manufacturer
+Field: Default Manufacturer Part No
+Field: Hub Publishing Details
+Field: Publish in Hub
+Field: Hub Category to Publish
+Field: Hub Warehouse
+Field: Synced With Hub
+Field: More Information
+Field: Published in Website
+Field: Total Projected Qty
+
+DocType: Item Alternative
+Field: Item Code
+Field: Alternative Item Code
+Field: Two-way
+Field: Item Name
+Field: Alternative Item Name
+
+DocType: Item Attribute
+Field: Attribute Name
+Field: Numeric Values
+Field: From Range
+Field: Increment
+Field: To Range
+Field: Item Attribute Values
+
+DocType: Item Attribute Value
+Field: Attribute Value
+Field: Abbreviation
+
+DocType: Item Barcode
+Field: Barcode
+Field: Barcode Type
+
+DocType: Item Customer Detail
+Field: Customer Name
+Field: Customer Group
+Field: Ref Code
+
+DocType: Item Default
+Field: Company
+Field: Default Warehouse
+Field: Default Price List
+Field: Default Discount Account
+Field: Purchase Defaults
+Field: Default Buying Cost Center
+Field: Default Supplier
+Field: Default Expense Account
+Field: Default Provisional Account
+Field: Sales Defaults
+Field: Default Selling Cost Center
+Field: Default Income Account
+
+DocType: Item Manufacturer
+Field: Item Code
+Field: Manufacturer
+Field: Manufacturer Part Number
+Field: Item Name
+Field: Description
+Field: Is Default
+
+DocType: Item Price
+Field: Item Code
+Field: UOM
+Field: Packing Unit
+Field: Item Name
+Field: Brand
+Field: Item Description
+Field: Price List
+Field: Price List
+Field: Customer
+Field: Supplier
+Field: Batch No
+Field: Buying
+Field: Selling
+Field: Currency
+Field: Rate
+Field: Valid From
+Field: Lead Time in days
+Field: Valid Upto
+Field: Note
+Field: Reference
+
+DocType: Item Quality Inspection Parameter
+Field: Parameter
+Field: Parameter Group
+Field: Acceptance Criteria Value
+Field: Numeric
+Field: Minimum Value
+Field: Maximum Value
+Field: Formula Based Criteria
+Field: Acceptance Criteria Formula
+
+DocType: Item Reorder
+Field: Check in (group)
+Field: Request for
+Field: Re-order Level
+Field: Re-order Qty
+Field: Material Request Type
+
+DocType: Item Supplier
+Field: Supplier
+Field: Supplier Part Number
+
+DocType: Item Tax
+Field: Item Tax Template
+Field: Tax Category
+Field: Valid From
+Field: Minimum Net Rate
+Field: Maximum Net Rate
+
+DocType: Item Variant
+Field: Item Attribute
+Field: Item Attribute Value
+
+DocType: Item Variant Attribute
+Field: Variant Of
+Field: Attribute
+Field: Attribute Value
+Field: Numeric Values
+Field: From Range
+Field: Increment
+Field: To Range
+
+DocType: Item Variant Settings
+Field: Do not update variants on save
+Field: Allow Rename Attribute Value
+Field: Copy Fields to Variant
+Field: Fields
+
+DocType: Item Website Specification
+Field: Label
+Field: Description
+
+DocType: Landed Cost Item
+Field: Item Code
+Field: Description
+Field: Receipt Document Type
+Field: Receipt Document
+Field: Qty
+Field: Rate
+Field: Amount
+Field: Is Fixed Asset
+Field: Applicable Charges
+Field: Purchase Receipt Item
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: Landed Cost Purchase Receipt
+Field: Receipt Document Type
+Field: Receipt Document
+Field: Supplier
+Field: Posting Date
+Field: Grand Total
+
+DocType: Landed Cost Taxes and Charges
+Field: Expense Account
+Field: Account Currency
+Field: Exchange Rate
+Field: Description
+Field: Amount
+Field: Amount (Company Currency)
+
+DocType: Landed Cost Voucher
+Field: Series
+Field: Company
+Field: Posting Date
+Field: Purchase Receipts
+Field: Purchase Receipt Items
+Field: Get Items From Purchase Receipts
+Field: Purchase Receipt Items
+Field: Applicable Charges
+Field: Taxes and Charges
+Field: Total Taxes and Charges (Company Currency)
+Field: Distribute Charges Based On
+Field: Landed Cost Help
+
+DocType: Manufacturer
+Field: Short Name
+Field: Full Name
+Field: Website
+Field: Country
+Field: Logo
+Field: Address and Contacts
+Field: Address HTML
+Field: Contact HTML
+Field: Notes
+
+DocType: Material Request
+Field: Series
+Field: Title
+Field: Purpose
+Field: Transfer Status
+Field: Customer
+Field: Status
+Field: Transaction Date
+Field: Required By
+Field: Company
+Field: Warehouse
+Field: Set Source Warehouse
+Field: Set Target Warehouse
+Field: Scan Barcode
+Field: Items
+Field: More Information
+Field: % Ordered
+Field: % Received
+Field: Printing Details
+Field: Letter Head
+Field: Print Heading
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions Content
+Field: Reference
+Field: Job Card
+
+DocType: Material Request Item
+Field: Item Code
+Field: Item Name
+Field: Required By
+Field: Description
+Field: Description
+Field: Item Group
+Field: Brand
+Field: Image
+Field: Quantity and Warehouse
+Field: Quantity
+Field: Stock UOM
+Field: Source Warehouse
+Field: Target Warehouse
+Field: UOM
+Field: UOM Conversion Factor
+Field: Stock Qty
+Field: Min Order Qty
+Field: Projected Qty
+Field: Actual Qty
+Field: Completed Qty
+Field: Received Qty
+Field: Rate
+Field: Amount
+Field: Manufacture
+Field: Manufacturer
+Field: Manufacturer Part Number
+Field: BOM No
+Field: Accounting Dimensions
+Field: Project
+Field: Cost Center
+Field: More Information
+Field: Lead Time Date
+Field: Sales Order
+Field: Sales Order Item
+Field: Production Plan
+Field: Material Request Plan Item
+Field: Job Card Item
+Field: Expense Account
+Field: Page Break
+
+DocType: Packed Item
+Field: Parent Item
+Field: Item Code
+Field: Item Name
+Field: Description
+Field: From Warehouse
+Field: To Warehouse (Optional)
+Field: Conversion Factor
+Field: Qty
+Field: Rate
+Field: UOM
+Field: Serial No
+Field: Batch No
+Field: Actual Batch Quantity
+Field: Actual Qty
+Field: Projected Qty
+Field: Ordered Qty
+Field: Incoming Rate
+Field: Picked Qty
+Field: Page Break
+Field: Prevdoc DocType
+Field: Parent Detail docname
+
+DocType: Packing Slip
+Field: Delivery Note
+Field: Series
+Field: From Package No.
+Field: To Package No.
+Field: Get Items
+Field: Items
+Field: Package Weight Details
+Field: Net Weight
+Field: Net Weight UOM
+Field: Gross Weight
+Field: Gross Weight UOM
+Field: Letter Head
+Field: Letter Head
+
+DocType: Packing Slip Item
+Field: Item Code
+Field: Item Name
+Field: Batch No
+Field: Description
+Field: Description
+Field: Quantity
+Field: Quantity
+Field: Net Weight
+Field: UOM
+Field: Weight UOM
+Field: Page Break
+Field: DN Detail
+
+DocType: Pick List
+Field: Series
+Field: Company
+Field: Purpose
+Field: Customer
+Field: Customer Name
+Field: Work Order
+Field: Material Request
+Field: Qty of Finished Goods Item
+Field: Parent Warehouse
+Field: Get Item Locations
+Field: Item Locations
+Field: Print Settings
+Field: Group Same Items
+
+DocType: Pick List Item
+Field: Item
+Field: Item Name
+Field: Description
+Field: Item Group
+Field: Warehouse
+Field: Quantity
+Field: Qty
+Field: Stock Qty
+Field: Picked Qty
+Field: UOM
+Field: UOM Conversion Factor
+Field: Stock UOM
+Field: Serial No and Batch
+Field: Serial No
+Field: Batch No
+Field: Reference
+Field: Sales Order
+Field: Sales Order Item
+Field: Product Bundle Item
+Field: Material Request
+Field: Material Request Item
+
+DocType: Price List
+Field: Enabled
+Field: Price List Name
+Field: Currency
+Field: Buying
+Field: Selling
+Field: Price Not UOM Dependent
+Field: Applicable for Countries
+
+DocType: Price List Country
+Field: Country
+
+DocType: Purchase Receipt
+Field: Title
+Field: Series
+Field: Supplier
+Field: Supplier Name
+Field: Supplier Delivery Note
+Field: Company
+Field: Date
+Field: Posting Time
+Field: Edit Posting Date and Time
+Field: Apply Putaway Rule
+Field: Is Return
+Field: Return Against Purchase Receipt
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Project
+Field: Address and Contact
+Field: Select Supplier Address
+Field: Contact Person
+Field: Address
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Select Shipping Address
+Field: Shipping Address
+Field: Select Billing Address
+Field: Billing Address
+Field: Currency and Price List
+Field: Currency
+Field: Exchange Rate
+Field: Price List
+Field: Price List Currency
+Field: Price List Exchange Rate
+Field: Ignore Pricing Rule
+Field: Accepted Warehouse
+Field: Rejected Warehouse
+Field: Set From Warehouse
+Field: Raw Materials Consumed
+Field: Supplier Warehouse
+Field: Scan Barcode
+Field: Items
+Field: Total Quantity
+Field: Total (Company Currency)
+Field: Net Total (Company Currency)
+Field: Total Net Weight
+Field: Total
+Field: Net Total
+Field: Pricing Rules
+Field: Pricing Rule Detail
+Field: Raw Materials Consumed
+Field: Get Current Stock
+Field: Consumed Items
+Field: Tax Category
+Field: Shipping Rule
+Field: Purchase Taxes and Charges Template
+Field: Purchase Taxes and Charges
+Field: Tax Breakup
+Field: Taxes and Charges Calculation
+Field: Taxes and Charges Added (Company Currency)
+Field: Taxes and Charges Deducted (Company Currency)
+Field: Total Taxes and Charges (Company Currency)
+Field: Taxes and Charges Added
+Field: Taxes and Charges Deducted
+Field: Total Taxes and Charges
+Field: Additional Discount
+Field: Apply Additional Discount On
+Field: Additional Discount Amount (Company Currency)
+Field: Additional Discount Percentage
+Field: Additional Discount Amount
+Field: Grand Total (Company Currency)
+Field: Rounding Adjustment (Company Currency)
+Field: In Words (Company Currency)
+Field: Rounded Total (Company Currency)
+Field: Grand Total
+Field: Rounding Adjustment
+Field: Rounded Total
+Field: In Words
+Field: Disable Rounded Total
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions
+Field: More Information
+Field: Status
+Field: Range
+Field: % Amount Billed
+Field: % Returned
+Field: Is Internal Supplier
+Field: Inter Company Reference
+Field: Represents Company
+Field: Auto Repeat Detail
+Field: Auto Repeat
+Field: Printing Settings
+Field: Letter Head
+Field: Print Language
+Field: Instructions
+Field: Print Heading
+Field: Other Details
+Field: Remarks
+Field: Group same items
+Field: Transporter Details
+Field: Transporter Name
+Field: Vehicle Number
+Field: Vehicle Date
+
+DocType: Purchase Receipt Item
+Field: Barcode
+Field: Item Code
+Field: Product Bundle
+Field: Supplier Part Number
+Field: Item Name
+Field: Description
+Field: Description
+Field: Brand
+Field: Item Group
+Field: Image
+Field: Image View
+Field: Received and Accepted
+Field: Received Quantity
+Field: Accepted Quantity
+Field: Rejected Quantity
+Field: UOM
+Field: Stock UOM
+Field: Conversion Factor
+Field: Retain Sample
+Field: Sample Quantity
+Field: Received Qty in Stock UOM
+Field: Accepted Qty in Stock UOM
+Field: Returned Qty in Stock UOM
+Field: Rate and Amount
+Field: Price List Rate
+Field: Price List Rate (Company Currency)
+Field: Discount and Margin
+Field: Margin Type
+Field: Margin Rate or Amount
+Field: Rate With Margin
+Field: Discount on Price List Rate (%)
+Field: Discount Amount
+Field: Rate With Margin (Company Currency)
+Field: Rate
+Field: Amount
+Field: Rate (Company Currency)
+Field: Amount (Company Currency)
+Field: Pricing Rules
+Field: Rate of Stock UOM
+Field: Is Free Item
+Field: Net Rate
+Field: Net Amount
+Field: Item Tax Template
+Field: Net Rate (Company Currency)
+Field: Net Amount (Company Currency)
+Field: Valuation Rate
+Field: Item Tax Amount Included in Value
+Field: Raw Materials Supplied Cost
+Field: Landed Cost Voucher Amount
+Field: Billed Amt
+Field: Warehouse and Reference
+Field: Accepted Warehouse
+Field: Rejected Warehouse
+Field: From Warehouse
+Field: Material Request
+Field: Purchase Order
+Field: Purchase Invoice
+Field: Is Fixed Asset
+Field: Asset Location
+Field: Asset Category
+Field: Required By
+Field: Quality Inspection
+Field: Material Request Item
+Field: Purchase Order Item
+Field: Purchase Invoice Item
+Field: Purchase Receipt Item
+Field: Delivery Note Item
+Field: Putaway Rule
+Field: Allow Zero Valuation Rate
+Field: BOM
+Field: Serial No
+Field: Include Exploded Items
+Field: Batch No
+Field: Rejected Serial No
+Field: Item Tax Rate
+Field: Item Weight Details
+Field: Weight Per Unit
+Field: Total Weight
+Field: Weight UOM
+Field: Manufacture
+Field: Manufacturer
+Field: Manufacturer Part Number
+Field: Accounting Details
+Field: Expense Account
+Field: Provisional Expense Account
+Field: Accounting Dimensions
+Field: Project
+Field: Cost Center
+Field: Page Break
+
+DocType: Putaway Rule
+Field: Disable
+Field: Item
+Field: Item Name
+Field: Warehouse
+Field: Priority
+Field: Company
+Field: Capacity
+Field: UOM
+Field: Conversion Factor
+Field: Stock UOM
+Field: Capacity in Stock UOM
+
+DocType: Quality Inspection
+Field: Series
+Field: Report Date
+Field: Status
+Field: Manual Inspection
+Field: Inspection Type
+Field: Reference Type
+Field: Reference Name
+Field: Item Code
+Field: Item Serial No
+Field: Batch No
+Field: Sample Size
+Field: Item Name
+Field: Description
+Field: BOM No
+Field: Quality Inspection Template
+Field: Readings
+Field: Inspected By
+Field: Verified By
+Field: Remarks
+
+DocType: Quality Inspection Parameter
+Field: Parameter
+Field: Parameter Group
+Field: Description
+
+DocType: Quality Inspection Parameter Group
+Field: Parameter Group Name
+
+DocType: Quality Inspection Reading
+Field: Parameter
+Field: Parameter Group
+Field: Status
+Field: Acceptance Criteria Value
+Field: Numeric
+Field: Manual Inspection
+Field: Minimum Value
+Field: Maximum Value
+Field: Formula Based Criteria
+Field: Acceptance Criteria Formula
+Field: Value Based Inspection
+Field: Reading Value
+Field: Numeric Inspection
+Field: Reading 1
+Field: Reading 2
+Field: Reading 3
+Field: Reading 4
+Field: Reading 5
+Field: Reading 6
+Field: Reading 7
+Field: Reading 8
+Field: Reading 9
+Field: Reading 10
+
+DocType: Quality Inspection Template
+Field: Quality Inspection Template Name
+Field: Item Quality Inspection Parameter
+
+DocType: Quick Stock Balance
+Field: Warehouse
+Field: Date
+Field: Item Barcode
+Field: Item Code
+Field: Item Name
+Field: Item Description
+Field: Image View
+Field: Available Quantity
+Field: Stock Value
+
+DocType: Repost Item Valuation
+Field: Based On
+Field: Voucher Type
+Field: Voucher No
+Field: Item Code
+Field: Warehouse
+Field: Posting Date
+Field: Posting Time
+Field: Status
+Field: Company
+Field: Allow Negative Stock
+Field: Via Landed Cost Voucher
+Field: Allow Zero Rate
+Field: Error
+Field: Error Log
+Field: Items to Be Repost
+Field: Affected Transactions
+Field: Distinct Item and Warehouse
+Field: Current Index
+Field: GL reposting index
+
+DocType: Serial No
+Field: Serial No
+Field: Item Code
+Field: Warehouse
+Field: Batch No
+Field: Item Name
+Field: Description
+Field: Item Group
+Field: Brand
+Field: Sales Order
+Field: Purchase / Manufacture Details
+Field: Creation Document Type
+Field: Creation Document No
+Field: Creation Date
+Field: Creation Time
+Field: Incoming Rate
+Field: Supplier
+Field: Supplier Name
+Field: Asset Details
+Field: Asset
+Field: Asset Status
+Field: Location
+Field: Employee
+Field: Delivery Details
+Field: Delivery Document Type
+Field: Delivery Document No
+Field: Delivery Date
+Field: Delivery Time
+Field: Customer
+Field: Customer Name
+Field: Invoice Details
+Field: Sales Invoice
+Field: Warranty / AMC Details
+Field: Warranty Expiry Date
+Field: AMC Expiry Date
+Field: Maintenance Status
+Field: Warranty Period (Days)
+Field: More Information
+Field: Serial No Details
+Field: Company
+Field: Status
+Field: Work Order
+
+DocType: Shipment
+Field: Pickup from
+Field: Pickup from
+Field: Company
+Field: Customer
+Field: Supplier
+Field: Pickup From
+Field: Address
+Field: Pickup Contact Person
+Field: Contact
+Field: Contact Email
+Field: Delivery to
+Field: Delivery to
+Field: Company
+Field: Customer
+Field: Supplier
+Field: Delivery To
+Field: Address
+Field: Contact
+Field: Contact Email
+Field: Parcels
+Field: Shipment Parcel
+Field: Parcel Template
+Field: Add Template
+Field: Shipment Delivery Note
+Field: Shipment details
+Field: Pallets
+Field: Value of Goods
+Field: Pickup Date
+Field: Pickup from
+Field: Pickup to
+Field: Shipment Type
+Field: Pickup Type
+Field: Incoterm
+Field: Description of Content
+Field: Shipment Information
+Field: Service Provider
+Field: Shipment ID
+Field: Shipment Amount
+Field: Status
+Field: Tracking URL
+Field: Carrier
+Field: Carrier Service
+Field: AWB Number
+Field: Tracking Status
+Field: Tracking Status Info
+
+DocType: Shipment Delivery Note
+Field: Delivery Note
+Field: Value
+
+DocType: Shipment Parcel
+Field: Length (cm)
+Field: Width (cm)
+Field: Height (cm)
+Field: Weight (kg)
+Field: Count
+
+DocType: Shipment Parcel Template
+Field: Parcel Template Name
+Field: Length (cm)
+Field: Width (cm)
+Field: Height (cm)
+Field: Weight (kg)
+
+DocType: Stock Entry
+Field: Series
+Field: Stock Entry Type
+Field: Stock Entry (Outward GIT)
+Field: Purpose
+Field: Add to Transit
+Field: Work Order
+Field: Purchase Order
+Field: Delivery Note No
+Field: Sales Invoice No
+Field: Pick List
+Field: Purchase Receipt No
+Field: Company
+Field: Posting Date
+Field: Posting Time
+Field: Edit Posting Date and Time
+Field: Inspection Required
+Field: From BOM
+Field: Apply Putaway Rule
+Field: BOM No
+Field: For Quantity
+Field: Use Multi-Level BOM
+Field: Get Items
+Field: Default Source Warehouse
+Field: Source Warehouse Address
+Field: Source Warehouse Address
+Field: Default Target Warehouse
+Field: Target Warehouse Address
+Field: Target Warehouse Address
+Field: Scan Barcode
+Field: Items
+Field: Update Rate and Availability
+Field: Total Outgoing Value (Consumption)
+Field: Total Incoming Value (Receipt)
+Field: Total Value Difference (Incoming - Outgoing)
+Field: Additional Costs
+Field: Additional Costs
+Field: Total Additional Costs
+Field: Supplier Details
+Field: Supplier
+Field: Supplier Name
+Field: Supplier Address
+Field: Address
+Field: Accounting Dimensions
+Field: Project
+Field: Printing Settings
+Field: Print Heading
+Field: Letter Head
+Field: More Information
+Field: Is Opening
+Field: Remarks
+Field: Per Transferred
+Field: Total Amount
+Field: Job Card
+Field: Credit Note
+Field: Is Return
+
+DocType: Stock Entry Detail
+Field: Barcode
+Field: Source Warehouse
+Field: Target Warehouse
+Field: Item Code
+Field: Item Name
+Field: Is Finished Item
+Field: Is Scrap Item
+Field: Is Process Loss
+Field: Quality Inspection
+Field: Subcontracted Item
+Field: Description
+Field: Description
+Field: Item Group
+Field: Image
+Field: Image View
+Field: Quantity
+Field: Qty
+Field: Qty as per Stock UOM
+Field: Retain Sample
+Field: UOM
+Field: Stock UOM
+Field: Conversion Factor
+Field: Sample Quantity
+Field: Rates
+Field: Basic Rate (as per Stock UOM)
+Field: Additional Cost
+Field: Valuation Rate
+Field: Allow Zero Valuation Rate
+Field: Set Basic Rate Manually
+Field: Basic Amount
+Field: Amount
+Field: Serial No / Batch
+Field: Serial No
+Field: Batch No
+Field: Accounting
+Field: Difference Account
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Project
+Field: More Information
+Field: Actual Qty (at source/target)
+Field: Transferred Qty
+Field: BOM No
+Field: Allow Alternative Item
+Field: Material Request
+Field: Material Request Item
+Field: Original Item
+Field: Reference
+Field: Against Stock Entry
+Field: Stock Entry Child
+Field: PO Supplied Item
+Field: Putaway Rule
+Field: Reference Purchase Receipt
+Field: Job Card Item
+
+DocType: Stock Entry Type
+Field: Purpose
+Field: Add to Transit
+
+DocType: Stock Ledger Entry
+Field: Item Code
+Field: Warehouse
+Field: Posting Date
+Field: Posting Time
+Field: Voucher Type
+Field: Voucher No
+Field: Voucher Detail No
+Field: Dependant SLE Voucher Detail No
+Field: Recalculate Incoming/Outgoing Rate
+Field: Actual Quantity
+Field: Actual Qty After Transaction
+Field: Incoming Rate
+Field: Outgoing Rate
+Field: Valuation Rate
+Field: Stock Value
+Field: Stock Value Difference
+Field: Stock Queue (FIFO)
+Field: Company
+Field: Stock UOM
+Field: Project
+Field: Batch No
+Field: Fiscal Year
+Field: Serial No
+Field: Is Cancelled
+Field: To Rename
+
+DocType: Stock Reconciliation
+Field: Series
+Field: Company
+Field: Purpose
+Field: Posting Date
+Field: Posting Time
+Field: Edit Posting Date and Time
+Field: Items
+Field: Difference Account
+Field: Difference Amount
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: Stock Reconciliation Item
+Field: Barcode
+Field: Item Code
+Field: Item Name
+Field: Warehouse
+Field: Quantity
+Field: Valuation Rate
+Field: Amount
+Field: Allow Zero Valuation Rate
+Field: Serial No and Batch
+Field: Serial No
+Field: Batch No
+Field: Before reconciliation
+Field: Current Qty
+Field: Current Serial No
+Field: Current Valuation Rate
+Field: Current Amount
+Field: Quantity Difference
+Field: Amount Difference
+
+DocType: Stock Reposting Settings
+Field: Scheduling
+Field: Limit timeslot for Stock Reposting
+Field: Start Time
+Field: End Time
+Field: Limits don't apply on
+Field: Use Item based reposting
+
+DocType: Stock Settings
+Field: Item Defaults
+Field: Item Naming By
+Field: Default Item Group
+Field: Default Stock UOM
+Field: Default Warehouse
+Field: Default Valuation Method
+Field: Sample Retention Warehouse
+Field: Have Default Naming Series for Batch ID?
+Field: Naming Series Prefix
+Field: Stock Transactions Settings
+Field: Over Delivery/Receipt Allowance (%)
+Field: Role Allowed to Over Deliver/Receive
+Field: Over Transfer Allowance
+Field: Auto Insert Item Price If Missing
+Field: Update Existing Price List Rate
+Field: Allow Negative Stock
+Field: Show Barcode Field in Stock Transactions
+Field: Convert Item Description to Clean HTML in Transactions
+Field: Quality Inspection Settings
+Field: Action If Quality Inspection Is Not Submitted
+Field: Action If Quality Inspection Is Rejected
+Field: Serialised and Batch Setting
+Field: Automatically Set Serial Nos Based on FIFO
+Field: Set Qty in Transactions Based on Serial No Input
+Field: Disable Serial No And Batch Selector
+Field: Auto Material Request
+Field: Raise Material Request When Stock Reaches Re-order Level
+Field: Notify by Email on Creation of Automatic Material Request
+Field: Inter Warehouse Transfer Settings
+Field: Allow Material Transfer from Delivery Note to Sales Invoice
+Field: Allow Material Transfer from Purchase Receipt to Purchase Invoice
+Field: Control Historical Stock Transactions
+Field: Stock Frozen Upto
+Field: Freeze Stocks Older Than (Days)
+Field: Role Allowed to Create/Edit Back-dated Transactions
+Field: Role Allowed to Edit Frozen Stock
+
+DocType: UOM Category
+Field: Category Name
+
+DocType: UOM Conversion Detail
+Field: UOM
+Field: Conversion Factor
+
+DocType: Variant Field
+Field: Field Name
+
+DocType: Warehouse
+Field: Warehouse Detail
+Field: Warehouse Name
+Field: Warehouse Type
+Field: Parent Warehouse
+Field: Default In-Transit Warehouse
+Field: Is Group
+Field: Account
+Field: Company
+Field: Disabled
+Field: Address and Contact
+Field: Address HTML
+Field: Contact HTML
+Field: Warehouse Contact Info
+Field: Email Address
+Field: Phone No
+Field: Mobile No
+Field: Address Line 1
+Field: Address Line 2
+Field: City
+Field: State
+Field: PIN
+Field: Tree Details
+Field: lft
+Field: rgt
+Field: Old Parent
+
+DocType: Warehouse Type
+Field: Description

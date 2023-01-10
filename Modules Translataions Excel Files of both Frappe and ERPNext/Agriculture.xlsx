@@ -1,0 +1,177 @@
+Module: Agriculture
+DocType: Agriculture Analysis Criteria
+Field: Title
+Field: Standard
+Field: Linked Doctype
+
+DocType: Agriculture Task
+Field: Task Name
+Field: Start Day
+Field: End Day
+Field: Holiday Management
+Field: Priority
+
+DocType: Crop
+Field: Title
+Field: Crop Name
+Field: Scientific Name
+Field: Tasks
+Field: Agriculture Task
+Field: Period
+Field: Crop Spacing
+Field: Crop Spacing UOM
+Field: Row Spacing
+Field: Row Spacing UOM
+Field: Type
+Field: Category
+Field: Target Warehouse
+Field: Planting UOM
+Field: Planting Area
+Field: Yield UOM
+Field: Materials Required
+Field: Materials Required
+Field: Produced Items
+Field: Produce
+Field: Byproducts
+Field: Byproducts
+
+DocType: Crop Cycle
+Field: Title
+Field: Crop
+Field: Linked Location
+Field: Linked Location
+Field: Project
+Field: Start Date
+Field: End Date
+Field: ISO 8601 standard
+Field: Cycle Type
+Field: Crop Spacing
+Field: Crop Spacing UOM
+Field: Row Spacing
+Field: Row Spacing UOM
+Field: Detected Diseases
+Field: Detected Disease
+Field: LInked Analysis
+Field: Soil Texture
+Field: Soil Analysis
+Field: Plant Analysis
+
+DocType: Detected Disease
+Field: Disease
+Field: Start Date
+Field: Tasks Created
+
+DocType: Disease
+Field: Common Name
+Field: Scientific Name
+Field: Treatment Task
+Field: Treatment Period
+Field: Treatment Task
+Field: Description
+
+DocType: Fertilizer
+Field: Fertilizer Name
+Field: Item
+Field: Density (if liquid)
+Field: Fertilizer Contents
+
+DocType: Fertilizer Content
+Field: Title
+Field: Value
+
+DocType: Linked Location
+Field: Location
+
+DocType: Linked Plant Analysis
+Field: Plant Analysis
+
+DocType: Linked Soil Analysis
+Field: Soil Analysis
+
+DocType: Linked Soil Texture
+Field: Soil Texture
+
+DocType: Plant Analysis
+Field: Crop
+Field: Location
+Field: Collection Datetime
+Field: Laboratory Testing Datetime
+Field: Result Datetime
+Field: Plant Analysis Criterias
+Field: 
+
+DocType: Plant Analysis Criteria
+Field: Title
+Field: Value
+Field: Minimum Permissible Value
+Field: Maximum Permissible Value
+
+DocType: Soil Analysis
+Field: Location
+Field: Collection Datetime
+Field: Laboratory Testing Datetime
+Field: Result Datetime
+Field: Ca/K
+Field: Ca/Mg
+Field: Mg/K
+Field: (Ca+Mg)/K
+Field: Ca/(K+Ca+Mg)
+Field: Invoice Number
+Field: Soil Analysis Criterias
+
+DocType: Soil Analysis Criteria
+Field: Title
+Field: Value
+Field: Minimum Permissible Value
+Field: Maximum Permissible Value
+
+DocType: Soil Texture
+Field: Location
+Field: Collection Datetime
+Field: Laboratory Testing Datetime
+Field: Result Datetime
+Field: Soil Type
+Field: Clay Composition (%)
+Field: Sand Composition (%)
+Field: Silt Composition (%)
+Field: Ternary Plot
+Field: Soil Texture Criteria
+
+DocType: Soil Texture Criteria
+Field: Title
+Field: Value
+Field: Minimum Permissible Value
+Field: Maximum Permissible Value
+
+DocType: Water Analysis
+Field: Location
+Field: 
+Field: Collection Datetime
+Field: Laboratory Testing Datetime
+Field: Result Datetime
+Field: Type of Sample
+Field: Container
+Field: Origin
+Field: Collection Temperature 
+Field: Storage Temperature
+Field: Appearance
+Field: Person Responsible
+Field: Water Analysis Criteria
+
+DocType: Water Analysis Criteria
+Field: Title
+Field: Value
+Field: Minimum Permissible Value
+Field: Maximum Permissible Value
+
+DocType: Weather
+Field: Location
+Field: Date
+Field: Source
+Field: Weather Parameter
+
+DocType: Weather Parameter
+Field: Title
+Field: Value
+Field: Minimum Permissible Value
+Field: Maximum Permissible Value

@@ -1,0 +1,347 @@
+Module: Loan Management
+DocType: Loan
+Field: Applicant Type
+Field: Applicant
+Field: Applicant Name
+Field: Loan Application
+Field: Company
+Field: Posting Date
+Field: Status
+Field: Repay From Salary
+Field: Manually Update Paid Amount in Salary Slip
+Field: Loan Details
+Field: Loan Type
+Field: Repayment Schedule Type
+Field: Loan Amount
+Field: Rate of Interest (%) / Year
+Field: Is Secured Loan
+Field: Disbursement Date
+Field: Closure Date
+Field: Disbursed Amount
+Field: Maximum Loan Amount
+Field: Repayment Method
+Field: Repayment Period in Months
+Field: Monthly Repayment Amount
+Field: Repayment Start Date
+Field: Is Term Loan
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Account Info
+Field: Mode of Payment
+Field: Disbursement Account
+Field: Payment Account
+Field: Loan Account
+Field: Interest Income Account
+Field: Penalty Income Account
+Field: Repayment Schedule
+Field: Repayment Schedule
+Field: Totals
+Field: Total Payable Amount
+Field: Total Principal Paid
+Field: Written Off Amount
+Field: Refund amount
+Field: Debit Adjustment Amount
+Field: Credit Adjustment Amount
+Field: Total Interest Payable
+Field: Total Amount Paid
+Field: Is NPA
+
+DocType: Loan Application
+Field: Applicant Type
+Field: Applicant
+Field: Applicant Name
+Field: Company
+Field: Posting Date
+Field: Status
+Field: Loan Info
+Field: Loan Type
+Field: Is Term Loan
+Field: Loan Amount
+Field: Is Secured Loan
+Field: Rate of Interest
+Field: Reason
+Field: Loan Security Details
+Field: Proposed Pledges
+Field: Maximum Loan Amount
+Field: Repayment Info
+Field: Repayment Method
+Field: Total Payable Amount
+Field: Repayment Period in Months
+Field: Monthly Repayment Amount
+Field: Total Payable Interest
+
+DocType: Loan Balance Adjustment
+Field: Loan
+Field: Applicant Type
+Field: Applicant 
+Field: Company
+Field: Posting Date
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Adjustment Details
+Field: Adjustment Account
+Field: Adjustment Type
+Field: Amount
+Field: Reference Number
+Field: Remarks
+
+DocType: Loan Disbursement
+Field: Against Loan 
+Field: Posting Date
+Field: Applicant Type
+Field: Company
+Field: Applicant
+Field: Disbursement Details
+Field: Disbursement Date
+Field: Clearance Date
+Field: Disbursed Amount
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Accounting Details
+Field: Disbursement Account
+Field: Loan Account
+Field: Bank Account
+Field: Disbursement References
+Field: Reference Date
+Field: Reference Number
+
+DocType: Loan Interest Accrual
+Field: Loan
+Field: Applicant Type
+Field: Applicant
+Field: Interest Income Account
+Field: Loan Account
+Field: Company
+Field: Posting Date
+Field: Accrual Type
+Field: Is Term Loan
+Field: Amounts
+Field: Pending Principal Amount
+Field: Payable Principal Amount
+Field: Paid Principal Amount
+Field: Interest Amount
+Field: Total Pending Interest Amount
+Field: Paid Interest Amount
+Field: Penalty Amount
+Field: Process Loan Interest Accrual
+Field: Repayment Schedule Name
+Field: Last Accrual Date
+
+DocType: Loan Refund
+Field: Loan
+Field: Applicant Type
+Field: Applicant 
+Field: Company
+Field: Posting Date
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Refund Details
+Field: Refund Account
+Field: Refund Amount
+Field: Reference Number
+
+DocType: Loan Repayment
+Field: Against Loan
+Field: Applicant Type
+Field: Applicant
+Field: Loan Type
+Field: Company
+Field: Posting Date
+Field: Clearance Date
+Field: Rate Of Interest
+Field: Payroll Payable Account
+Field: Is Term Loan
+Field: Repay From Salary
+Field: Payment Details
+Field: Due Date
+Field: Pending Principal Amount
+Field: Interest Payable
+Field: Payable Amount
+Field: Shortfall Amount
+Field: Payable Principal Amount
+Field: Penalty Amount
+Field: Amount Paid
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Payment References
+Field: Reference Number
+Field: Reference Date
+Field: Principal Amount Paid
+Field: Total Penalty Paid
+Field: Total Interest Paid
+Field: Repayment Details
+Field: Accounting Details
+Field: Repayment Account
+Field: Penalty Income Account
+Field: Loan Account
+
+DocType: Loan Repayment Detail
+Field: Loan Interest Accrual
+Field: Paid Principal Amount
+Field: Paid Interest Amount
+Field: Accrual Type
+
+DocType: Loan Security
+Field: Loan Security Name
+Field: Haircut %
+Field: Loan Security Code
+Field: Loan Security Type
+Field: Unit Of Measure
+Field: Disabled
+
+DocType: Loan Security Pledge
+Field: Loan  Details
+Field: Applicant Type
+Field: Applicant
+Field: Loan
+Field: Loan Application
+Field: Company
+Field: Pledge Time
+Field: Status
+Field: Loan Security Details
+Field: Securities
+Field: Totals
+Field: Total Security Value
+Field: Maximum Loan Value
+Field: More Information
+Field: Reference No
+Field: Description
+
+DocType: Loan Security Price
+Field: Loan Security
+Field: Loan Security Name
+Field: Loan Security Type
+Field: UOM
+Field: Loan Security Price
+Field: Valid From
+Field: Valid Upto
+
+DocType: Loan Security Shortfall
+Field: Loan 
+Field: Applicant Type
+Field: Applicant
+Field: Status
+Field: Shortfall Time
+Field: Loan Amount
+Field: Shortfall Amount
+Field: Security Value 
+Field: Shortfall Percentage
+Field: Process Loan Security Shortfall
+
+DocType: Loan Security Type
+Field: Loan Security Type
+Field: Unit Of Measure
+Field: Haircut %
+Field: Loan To Value Ratio
+Field: Disabled
+
+DocType: Loan Security Unpledge
+Field: Loan  Details
+Field: Loan
+Field: Applicant Type
+Field: Applicant
+Field: Company
+Field: Unpledge Time
+Field: Status
+Field: Loan Security Details
+Field: Securities
+Field: More Information
+Field: Reference No
+Field: Description
+
+DocType: Loan Type
+Field: Loan Name
+Field: Maximum Loan Amount
+Field: Rate of Interest (%) Yearly
+Field: Penalty Interest Rate (%) Per Day
+Field: Grace Period in Days
+Field: Auto Write Off Amount 
+Field: Company
+Field: Is Term Loan
+Field: Disabled
+Field: Repayment Schedule Type
+Field: Repayment Date On
+Field: Description
+Field: Account Details
+Field: Mode of Payment
+Field: Disbursement Account
+Field: Repayment Account
+Field: Loan Account
+Field: Interest Income Account
+Field: Penalty Income Account
+
+DocType: Loan Write Off
+Field: Loan
+Field: Applicant Type
+Field: Applicant 
+Field: Company
+Field: Posting Date
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Write Off Details
+Field: Write Off Account
+Field: Write Off Amount
+
+DocType: Pledge
+Field: Loan Security
+Field: Loan Security Name
+Field: Loan Security Type
+Field: Loan Security Code
+Field: UOM
+Field: Quantity
+Field: Haircut %
+Field: Loan Security Price
+Field: Amount
+Field: Post Haircut Amount
+
+DocType: Process Loan Interest Accrual
+Field: Posting Date
+Field: Loan Type
+Field: Loan 
+Field: Process Type
+Field: Accrual Type
+
+DocType: Process Loan Security Shortfall
+Field: Update Time
+
+DocType: Proposed Pledge
+Field: Loan Security
+Field: Loan Security Name
+Field: Quantity
+Field: Loan Security Price
+Field: Amount
+Field: Haircut %
+Field: Post Haircut Amount
+
+DocType: Repayment Schedule
+Field: Payment Date
+Field: Principal Amount
+Field: Interest Amount
+Field: Total Payment
+Field: Balance Loan Amount
+Field: Is Accrued
+
+DocType: Salary Slip Loan
+Field: Loan
+Field: Loan Type
+Field: Loan Account
+Field: Interest Income Account
+Field: Principal Amount
+Field: Interest Amount
+Field: Paid Amount
+Field: Loan Repayment Entry
+
+DocType: Sanctioned Loan Amount
+Field: Applicant Type
+Field: Applicant
+Field: Company
+Field: Sanctioned Amount Limit
+
+DocType: Unpledge
+Field: Loan Security
+Field: Loan Security Name
+Field: Loan Security Type
+Field: Loan Security Code
+Field: Haircut
+Field: UOM
+Field: Quantity

@@ -1,0 +1,233 @@
+Module: Assets
+DocType: Asset
+Field: Company
+Field: Item Code
+Field: Item Name
+Field: Asset Owner
+Field: Asset Owner Company
+Field: Is Existing Asset
+Field: Supplier
+Field: Customer
+Field: Image
+Field: Journal Entry for Scrap
+Field: Naming Series
+Field: Asset Name
+Field: Asset Category
+Field: Location
+Field: Custodian
+Field: Department
+Field: Disposal Date
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Purchase Details
+Field: Purchase Receipt
+Field: Purchase Invoice
+Field: Available-for-use Date
+Field: Gross Purchase Amount
+Field: Purchase Date
+Field: Depreciation
+Field: Calculate Depreciation
+Field: Opening Accumulated Depreciation
+Field: Number of Depreciations Booked
+Field: Finance Books
+Field: Finance Books
+Field: Depreciation Method
+Field: Value After Depreciation
+Field: Total Number of Depreciations
+Field: Frequency of Depreciation (Months)
+Field: Next Depreciation Date
+Field: Depreciation Schedule
+Field: Depreciation Schedule
+Field: Insurance details
+Field: Policy number
+Field: Insurer
+Field: Insured value
+Field: Insurance Start Date
+Field: Insurance End Date
+Field: Comprehensive Insurance
+Field: Maintenance
+Field: Maintenance Required
+Field: Other Details
+Field: Status
+Field: Booked Fixed Asset
+Field: Purchase Receipt Amount
+Field: Default Finance Book
+
+DocType: Asset Category
+Field: Asset Category Name
+Field: Depreciation Options
+Field: Enable Capital Work in Progress Accounting
+Field: Finance Book Detail
+Field: Finance Books
+Field: Accounts
+Field: Accounts
+
+DocType: Asset Category Account
+Field: Company
+Field: Fixed Asset Account
+Field: Accumulated Depreciation Account
+Field: Depreciation Expense Account
+Field: Capital Work In Progress Account
+
+DocType: Asset Finance Book
+Field: Finance Book
+Field: Depreciation Method
+Field: Total Number of Depreciations
+Field: Frequency of Depreciation (Months)
+Field: Depreciation Posting Date
+Field: Expected Value After Useful Life
+Field: Value After Depreciation
+Field: Rate of Depreciation
+
+DocType: Asset Maintenance
+Field: Asset Name
+Field: Asset Category
+Field: Company
+Field: Item Code
+Field: Item Name
+Field: Maintenance Team
+Field: Maintenance Manager
+Field: Maintenance Manager Name
+Field: Tasks
+Field: Maintenance Tasks
+
+DocType: Asset Maintenance Log
+Field: Asset Maintenance
+Field: Series
+Field: Asset Name
+Field: Item Code
+Field: Item Name
+Field: Maintenance Details
+Field: Task
+Field: Task Name
+Field: Maintenance Type
+Field: Periodicity
+Field: Has Certificate 
+Field: Certificate
+Field: Maintenance Status
+Field: Assign To
+Field: Due Date
+Field: Completion Date
+Field: Description
+Field: Actions performed
+
+DocType: Asset Maintenance Task
+Field: Maintenance Task
+Field: Maintenance Type
+Field: Maintenance Status
+Field: Start Date
+Field: Periodicity
+Field: End Date
+Field: Certificate Required
+Field: Assign To
+Field: Assign to Name
+Field: Next Due Date
+Field: Last Completion Date
+Field: Description
+
+DocType: Asset Maintenance Team
+Field: Maintenance Team Name
+Field: Maintenance Manager
+Field: Maintenance Manager Name
+Field: Company
+Field: Team
+Field: Maintenance Team Members
+
+DocType: Asset Movement
+Field: Company
+Field: Purpose
+Field: Transaction Date
+Field: Assets
+Field: Reference
+Field: Reference Document Type
+Field: Reference Document Name
+
+DocType: Asset Movement Item
+Field: Company
+Field: Asset
+Field: Source Location
+Field: From Employee
+Field: Asset Name
+Field: Target Location
+Field: To Employee
+
+DocType: Asset Repair
+Field: Asset
+Field: Company
+Field: Asset Name
+Field: Series
+Field: Repair Details
+Field: Failure Date
+Field: Repair Status
+Field: Completion Date
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Project
+Field: Accounting Details
+Field: Repair Cost
+Field: Capitalize Repair Cost
+Field: Stock Consumed During Repair
+Field: Purchase Invoice
+Field: Stock Consumption Details
+Field: Warehouse
+Field: Stock Items
+Field: Total Repair Cost
+Field: Stock Entry
+Field: Asset Depreciation Details
+Field: Increase In Asset Life(Months)
+Field: Description
+Field: Error Description
+Field: Actions performed
+Field: Downtime
+
+DocType: Asset Repair Consumed Item
+Field: Item
+Field: Valuation Rate
+Field: Consumed Quantity
+Field: Total Value
+Field: Serial No
+
+DocType: Asset Value Adjustment
+Field: Company
+Field: Asset
+Field: Asset Category
+Field: Date
+Field: Finance Book
+Field: Value Details
+Field: Current Asset Value
+Field: New Asset Value
+Field: Difference Amount
+Field: Journal Entry
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: Depreciation Schedule
+Field: Finance Book
+Field: Schedule Date
+Field: Depreciation Amount
+Field: Accumulated Depreciation Amount
+Field: Journal Entry
+Field: Make Depreciation Entry
+Field: Finance Book Id
+Field: Depreciation Method
+
+DocType: Location
+Field: Location Name
+Field: Parent Location
+Field: Is Container
+Field: Is Group
+Field: Location Details
+Field: Latitude
+Field: Longitude
+Field: Area
+Field: Area UOM
+Field: Location
+Field: Tree Details
+Field: lft
+Field: rgt
+Field: Old Parent
+
+DocType: Maintenance Team Member
+Field: Team Member
+Field: Full Name
+Field: Maintenance Role

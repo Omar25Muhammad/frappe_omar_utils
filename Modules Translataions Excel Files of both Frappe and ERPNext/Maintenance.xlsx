@@ -1,0 +1,79 @@
+Module: Maintenance
+DocType: Maintenance Schedule
+Field: Series
+Field: Customer
+Field: Status
+Field: Transaction Date
+Field: Items
+Field: Schedule
+Field: Generate Schedule
+Field: Schedules
+Field: Contact Info
+Field: Customer Name
+Field: Contact Person
+Field: Mobile No
+Field: Contact Email
+Field: Contact
+Field: Customer Address
+Field: Address
+Field: Territory
+Field: Customer Group
+Field: Company
+
+DocType: Maintenance Schedule Detail
+Field: Item Code
+Field: Item Name
+Field: Scheduled Date
+Field: Actual Date
+Field: Sales Person
+Field: Completion Status
+Field: Serial No
+Field: Item Reference
+
+DocType: Maintenance Schedule Item
+Field: Item Code
+Field: Item Name
+Field: Description
+Field: Start Date
+Field: End Date
+Field: Periodicity
+Field: No of Visits
+Field: Sales Person
+Field: Reference
+Field: Serial No
+Field: Sales Order
+
+DocType: Maintenance Visit
+Field: Series
+Field: Customer
+Field: Customer Name
+Field: Address
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Maintenance Schedule
+Field: Maintenance Schedule Detail
+Field: Maintenance Date
+Field: Maintenance Time
+Field: Completion Status
+Field: Maintenance Type
+Field: Purposes
+Field: More Information
+Field: Customer Feedback
+Field: Status
+Field: Company
+Field: Contact Info
+Field: Customer Address
+Field: Contact Person
+Field: Territory
+Field: Customer Group
+
+DocType: Maintenance Visit Purpose
+Field: Item Code
+Field: Item Name
+Field: Sales Person
+Field: Serial No
+Field: Description
+Field: Work Done
+Field: Document Type
+Field: Against Document No

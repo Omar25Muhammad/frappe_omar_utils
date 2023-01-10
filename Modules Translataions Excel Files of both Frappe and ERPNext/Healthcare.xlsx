@@ -1,0 +1,967 @@
+Module: Healthcare
+DocType: Antibiotic
+Field: Antibiotic Name
+Field: Abbr
+
+DocType: Appointment Type
+Field: Type
+Field: Is Inpatient
+Field: Default Duration (In Minutes)
+Field: Color
+Field: Billing
+Field: Price List
+Field: Appointment Type Service Items
+
+DocType: Appointment Type Service Item
+Field: Medical Department
+Field: Out Patient Consulting Charge Item
+Field: Out Patient Consulting Charge
+Field: Inpatient Visit Charge Item
+Field: Inpatient Visit Charge
+
+DocType: Body Part
+Field: Body Part
+
+DocType: Body Part Link
+Field: Body Part
+
+DocType: Clinical Procedure
+Field: Series
+Field: Title
+Field: Appointment
+Field: Procedure Template
+Field: Medical Code
+Field: Company
+Field: Invoiced
+Field: Patient
+Field: Patient Name
+Field: Gender
+Field: Age
+Field: Inpatient Record
+Field: Notes
+Field: Status
+Field: Healthcare Practitioner
+Field: Practitioner Name
+Field: Medical Department
+Field: Service Unit
+Field: Start Date
+Field: Start Time
+Field: Sample
+Field: Consumables
+Field: Consume Stock
+Field: Warehouse
+Field: Consumables
+Field: Invoice Consumables Separately
+Field: Consumption Invoiced
+Field: Consumable Total Amount
+Field: Consumption Details
+Field: Procedure Prescription
+
+DocType: Clinical Procedure Item
+Field: Item
+Field: Item Name
+Field: Quantity
+Field: Barcode
+Field: UOM
+Field: Invoice Separately as Consumables
+Field: Batch
+Field: Conversion Factor
+Field: Stock UOM
+Field: Transfer Qty
+Field: Actual Qty (at source/target)
+
+DocType: Clinical Procedure Template
+Field: Template Name
+Field: Item
+Field: Item Code
+Field: Item Group
+Field: Description
+Field: Disabled
+Field: Is Billable
+Field: Rate
+Field: Medical Department
+Field: Medical Coding
+Field: Medical Code Standard
+Field: Medical Code
+Field: Consumables
+Field: Allow Stock Consumption
+Field: Items
+Field: Sample Collection
+Field: Sample
+Field: Sample UOM
+Field: Quantity
+Field: Collection Details
+Field: Change In Item
+
+DocType: Codification Table
+Field: Medical Code
+Field: Code
+Field: Description
+
+DocType: Complaint
+Field: Complaints
+
+DocType: Descriptive Test Result
+Field: Particulars
+Field: Value
+Field: Allow Blank
+Field: Template
+Field: Require Result Value
+
+DocType: Descriptive Test Template
+Field: Result Component
+Field: Allow Blank
+
+DocType: Diagnosis
+Field: Diagnosis
+
+DocType: Dosage Form
+Field: Dosage Form
+
+DocType: Dosage Strength
+Field: Strength
+Field: Time
+
+DocType: Drug Prescription
+Field: Drug
+Field: Drug Name / Description
+Field: Dosage
+Field: Period
+Field: Dosage Form
+Field: Comment
+Field: Dosage by Time Interval
+Field: Interval
+Field: Interval UOM
+Field: Update Schedule
+
+DocType: Exercise
+Field: Exercise Type
+Field: Difficulty Level
+Field: Counts Target
+Field: Counts Completed
+Field: Assistance Level
+
+DocType: Exercise Difficulty Level
+Field: Difficulty Level
+
+DocType: Exercise Type
+Field: Exercise Name
+Field: Body Parts
+Field: Difficulty Level
+Field: Description
+Field: Exercise Instructions
+Field: Exercise Video
+Field: Exercise Steps
+Field: Steps
+Field: Steps Table
+
+DocType: Exercise Type Step
+Field: Title
+Field: Image
+Field: Description
+
+DocType: Fee Validity
+Field: Healthcare Practitioner
+Field: Patient
+Field: Status
+Field: Validity
+Field: Max number of visit
+Field: Visits Completed
+Field: Reference Appointments
+Field: Start Date
+Field: Valid Till
+
+DocType: Fee Validity Reference
+Field: Patient Appointment
+
+DocType: Healthcare Practitioner
+Field: Basic Details
+Field: Series
+Field: First Name
+Field: Middle Name (Optional)
+Field: Last Name
+Field: Full Name
+Field: Gender
+Field: Image
+Field: Status
+Field: Mobile
+Field: Phone (R)
+Field: Phone (Office)
+Field: Employee and User Details
+Field: Employee
+Field: Medical Department
+Field: Designation
+Field: User
+Field: Hospital
+Field: Appointments
+Field: Practitioner Schedules
+Field: Charges
+Field: Out Patient Consulting Charge Item
+Field: Out Patient Consulting Charge
+Field: Inpatient Visit Charge Item
+Field: Inpatient Visit Charge
+Field: Account Details
+Field: Default Currency
+Field: Income Account
+Field: Address and Contacts
+Field: Address HTML
+Field: Contact HTML
+
+DocType: Healthcare Schedule Time Slot
+Field: Day
+Field: From Time
+Field: To Time
+
+DocType: Healthcare Service Unit
+Field: Service Unit
+Field: Is Group
+Field: Service Unit Type
+Field: Allow Appointments
+Field: Allow Overlap
+Field: Service Unit Capacity
+Field: Inpatient Occupancy
+Field: Occupancy Status
+Field: Company
+Field: Warehouse
+Field: Tree Details
+Field: Parent Service Unit
+Field: lft
+Field: rgt
+Field: Old Parent
+
+DocType: Healthcare Service Unit Type
+Field: Disabled
+Field: Service Unit Type
+Field: Allow Appointments
+Field: Allow Overlap
+Field: Inpatient Occupancy
+Field: Is Billable
+Field: Item Details
+Field: Item
+Field: Item Code
+Field: Item Group
+Field: UOM
+Field: UOM Conversion in Hours
+Field: Rate / UOM
+Field: Description
+Field: Change in Item
+
+DocType: Healthcare Settings
+Field: Out Patient Settings
+Field: Patient Name By
+Field: Link Customer to Patient
+Field: Default Medical Code Standard
+Field: Collect Fee for Patient Registration
+Field: Registration Fee
+Field: Automate Appointment Invoicing
+Field: Enable Free Follow-ups
+Field: Number of Patient Encounters in Valid Days
+Field: Valid Number of Days
+Field: Inpatient Settings
+Field: Allow Discharge Despite Unbilled Healthcare Services
+Field: Do Not Bill Patient Encounters for Inpatients
+Field: Default Healthcare Service Items
+Field: Inpatient Visit Charge Item
+Field: Out Patient Consulting Charge Item
+Field: Clinical Procedure Consumable Item
+Field: Default Accounts
+Field: Income Account
+Field: Receivable Account
+Field: Out Patient SMS Alerts
+Field: Patient Registration
+Field: Registration Message
+Field: Appointment Confirmation
+Field: Confirmation Message
+Field: Avoid Confirmation
+Field: Appointment Reminder
+Field: Reminder Message
+Field: Remind Before
+Field: Laboratory Settings
+Field: Create Lab Test(s) on Sales Invoice Submission
+Field: Create Sample Collection document for Lab Test
+Field: Do not print or email Lab Tests without Approval
+Field: Employee name and designation in print
+Field: Custom Signature in Print
+Field: Laboratory SMS Alerts
+Field: Result Printed Message
+Field: Result Emailed Message
+
+DocType: Inpatient Medication Entry
+Field: Naming Series
+Field: Company
+Field: Posting Date
+Field: Status
+Field: Filters
+Field: Item Code (Drug)
+Field: Assigned To
+Field: Patient
+Field: Healthcare Practitioner
+Field: Healthcare Service Unit
+Field: From Date
+Field: To Date
+Field: From Time
+Field: To Time
+Field: Medication Orders
+Field: Get Pending Medication Orders
+Field: Inpatient Medication Orders
+Field: Stock Details
+Field: Update Stock
+Field: Medication Warehouse
+
+DocType: Inpatient Medication Entry Detail
+Field: Patient
+Field: Patient Name
+Field: Inpatient Record
+Field: Service Unit
+Field: Datetime
+Field: Medication Details
+Field: Drug Code
+Field: Drug Name
+Field: Dosage
+Field: Available Qty
+Field: Dosage Form
+Field: Instructions
+Field: References
+Field: Against Inpatient Medication Order
+Field: Against Inpatient Medication Order Entry
+
+DocType: Inpatient Medication Order
+Field: Patient Details
+Field: Naming Series
+Field: Patient Encounter
+Field: Patient
+Field: Patient Name
+Field: Patient Age
+Field: Inpatient Record
+Field: Company
+Field: Status
+Field: Healthcare Practitioner
+Field: Start Date
+Field: End Date
+Field: Medication Orders
+Field: Medication Orders
+Field: Other Details
+Field: Total Orders
+Field: Completed Orders
+
+DocType: Inpatient Medication Order Entry
+Field: Drug
+Field: Drug Name
+Field: Dosage
+Field: Dosage Form
+Field: Instructions
+Field: Date
+Field: Time
+Field: Is Order Completed
+
+DocType: Inpatient Occupancy
+Field: Healthcare Service Unit
+Field: Check In
+Field: Left
+Field: Check Out
+Field: Invoiced
+
+DocType: Inpatient Record
+Field: Series
+Field: Patient
+Field: Patient Name
+Field: Gender
+Field: Blood Group
+Field: Date of birth
+Field: Mobile
+Field: Email
+Field: Phone
+Field: Company
+Field: Status
+Field: Admission Schedule Date
+Field: Admitted Datetime
+Field: Expected Discharge
+Field: Admission Order Details
+Field: Patient Encounter
+Field: Healthcare Practitioner (Primary)
+Field: Medical Department
+Field: Admission Ordered For
+Field: Expected Length of Stay
+Field: Admission Service Unit Type
+Field: Healthcare Practitioner (Secondary)
+Field: Admission Instruction
+Field: Encounter Impression
+Field: Chief Complaint
+Field: Diagnosis
+Field: Medications
+Field: Investigations
+Field: Procedures
+Field: Rehabilitation
+Field: Therapy Plan
+Field: Inpatient Occupancy
+Field: Transfer
+Field: Discharge Detials
+Field: Discharge Ordered Datetime
+Field: Healthcare Practitioner
+Field: Patient Encounter
+Field: Discharge Datetime
+Field: Discharge Instructions
+Field: Follow Up Date
+Field: Discharge Notes
+
+DocType: Lab Prescription
+Field: Lab Test
+Field: Lab Test Name
+Field: Invoiced
+Field: Comments
+Field: Test Created
+
+DocType: Lab Test
+Field: Series
+Field: Test Template
+Field: Test Name
+Field: Test Group
+Field: Medical Code
+Field: Department
+Field: Company
+Field: Status
+Field: Submitted Date
+Field: Result Date
+Field: Approved Date
+Field: Expected Result Date
+Field: Expected Result Time
+Field: Printed on
+Field: Invoiced
+Field: Patient
+Field: Patient Name
+Field: Age
+Field: Gender
+Field: Inpatient Record
+Field: Report Preference
+Field: Email
+Field: Mobile
+Field: Requesting Practitioner
+Field: Requesting Practitioner
+Field: Requesting Department
+Field: Employee (Lab Technician)
+Field: Lab Technician Name
+Field: Lab Technician Designation
+Field: User
+Field: Sample ID
+Field: Compound Test Result
+Field: Normal Test Result
+Field: Descriptive Test Result
+Field: Descriptive Test Result
+Field: Organism Test Result
+Field: Organism Test Result
+Field: Sensitivity Test Result
+Field: Sensitivity Test Result
+Field: Comments
+Field: Comments
+Field: Custom Result
+Field: Custom Result
+Field: Worksheet Print
+Field: Worksheet Instructions
+Field: Result Legend Print
+Field: Print Position
+Field: Result Legend
+Field: Prescription
+
+DocType: Lab Test Group Template
+Field: Test Name
+Field: Rate
+Field: Description
+Field: Event
+Field: UOM
+Field: Secondary UOM
+Field: Conversion Factor
+Field: Allow Blank
+Field: Normal Range
+
+DocType: Lab Test Sample
+Field: Sample
+Field: UOM
+
+DocType: Lab Test Template
+Field: Test Name
+Field: Item
+Field: Item Code
+Field: Item Group
+Field: Department
+Field: Disabled
+Field: Result Format
+Field: Is Billable
+Field: Rate
+Field: Description 
+Field: Description
+Field: Lab Routine
+Field: UOM
+Field: Secondary UOM
+Field: Conversion Factor
+Field: Normal Range
+Field: Compound
+Field: Descriptive Test
+Field: Sensitivity
+Field: Group Tests
+Field: Sample Collection
+Field: Sample
+Field: UOM
+Field: Quantity
+Field: Collection Details
+Field: Medical Coding
+Field: Medical Code
+Field: Medical Code Standard
+Field: Worksheet Print
+Field: Worksheet Instructions
+Field: Result Legend Print
+Field: Print Position
+Field: Result Legend
+Field: Change In Item
+
+DocType: Lab Test UOM
+Field: Lab Test UOM
+Field: Description
+
+DocType: Medical Code
+Field: Medical Code Standard
+Field: Code
+Field: Description
+
+DocType: Medical Code Standard
+Field: Medical Code
+
+DocType: Medical Department
+Field: Department
+
+DocType: Normal Test Result
+Field: Test Name
+Field: Event
+Field: Result Value
+Field: UOM
+Field: Secondary UOM Result
+Field: Secondary UOM
+Field: Conversion Factor
+Field: Allow Blank
+Field: Normal Range
+Field: Comment
+Field: Bold
+Field: Italic
+Field: Underline
+Field: Template
+Field: Require Result Value
+
+DocType: Normal Test Template
+Field: Test
+Field: Event
+Field: Allow Blank
+Field: UOM
+Field: Secondary UOM
+Field: Conversion Factor
+Field: Normal Range
+
+DocType: Organism
+Field: Organism
+Field: Abbr
+
+DocType: Organism Test Item
+Field: Organism
+Field: Colony Population
+Field: Colony UOM
+
+DocType: Organism Test Result
+Field: Organism
+Field: Colony Population
+Field: Colony UOM
+
+DocType: Patient
+Field: Patient Demographics
+Field: Series
+Field: First Name
+Field: Middle Name (optional)
+Field: Last Name
+Field: Full Name
+Field: Gender
+Field: Blood Group
+Field: Date of birth
+Field: Age
+Field: Image
+Field: Status
+Field: Identification Number (UID)
+Field: Inpatient Record
+Field: Inpatient Status
+Field: Report Preference
+Field: Mobile
+Field: Phone
+Field: Email
+Field: Invite as User
+Field: User ID
+Field: Address and Contact
+Field: Address HTML
+Field: Contact HTML
+Field: Customer Details
+Field: Customer
+Field: Customer Group
+Field: Territory
+Field: Billing Currency
+Field: Default Price List
+Field: Print Language
+Field: Personal and Social History
+Field: Occupation
+Field: Marital Status
+Field: Patient Relation
+Field: Patient Relation
+Field: Allergies, Medical and Surgical History
+Field: Allergies
+Field: Medication
+Field: Medical History
+Field: Surgical History
+Field: Risk Factors
+Field: Tobacco Consumption (Past)
+Field: Tobacco Consumption (Present)
+Field: Alcohol Consumption (Past)
+Field: Alcohol Consumption (Present)
+Field: Occupational Hazards and Environmental Factors
+Field: Other Risk Factors
+Field: More Information
+Field: Patient Details
+
+DocType: Patient Appointment
+Field: Series
+Field: Title
+Field: Status
+Field: Patient
+Field: Patient Name
+Field: Gender
+Field: Patient Age
+Field: Inpatient Record
+Field: Company
+Field: Healthcare Practitioner
+Field: Practitioner Name
+Field: Department
+Field: Service Unit
+Field: Appointment Details
+Field: Appointment Type
+Field: Duration (In Minutes)
+Field: Clinical Procedure Template
+Field: Get Prescribed Clinical Procedures
+Field: Procedure Prescription
+Field: Therapy Plan
+Field: Therapy
+Field: Get Prescribed Therapies
+Field: Date
+Field: Time
+Field: Appointment Datetime
+Field: Payments
+Field: Mode of Payment
+Field: Billing Item
+Field: Invoiced
+Field: Paid Amount
+Field: Reference Sales Invoice
+Field: More Info
+Field: Referring Practitioner
+Field: Reminded
+Field: Notes
+
+DocType: Patient Assessment
+Field: Naming Series
+Field: Therapy Session
+Field: Patient
+Field: Assessment Template
+Field: Company
+Field: Healthcare Practitioner
+Field: Assessment Datetime
+Field: Assessment Description
+Field: Assessment Sheet
+Field: Total Score Obtained
+Field: Total Score
+Field: Scale Min
+Field: Scale Max
+
+DocType: Patient Assessment Detail
+Field: Assessment Parameter
+
+DocType: Patient Assessment Parameter
+Field: Assessment Parameter
+
+DocType: Patient Assessment Sheet
+Field: Parameter
+Field: Score
+Field: Time
+Field: Comments
+
+DocType: Patient Assessment Template
+Field: Assessment Name
+Field: Assessment Parameters
+Field: Parameters
+Field: Assessment Scale
+Field: Scale Minimum
+Field: Scale Maximum
+Field: Assessment Description
+
+DocType: Patient Encounter
+Field: Series
+Field: Title
+Field: Appointment
+Field: Appointment Type
+Field: Patient
+Field: Patient Name
+Field: Gender
+Field: Age
+Field: Inpatient Record
+Field: Inpatient Status
+Field: Company
+Field: Encounter Date
+Field: Encounter Time
+Field: Healthcare Practitioner
+Field: Practitioner Name
+Field: Department
+Field: Invoiced
+Field: Encounter Impression
+Field: Symptoms
+Field: In print
+Field: Get Applicable Treatment Plans
+Field: Diagnosis
+Field: In print
+Field: Medical Coding
+Field: Medical Codes
+Field: Medications
+Field: Drug Prescription
+Field: Investigations
+Field: Lab Tests
+Field: Procedures
+Field: Clinical Procedures
+Field: Rehabilitation
+Field: Therapy Plan
+Field: Therapies
+Field: Review Details
+
+DocType: Patient Encounter Diagnosis
+Field: Diagnosis
+
+DocType: Patient Encounter Symptom
+Field: Complaint
+
+DocType: Patient History Custom Document Type
+Field: Document Type
+Field: Date Fieldname
+Field: Add / Edit Fields
+Field: Selected Fields
+
+DocType: Patient History Settings
+Field: Standard Document Types
+Field: Custom Document Types
+
+DocType: Patient History Standard Document Type
+Field: Document Type
+Field: Date Fieldname
+Field: Add / Edit Fields
+Field: Selected Fields
+
+DocType: Patient Medical Record
+Field: Series
+Field: Patient
+Field: Status
+Field: Attach Medical Record
+Field: Subject
+Field: Datetime
+Field: Reference DocType
+Field: Reference Name
+Field: Reference Owner
+Field: User
+
+DocType: Patient Relation
+Field: Patient
+Field: Relation
+Field: Description
+
+DocType: Practitioner Schedule
+Field: Disabled
+Field: Schedule Details
+Field: Schedule Name
+Field: Time Slots
+
+DocType: Practitioner Service Unit Schedule
+Field: Schedule
+Field: Service Unit
+
+DocType: Prescription Dosage
+Field: Dosage
+
+DocType: Prescription Duration
+Field: Number
+Field: Period
+
+DocType: Procedure Prescription
+Field: Clinical Procedure
+Field: Procedure Name
+Field: Department
+Field: Referring Practitioner
+Field: Date
+Field: Comments
+Field: Appointment Booked
+Field: Procedure Created
+Field: Invoiced
+
+DocType: Sample Collection
+Field: Patient Details
+Field: Series
+Field: Patient
+Field: Patient Name
+Field: Age
+Field: Gender
+Field: Inpatient Record
+Field: Company
+Field: Invoiced
+Field: Sample Details
+Field: Sample
+Field: UOM
+Field: Quantity
+Field: Collected By
+Field: Collected On
+Field: No. of prints
+Field: Collection Details
+
+DocType: Sensitivity
+Field: Sensitivity
+
+DocType: Sensitivity Test Result
+Field: Antibiotic
+Field: Sensitivity
+
+DocType: Therapy Plan
+Field: Naming Series
+Field: Patient
+Field: Patient Name
+Field: Invoiced
+Field: Company
+Field: Status
+Field: Start Date
+Field: Therapy Plan Template
+Field: Therapy Plan Details
+Field: Title
+Field: Total Sessions
+Field: Total Sessions Completed
+
+DocType: Therapy Plan Detail
+Field: Therapy Type
+Field: No of Sessions
+Field: Sessions Completed
+
+DocType: Therapy Plan Template
+Field: Plan Name
+Field: Linked Item Details
+Field: Item Code
+Field: Item Name
+Field: Item Group
+Field: Item Description
+Field: Linked Item
+Field: Therapy Types
+Field: Therapy Types
+Field: Total Sessions
+Field: Total Amount
+
+DocType: Therapy Plan Template Detail
+Field: Therapy Type
+Field: No of Sessions
+Field: Rate
+Field: Amount
+
+DocType: Therapy Session
+Field: Series
+Field: Appointment
+Field: Patient
+Field: Patient Name
+Field: Patient Age
+Field: Gender
+Field: Company
+Field: Therapy Plan
+Field: Therapy Type
+Field: Healthcare Practitioner
+Field: Medical Department
+Field: Details
+Field: Medical Code
+Field: Duration
+Field: Rate
+Field: Location
+Field: Healthcare Service Unit
+Field: Start Date
+Field: Start Time
+Field: Invoiced
+Field: Exercises
+Field: Exercises
+Field: Total Counts Targeted
+Field: Total Counts Completed
+
+DocType: Therapy Type
+Field: Disabled
+Field: Therapy Type
+Field: Default Duration (In Minutes)
+Field: Medical Department
+Field: Is Billable
+Field: Rate
+Field: Healthcare Service Unit
+Field: Item Details
+Field: Item
+Field: Item Code
+Field: Item Name
+Field: Item Group
+Field: Description
+Field: Medical Coding
+Field: Medical Code Standard
+Field: Medical Code
+Field: Therapy For
+Field: Add Exercises
+Field: Exercises
+Field: Exercises
+Field: Change In Item
+
+DocType: Treatment Plan Template
+Field: Plan Details
+Field: Template Name
+Field: Description
+Field: Practitioners
+Field: Disabled
+Field: Medical Department
+Field: Goal
+Field: Order Group
+Field: Plan Conditions
+Field: Patient Age From
+Field: Complaints
+Field: Gender
+Field: Patient Age To
+Field: Diagnosis
+Field: Plan Items
+Field: Items
+Field: Drugs
+
+DocType: Treatment Plan Template Item
+Field: Type
+Field: Template
+Field: Qty
+Field: Instructions
+
+DocType: Treatment Plan Template Practitioner
+Field: Practitioner
+
+DocType: Vital Signs
+Field: Series
+Field: Title
+Field: Patient
+Field: Patient Name
+Field: Inpatient Record
+Field: Patient Appointment
+Field: Patient Encounter
+Field: Company
+Field: Date
+Field: Time
+Field: Vital Signs
+Field: Body Temperature
+Field: Heart Rate / Pulse
+Field: Respiratory rate
+Field: Tongue
+Field: Abdomen
+Field: Reflexes
+Field: Blood Pressure (systolic)
+Field: Blood Pressure (diastolic)
+Field: Blood Pressure
+Field: Notes
+Field: Nutrition Values
+Field: Height (In Meter)
+Field: Weight (In Kilogram)
+Field: BMI
+Field: Notes

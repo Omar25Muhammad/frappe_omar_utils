@@ -1,0 +1,66 @@
+Module: Data Migration
+DocType: Data Migration Connector
+Field: Connector Name
+Field: Connector Type
+Field: Python Module
+Field: Authentication Credentials
+Field: Hostname
+Field: Database Name
+Field: Username
+Field: Password
+
+DocType: Data Migration Mapping
+Field: Mapping Name
+Field: Remote Objectname
+Field: Remote Primary Key
+Field: Local DocType
+Field: Local Primary Key
+Field: Mapping Type
+Field: Page Length
+Field: Migration ID Field
+Field: Mapping
+Field: Field Maps
+Field: Condition Detail
+Field: Condition
+
+DocType: Data Migration Mapping Detail
+Field: Remote Fieldname
+Field: Local Fieldname
+Field: Is Child Table
+Field: Child Table Mapping
+
+DocType: Data Migration Plan
+Field: Plan Name
+Field: Module
+Field: Mappings
+Field: Preprocess Method
+Field: Postprocess Method
+
+DocType: Data Migration Plan Mapping
+Field: Mapping
+Field: Enabled
+
+DocType: Data Migration Run
+Field: Data Migration Plan
+Field: Data Migration Connector
+Field: Status
+Field: Start Time
+Field: End Time
+Field: Remote ID
+Field: Current Mapping
+Field: Current Mapping Start
+Field: Current Mapping Delete Start
+Field: Current Mapping Type
+Field: Current Mapping Action
+Field: Total Pages
+Field: Percent Complete
+Field: Trigger Name
+Field: Logs
+Field: Push Insert
+Field: Push Update
+Field: Push Delete
+Field: Push Failed
+Field: Pull Insert
+Field: Pull Update
+Field: Pull Failed
+Field: Log

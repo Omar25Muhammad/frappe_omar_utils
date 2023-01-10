@@ -1,0 +1,163 @@
+Module: Support
+DocType: Issue
+Field: Series
+Field: Subject
+Field: Customer
+Field: Raised By (Email)
+Field: Status
+Field: Priority
+Field: Issue Type
+Field: Issue Split From
+Field: Details
+Field: Description
+Field: Service Level Agreement Details
+Field: Service Level Agreement
+Field: Response By
+Field: Response By Variance
+Field: Reset Service Level Agreement
+Field: Service Level Agreement Status
+Field: Resolution By
+Field: Resolution By Variance
+Field: Service Level Agreement Creation
+Field: On Hold Since
+Field: Total Hold Time
+Field: Response Details
+Field: First Response Time
+Field: First Responded On
+Field: Average Response Time
+Field: Resolution Details
+Field: Resolution Details
+Field: Opening Date
+Field: Opening Time
+Field: Resolution Date
+Field: Resolution Time
+Field: User Resolution Time
+Field: Reference
+Field: Lead
+Field: Contact
+Field: Email Account
+Field: Customer Name
+Field: Project
+Field: Company
+Field: Via Customer Portal
+Field: Attachment
+Field: Content Type
+
+DocType: Issue Priority
+Field: Description
+
+DocType: Issue Type
+Field: Description
+
+DocType: Pause SLA On Status
+Field: Status
+
+DocType: Service Day
+Field: Workday
+Field: Start Time
+Field: End Time
+
+DocType: Service Level Agreement
+Field: Enable
+Field: Service Level
+Field: Default Priority
+Field: Default Service Level Agreement
+Field: Employee Group
+Field: Holiday List
+Field: Entity
+Field: Entity Type
+Field: Entity
+Field: Assignment Condition
+Field: Condition
+Field: Agreement Details
+Field: Start Date
+Field: Active
+Field: End Date
+Field: Pause SLA On
+Field: Response and Resolution Time
+Field: Priorities
+Field: Support Hours
+Field: Support and Resolution
+
+DocType: Service Level Priority
+Field: Priority
+Field: Default Priority
+Field: First Response Time
+Field: Resolution Time
+
+DocType: Support Search Source
+Field: Source Name
+Field: Source Type
+Field: API
+Field: Base URL
+Field: Query Options
+Field: Query Route String
+Field: Search Term Param Name
+Field: Response Options
+Field: Response Result Key Path
+Field: Post Route String
+Field: Post Route Key List
+Field: Post Title Key
+Field: Post Description Key
+Field: Link Options
+Field: Source DocType
+Field: Result Title Field
+Field: Result Preview Field
+Field: Result Route Field
+
+DocType: Support Settings
+Field: Service Level Agreements
+Field: Track Service Level Agreement
+Field: Allow Resetting Service Level Agreement
+Field: Issues
+Field: Close Issue After Days
+Field: Support Portal
+Field: Get Started Sections
+Field: Show Latest Forum Posts
+Field: Forum Posts
+Field: Forum URL
+Field: Get Latest Query
+Field: Response Key List
+Field: Post Title Key
+Field: Post Description Key
+Field: Post Route Key
+Field: Post Route String
+Field: Greetings Section
+Field: Greeting Title
+Field: Greeting Subtitle
+Field: Search APIs
+Field: Search APIs
+
+DocType: Warranty Claim
+Field: Series
+Field: Status
+Field: Issue Date
+Field: Customer
+Field: Serial No
+Field: Issue
+Field: Item and Warranty Details
+Field: Item Code
+Field: Item Name
+Field: Description
+Field: Warranty / AMC Status
+Field: Warranty Expiry Date
+Field: AMC Expiry Date
+Field: Resolution
+Field: Resolution Date
+Field: Resolved By
+Field: Resolution Details
+Field: Customer Details
+Field: Customer Name
+Field: Contact Person
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Territory
+Field: Customer Group
+Field: Customer Address
+Field: Address
+Field: Service Address
+Field: More Information
+Field: Company
+Field: Raised By
+Field: From Company

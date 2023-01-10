@@ -1,0 +1,575 @@
+Module: Manufacturing
+DocType: Blanket Order
+Field: Series
+Field: Order Type
+Field: Customer
+Field: Customer Name
+Field: Supplier
+Field: Supplier Name
+Field: From Date
+Field: To Date
+Field: Company
+Field: Item
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions Details
+
+DocType: Blanket Order Item
+Field: Item Code
+Field: Item Name
+Field: Quantity
+Field: Rate
+Field: Ordered Quantity
+Field: Terms and Conditions
+
+DocType: BOM
+Field: Item
+Field: Company
+Field: Item Name
+Field: Item UOM
+Field: Is Active
+Field: Is Default
+Field: Allow Alternative Item
+Field: Set rate of sub-assembly item based on BOM
+Field: Project
+Field: Quantity
+Field: Image
+Field: Currency and Price List
+Field: Currency
+Field: Conversion Rate
+Field: Rate Of Materials Based On
+Field: Price List
+Field: Price List Currency
+Field: Price List Exchange Rate
+Field: Operations
+Field: With Operations
+Field: Transfer Material Against
+Field: Routing
+Field: Operations
+Field: Materials
+Field: Quality Inspection Required
+Field: Quality Inspection Template
+Field: Items
+Field: Scrap
+Field: Scrap Items
+Field: Costing
+Field: Operating Cost
+Field: Raw Material Cost
+Field: Scrap Material Cost
+Field: Operating Cost (Company Currency)
+Field: Raw Material Cost (Company Currency)
+Field: Scrap Material Cost(Company Currency)
+Field: Total Cost
+Field: Total Cost (Company Currency)
+Field: Item Description
+Field: Has Variants
+Field: Materials Required (Exploded)
+Field: Exploded Items
+Field: Website
+Field: Show in Website
+Field: Route
+Field: Website Image
+Field: Thumbnail
+Field: Website Specifications
+Field: Show Items
+Field: Show Operations
+Field: Website Description
+
+DocType: BOM Explosion Item
+Field: Item Code
+Field: Item Name
+Field: Source Warehouse
+Field: Operation
+Field: Description
+Field: Image
+Field: Image View
+Field: Stock Qty
+Field: Rate
+Field: Qty Consumed Per Unit
+Field: Stock UOM
+Field: Amount
+Field: Include Item In Manufacturing
+Field: Sourced by Supplier
+
+DocType: BOM Item
+Field: Item Code
+Field: Item Name
+Field: Item operation
+Field: Do Not Explode
+Field: BOM No
+Field: Source Warehouse
+Field: Allow Alternative Item
+Field: Description
+Field: Item Description
+Field: Image
+Field: Image View
+Field: Quantity and Rate
+Field: Qty
+Field: UOM
+Field: Stock Qty
+Field: Stock UOM
+Field: Conversion Factor
+Field: Rate & Amount
+Field: Rate
+Field: Basic Rate (Company Currency)
+Field: Amount
+Field: Amount (Company Currency)
+Field: Scrap %
+Field: Qty Consumed Per Unit
+Field: Has Variants
+Field: Include Item In Manufacturing
+Field: Original Item
+Field: Sourced by Supplier
+
+DocType: BOM Operation
+Field: Sequence ID
+Field: Operation
+Field: Workstation
+Field: Operation Time 
+Field: Fixed Time
+Field: Costing
+Field: Hour Rate
+Field: Base Hour Rate(Company Currency)
+Field: Operating Cost
+Field: Operating Cost(Company Currency)
+Field: Batch Size
+Field: Set Operating Cost Based On BOM Quantity
+Field: Cost Per Unit
+Field: Base Cost Per Unit
+Field: More Information
+Field: Description
+Field: Image
+
+DocType: BOM Scrap Item
+Field: Item Code
+Field: Item Name
+Field: Is Process Loss
+Field: Quantity and Rate
+Field: Qty
+Field: Rate
+Field: Amount
+Field: Stock UOM
+Field: Basic Rate (Company Currency)
+Field: Basic Amount (Company Currency)
+
+DocType: BOM Update Batch
+Field: Level
+Field: Batch No.
+Field: BOMs Updated
+Field: Status
+
+DocType: BOM Update Log
+Field: Update Type
+Field: Status
+Field: Current BOM
+Field: New BOM
+Field: Error Log
+Field: Progress
+Field: Current Level
+Field: Processed BOMs
+
+DocType: BOM Update Tool
+Field: Replace BOM
+Field: Current BOM
+Field: New BOM
+Field: Replace
+Field: Update Cost
+Field: Update latest price in all BOMs
+
+DocType: BOM Website Item
+Field: Item Code
+Field: Item Name
+Field: Item Description
+Field: Qty
+Field: Image
+
+DocType: BOM Website Operation
+Field: Operation
+Field: Workstation
+Field: Operation Time
+Field: Image
+Field: Thumbnail
+
+DocType: Downtime Entry
+Field: Naming Series
+Field: Workstation / Machine
+Field: Operator
+Field: From Time
+Field: To Time
+Field: Downtime
+Field: Downtime Reason
+Field: Stop Reason
+Field: Remarks
+
+DocType: Job Card
+Field: Naming Series
+Field: Work Order
+Field: BOM No
+Field: Posting Date
+Field: Company
+Field: Production
+Field: Production Item
+Field: Item Name
+Field: Qty To Manufacture
+Field: Serial No
+Field: WIP Warehouse
+Field: Quality Inspection Template
+Field: Quality Inspection
+Field: Project
+Field: Batch No
+Field: Operation Section
+Field: Operation
+Field: Operation Row Number
+Field: Workstation
+Field: Employee
+Field: Sub Operations
+Field: Timing Detail
+Field: Time Logs
+Field: Total Completed Qty
+Field: Total Time in Mins
+Field: Raw Materials
+Field: Items
+Field: Scrap Items
+Field: Scrap Items
+Field: Corrective Operation
+Field: For Job Card
+Field: Is Corrective Job Card
+Field: Hour Rate
+Field: For Operation
+Field: More Information
+Field: Operation ID
+Field: Sequence Id
+Field: FG Qty from Transferred Raw Materials
+Field: Requested Qty
+Field: Status
+Field: Remarks
+Field: Barcode
+Field: Job Started
+Field: Started Time
+Field: Current Time
+
+DocType: Job Card Item
+Field: Item Code
+Field: Source Warehouse
+Field: UOM
+Field: Item Group
+Field: Stock UOM
+Field: Item Name
+Field: Description
+Field: Qty
+Field: Required Qty
+Field: Transferred Qty
+Field: Allow Alternative Item
+
+DocType: Job Card Operation
+Field: Operation
+Field: Completed Time
+Field: Status
+Field: Completed Qty
+
+DocType: Job Card Scrap Item
+Field: Scrap Item Code
+Field: Scrap Item Name
+Field: Description
+Field: Quantity and Rate
+Field: Qty
+Field: Stock UOM
+
+DocType: Job Card Time Log
+Field: Employee
+Field: From Time
+Field: To Time
+Field: Time In Mins
+Field: Completed Qty
+Field: Operation
+
+DocType: Manufacturing Settings
+Field: Raw Materials Consumption
+Field: Allow Continuous Material Consumption
+Field: Backflush Raw Materials Based On
+Field: Capacity Planning
+Field: Disable Capacity Planning
+Field: Allow Overtime
+Field: Allow Production on Holidays
+Field: Capacity Planning For (Days)
+Field: Time Between Operations (Mins)
+Field: Default Warehouses for Production
+Field: Default Work In Progress Warehouse
+Field: Default Finished Goods Warehouse
+Field: Default Scrap Warehouse
+Field: Overproduction for Sales and Work Order
+Field: Overproduction Percentage For Sales Order
+Field: Overproduction Percentage For Work Order
+Field: Job Card
+Field: Add Corrective Operation Cost in Finished Good Valuation
+Field: Allow Excess Material Transfer
+Field: Other Settings
+Field: Update BOM Cost Automatically
+Field: Make Serial No / Batch from Work Order
+
+DocType: Material Request Plan Item
+Field: Item Code
+Field: From Warehouse
+Field: Warehouse
+Field: Item Name
+Field: Type
+Field: Available Qty
+Field: Ordered Qty
+Field: Qty As Per BOM
+Field: Plan to Request Qty
+Field: UOM
+Field: Projected Qty
+Field: Reserved Qty for Production
+Field: Safety Stock
+Field: Item Description
+Field: Description
+Field: Minimum Order Quantity
+Field: Reference
+Field: Sales Order
+Field: Requested Qty
+
+DocType: Operation
+Field: Default Workstation
+Field: Is Corrective Operation
+Field: Job Card
+Field: Create Job Card based on Batch Size
+Field: Quality Inspection Template
+Field: Batch Size
+Field: Sub Operations
+Field: Total Operation Time
+Field: Operation Description
+Field: Description
+
+DocType: Production Plan
+Field: Naming Series
+Field: Company
+Field: Get Items From
+Field: Posting Date
+Field: Filters
+Field: Item Code
+Field: Customer
+Field: Warehouse
+Field: Project
+Field: Sales Order Status
+Field: From Date
+Field: To Date
+Field: From Delivery Date
+Field: To Delivery Date
+Field: Sales Orders
+Field: Get Sales Orders
+Field: Sales Orders
+Field: Material Request Detail
+Field: Get Material Request
+Field: Material Requests
+Field: Select Items to Manufacture
+Field: Get Finished Goods for Manufacture
+Field: Consolidate Items
+Field: Assembly Items
+Field: Production Plan Item Reference
+Field: Get Sub Assembly Items
+Field: Sub Assembly Items
+Field: Material Requirement Planning
+Field: Include Non Stock Items
+Field: Include Subcontracted Items
+Field: Include Safety Stock in Required Qty Calculation
+Field: Ignore Existing Projected Quantity
+Field: Make Material Request for Warehouse
+Field: Download Required Materials
+Field: Get Raw Materials For Production
+Field: Raw Materials
+Field: Other Details
+Field: Total Planned Qty
+Field: Total Produced Qty
+Field: Status
+Field: Warehouses
+
+DocType: Production Plan Item
+Field: Include Exploded Items
+Field: Item Code
+Field: BOM No
+Field: Planned Qty
+Field: For Warehouse
+Field: Planned Start Date
+Field: Quantity and Description
+Field: Pending Qty
+Field: Ordered Qty
+Field: Description
+Field: UOM
+Field: Produced Qty
+Field: Reference
+Field: Sales Order
+Field: Sales Order Item
+Field: Material Request
+Field: material_request_item
+Field: Product Bundle Item
+Field: Item Reference
+Field: temporary name
+
+DocType: Production Plan Item Reference
+Field: Item Reference
+Field: Sales Order Reference
+Field: Sales Order Item
+Field: qty
+
+DocType: Production Plan Material Request
+Field: Material Request
+Field: Material Request Date
+
+DocType: Production Plan Material Request Warehouse
+Field: Warehouse
+
+DocType: Production Plan Sales Order
+Field: Sales Order
+Field: Sales Order Date
+Field: Customer
+Field: Grand Total
+
+DocType: Production Plan Sub Assembly Item
+Field: Sub Assembly Item Code
+Field: Item Name
+Field: Target Warehouse
+Field: Finished Good
+Field: Schedule Date
+Field: Required Qty
+Field: Bom No
+Field: Level (BOM)
+Field: Manufacturing Type
+Field: Supplier
+Field: Reference
+Field: Work Order
+Field: Purchase Order
+Field: Production Plan Item
+Field: Produced Quantity
+Field: Received Qty
+Field: Indent
+Field: Item Details
+Field: UOM
+Field: Stock UOM
+Field: description
+
+DocType: Routing
+Field: Routing Name
+Field: Disabled
+Field: BOM Operation
+
+DocType: Sub Operation
+Field: Operation
+Field: Operation Time
+Field: Description
+
+DocType: Work Order
+Field: Series
+Field: Status
+Field: Item To Manufacture
+Field: Item Name
+Field: Image
+Field: BOM No
+Field: Company
+Field: Qty To Manufacture
+Field: Material Transferred for Manufacturing
+Field: Manufactured Qty
+Field: Process Loss Qty
+Field: Sales Order
+Field: Project
+Field: Serial No and Batch for Finished Good
+Field: Has Serial No
+Field: Has Batch No
+Field: Serial Nos
+Field: Batch Size
+Field: Settings
+Field: Allow Alternative Item
+Field: Use Multi-Level BOM
+Field: Skip Material Transfer to WIP Warehouse
+Field: Backflush Raw Materials From Work-in-Progress Warehouse
+Field: Update Consumed Material Cost In Project
+Field: Warehouses
+Field: Source Warehouse
+Field: Work-in-Progress Warehouse
+Field: Target Warehouse
+Field: Scrap Warehouse
+Field: Required Items
+Field: Required Items
+Field: Time
+Field: Planned Start Date
+Field: Planned End Date
+Field: Expected Delivery Date
+Field: Actual Start Date
+Field: Actual End Date
+Field: Lead Time
+Field: Operations
+Field: Transfer Material Against
+Field: Operations
+Field: Operation Cost
+Field: Planned Operating Cost
+Field: Actual Operating Cost
+Field: Additional Operating Cost
+Field: Corrective Operation Cost
+Field: Total Operating Cost
+Field: More Information
+Field: Item Description
+Field: Stock UOM
+Field: Material Request
+Field: Material Request Item
+Field: Sales Order Item
+Field: Production Plan
+Field: Production Plan Item
+Field: Production Plan Sub-assembly Item
+Field: Product Bundle Item
+
+DocType: Work Order Item
+Field: Operation
+Field: Item Code
+Field: Source Warehouse
+Field: Item Name
+Field: Description
+Field: Allow Alternative Item
+Field: Include Item In Manufacturing
+Field: Qty
+Field: Required Qty
+Field: Rate
+Field: Amount
+Field: Transferred Qty
+Field: Consumed Qty
+Field: Available Qty at Source Warehouse
+Field: Available Qty at WIP Warehouse
+
+DocType: Work Order Operation
+Field: Operation
+Field: Status
+Field: Completed Qty
+Field: BOM
+Field: Workstation
+Field: Sequence ID
+Field: Operation Description
+Field: Estimated Time and Cost
+Field: Planned Start Time
+Field: Hour Rate
+Field: Operation Time
+Field: Planned End Time
+Field: Batch Size
+Field: Planned Operating Cost
+Field: Actual Time and Cost
+Field: Actual Start Time
+Field: Actual Operation Time
+Field: Actual End Time
+Field: Actual Operating Cost
+
+DocType: Workstation
+Field: Workstation Name
+Field: Production Capacity
+Field: Operating Costs
+Field: Electricity Cost
+Field: Consumable Cost
+Field: Rent Cost
+Field: Wages
+Field: Net Hour Rate
+Field: Working Hours
+Field: Holiday List
+Field: Working Hours
+Field: Description
+Field: Description
+
+DocType: Workstation Working Hour
+Field: Start Time
+Field: End Time
+Field: Enabled

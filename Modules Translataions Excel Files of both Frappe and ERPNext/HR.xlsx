@@ -1,0 +1,1162 @@
+Module: HR
+DocType: Appointment Letter
+Field: Job Applicant
+Field: Applicant Name
+Field: Company
+Field: Appointment Date
+Field: Appointment Letter Template
+Field: Body
+Field: Introduction
+Field: Terms
+Field: Closing Notes
+
+DocType: Appointment Letter content
+Field: Title
+Field: Description
+
+DocType: Appointment Letter Template
+Field: Introduction
+Field: Terms
+Field: Closing Notes
+
+DocType: Appraisal
+Field: Series
+Field: Appraisal Template
+Field: For Employee
+Field: For Employee Name
+Field: Status
+Field: Start Date
+Field: End Date
+Field: Department
+Field: Goals
+Field: Goals
+Field: Total Score (Out of 5)
+Field: Remarks
+Field: Company
+
+DocType: Appraisal Goal
+Field: Goal
+Field: Weightage (%)
+Field: Score (0-5)
+Field: Score Earned
+
+DocType: Appraisal Template
+Field: Appraisal Template Title
+Field: Description
+Field: Goals
+
+DocType: Appraisal Template Goal
+Field: KRA
+Field: Weightage (%)
+
+DocType: Attendance
+Field: Series
+Field: Employee
+Field: Employee Name
+Field: Working Hours
+Field: Status
+Field: Leave Type
+Field: Leave Application
+Field: Attendance Date
+Field: Company
+Field: Department
+Field: Attendance Request
+Field: Details
+Field: Shift
+Field: In Time
+Field: Out Time
+Field: Late Entry
+Field: Early Exit
+
+DocType: Attendance Request
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Company
+Field: From Date
+Field: To Date
+Field: Half Day
+Field: Half Day Date
+Field: Reason
+Field: Reason
+Field: Explanation
+
+DocType: Branch
+Field: Branch
+
+DocType: Compensatory Leave Request
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Leave Type
+Field: Leave Allocation
+Field: Worked On Holiday
+Field: Work From Date
+Field: Work End Date
+Field: Half Day
+Field: Half Day Date
+Field: Reason
+
+DocType: Daily Work Summary
+Field: Daily Work Summary Group
+Field: Status
+Field: Email Sent To
+
+DocType: Daily Work Summary Group
+Field: Enabled
+Field: Select Users
+Field: Users
+Field: Send Emails At
+Field: Holiday List
+Field: Reminder
+Field: Subject
+Field: Message
+
+DocType: Daily Work Summary Group User
+Field: User
+Field: email
+
+DocType: Department
+Field: Department
+Field: Parent Department
+Field: Company
+Field: Is Group
+Field: Disabled
+Field: Payroll Cost Center
+Field: Leave Block List
+Field: Approvers
+Field: Leave Approver
+Field: Expense Approver
+Field: Shift Request Approver
+Field: lft
+Field: rgt
+Field: Old Parent
+
+DocType: Department Approver
+Field: Approver
+
+DocType: Designation
+Field: Designation
+Field: Description
+Field: Required Skills
+Field: Skills
+
+DocType: Designation Skill
+Field: Skill
+
+DocType: Driver
+Field: Series
+Field: Full Name
+Field: Status
+Field: Transporter
+Field: Employee
+Field: Cellphone Number
+Field: Address
+Field: License Details
+Field: License Number
+Field: Issuing Date
+Field: Expiry Date
+Field: Driving License Categories
+Field: Driving License Category
+
+DocType: Driving License Category
+Field: Driver licence class
+Field: Description
+Field: Issuing Date
+Field: Expiry Date
+
+DocType: Employee
+Field: Employee
+Field: Series
+Field: First Name
+Field: Middle Name
+Field: Last Name
+Field: Salutation
+Field: Full Name
+Field: Employment Type
+Field: Image
+Field: Company
+Field: Status
+Field: Gender
+Field: Date of Birth
+Field: Date of Joining
+Field: Employee Number
+Field: Emergency Contact
+Field: Emergency Contact Name
+Field: Relation
+Field: Emergency Phone
+Field: ERPNext User
+Field: User ID
+Field: Create User
+Field: Create User Permission
+Field: Joining Details
+Field: Job Applicant
+Field: Offer Date
+Field: Confirmation Date
+Field: Contract End Date
+Field: Notice (days)
+Field: Date Of Retirement
+Field: Department and Grade
+Field: Department
+Field: Designation
+Field: Reports to
+Field: Grade
+Field: Branch
+Field: Approvers
+Field: Expense Approver
+Field: Leave Approver
+Field: Shift Request Approver
+Field: Attendance and Leave Details
+Field: Attendance Device ID (Biometric/RF tag ID)
+Field: Holiday List
+Field: Default Shift
+Field: Salary Details
+Field: Salary Mode
+Field: Payroll Cost Center
+Field: Bank Name
+Field: Bank A/C No.
+Field: Health Insurance
+Field: Health Insurance Provider
+Field: Health Insurance No
+Field: Contact Details
+Field: Mobile
+Field: Prefered Email
+Field: Personal Email
+Field: Unsubscribed
+Field: Permanent Address Is
+Field: Permanent Address
+Field: Prefered Contact Email
+Field: Company Email
+Field: Current Address Is
+Field: Current Address
+Field: Personal Bio
+Field: Bio / Cover Letter
+Field: Personal Details
+Field: Passport Number
+Field: Date of Issue
+Field: Valid Upto
+Field: Place of Issue
+Field: Marital Status
+Field: Blood Group
+Field: Family Background
+Field: Health Details
+Field: Educational Qualification
+Field: Education
+Field: Previous Work Experience
+Field: External Work History
+Field: History In Company
+Field: Internal Work History
+Field: Exit
+Field: Resignation Letter Date
+Field: Relieving Date
+Field: Reason for Leaving
+Field: Leave Encashed?
+Field: Encashment Date
+Field: Exit Interview Held On
+Field: New Workplace
+Field: Feedback
+Field: lft
+Field: rgt
+Field: Old Parent
+
+DocType: Employee Advance
+Field: Series
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Posting Date
+Field: Currency
+Field: Exchange Rate
+Field: Repay Unclaimed Amount from Salary
+Field: Purpose
+Field: Advance Amount
+Field: Paid Amount
+Field: Pending Amount
+Field: Claimed Amount
+Field: Returned Amount
+Field: Status
+Field: Company
+Field: Advance Account
+Field: Mode of Payment
+
+DocType: Employee Attendance Tool
+Field: Date
+Field: Department
+Field: 
+Field: Branch
+Field: Company
+Field: Unmarked Attendance
+Field: Employees HTML
+Field: Marked Attendance
+Field: Marked Attendance HTML
+
+DocType: Employee Boarding Activity
+Field: Activity Name
+Field: User
+Field: Role
+Field: Task
+Field: Task Weight
+Field: Required for Employee Creation
+Field: Description
+
+DocType: Employee Checkin
+Field: Employee
+Field: Employee Name
+Field: Log Type
+Field: Shift
+Field: Time
+Field: Location / Device ID
+Field: Skip Auto Attendance
+Field: Attendance Marked
+Field: Shift Start
+Field: Shift End
+Field: Shift Actual Start
+Field: Shift Actual End
+
+DocType: Employee Education
+Field: School/University
+Field: Qualification
+Field: Level
+Field: Year of Passing
+Field: Class / Percentage
+Field: Major/Optional Subjects
+
+DocType: Employee External Work History
+Field: Company
+Field: Designation
+Field: Salary
+Field: Address
+Field: Contact
+Field: Total Experience
+
+DocType: Employee Grade
+Field: Default Salary Structure
+
+DocType: Employee Grievance
+Field: Subject
+Field: Raised By
+Field: Employee Name
+Field: Designation
+Field: Date 
+Field: Status
+Field: Reports To
+Field: Grievance Details
+Field: Grievance Against Party
+Field: Grievance Against
+Field: Grievance Type
+Field: Associated Document Type
+Field: Associated Document
+Field: Description
+Field: Investigation Details
+Field: Cause of Grievance
+Field: Resolution Details
+Field: Resolved By
+Field: Resolution Date
+Field: Employee Responsible 
+Field: Resolution Details
+
+DocType: Employee Group
+Field: Name
+Field: Employee
+Field: Employee
+
+DocType: Employee Group Table
+Field: Employee
+Field: Employee Name
+Field: ERPNext User ID
+
+DocType: Employee Health Insurance
+Field: Health Insurance Name
+
+DocType: Employee Internal Work History
+Field: Branch
+Field: Department
+Field: Designation
+Field: From Date
+Field: To Date
+
+DocType: Employee Onboarding
+Field: Job Applicant
+Field: Job Offer
+Field: Employee Name
+Field: Employee
+Field: Date of Joining
+Field: Status
+Field: Notify users by email
+Field: Employee Onboarding Template
+Field: Company
+Field: Department
+Field: Designation
+Field: Employee Grade
+Field: Project
+Field: Activities
+
+DocType: Employee Onboarding Activity
+Field: Activity Name
+Field: User
+Field: Role
+Field: Completed
+Field: Required for Employee Creation
+Field: Description
+
+DocType: Employee Onboarding Template
+Field: Company
+Field: Department
+Field: Designation
+Field: Employee Grade
+Field: Activities
+Field: Activities
+
+DocType: Employee Promotion
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Promotion Date
+Field: Company
+Field: Employee Promotion Details
+Field: Employee Promotion Detail
+
+DocType: Employee Property History
+Field: Property
+Field: Current
+Field: New
+Field: Field Name
+
+DocType: Employee Referral
+Field: First Name 
+Field: Last Name
+Field: Full Name
+Field: Email
+Field: Contact No.
+Field: Resume
+Field: Resume Link
+Field: Date
+Field: Status
+Field: For Designation 
+Field: Current Employer 
+Field: Current Job Title
+Field: Referrer Details
+Field: Referrer
+Field: Referrer Name
+Field: Is Applicable for Referral Bonus
+Field: Referral Bonus Payment Status
+Field: Department
+Field: Additional Information 
+Field: Why is this Candidate Qualified for this Position?
+Field: Work References
+
+DocType: Employee Separation
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Designation
+Field: Employee Grade
+Field: Company
+Field: Status
+Field: Resignation Letter Date
+Field: Project
+Field: Separation Activities
+Field: Employee Separation Template
+Field: Activities
+Field: Notify users by email
+Field: Exit Interview Summary
+
+DocType: Employee Separation Template
+Field: Company
+Field: Department
+Field: Designation
+Field: Employee Grade
+Field: Activities
+Field: Activities
+
+DocType: Employee Skill
+Field: Skill
+Field: Proficiency
+Field: Evaluation Date
+
+DocType: Employee Skill Map
+Field: Employee
+Field: Employee Name
+Field: Designation
+Field: Skills
+Field: Employee Skills
+Field: Trainings
+Field: Trainings
+
+DocType: Employee Training
+Field: Training
+Field: Training Date
+
+DocType: Employee Transfer
+Field: Employee
+Field: Employee Name
+Field: Transfer Date
+Field: Company
+Field: New Company
+Field: Department
+Field: Employee Transfer Details
+Field: Employee Transfer Detail
+Field: Re-allocate Leaves
+Field: Create New Employee Id
+Field: New Employee ID
+
+DocType: Employee Transfer Property
+Field: Property
+Field: Current
+Field: New
+
+DocType: Employment Type
+Field: Employment Type
+
+DocType: Expected Skill Set
+Field: Skill
+Field: Description
+
+DocType: Expense Claim
+Field: Series
+Field: From Employee
+Field: Employee Name
+Field: Department
+Field: Expense Approver
+Field: Approval Status
+Field: Delivery Trip
+Field: Is Paid
+Field: Expenses
+Field: Expense Taxes and Charges
+Field: Total Sanctioned Amount
+Field: Total Taxes and Charges
+Field: Total Advance Amount
+Field: Grand Total
+Field: Total Claimed Amount
+Field: Total Amount Reimbursed
+Field: Posting Date
+Field: Vehicle Log
+Field: Task
+Field: Remark
+Field: Title
+Field: Employees Email Id
+Field: Accounting Details
+Field: Company
+Field: Mode of Payment
+Field: Clearance Date
+Field: Payable Account
+Field: Accounting Dimensions
+Field: Project
+Field: Cost Center
+Field: More Details
+Field: Status
+Field: Advance Payments
+Field: Advances
+
+DocType: Expense Claim Account
+Field: Company
+Field: Default Account
+
+DocType: Expense Claim Advance
+Field: Employee Advance
+Field: Posting Date
+Field: Advance Paid
+Field: Unclaimed Amount
+Field: Allocated Amount
+Field: Advance Account
+
+DocType: Expense Claim Detail
+Field: Expense Date
+Field: Expense Claim Type
+Field: Default Account
+Field: Description
+Field: Amount
+Field: Sanctioned Amount
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: Expense Claim Type
+Field: Deferred Expense Account
+Field: Expense Claim Type
+Field: Accounts
+Field: Description
+
+DocType: Expense Taxes and Charges
+Field: Account Head
+Field: Rate
+Field: Description
+Field: Amount
+Field: Total
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: Grievance Type
+Field: Description
+
+DocType: Holiday
+Field: Date
+Field: Weekly Off
+Field: Description
+
+DocType: Holiday List
+Field: Holiday List Name
+Field: From Date
+Field: To Date
+Field: Total Holidays
+Field: Add Weekly Holidays
+Field: Weekly Off
+Field: Add to Holidays
+Field: Holidays
+Field: Holidays
+Field: Clear Table
+Field: Color
+
+DocType: HR Settings
+Field: Employee Settings
+Field: Employee Naming By
+Field: Standard Working Hours
+Field: Retirement Age (In Years)
+Field: Reminders
+Field: Birthdays
+Field: Work Anniversaries 
+Field: Holidays
+Field: Set the frequency for holiday reminders
+Field: Leave and Expense Claim Settings
+Field: Send Leave Notification
+Field: Leave Approval Notification Template
+Field: Leave Status Notification Template
+Field: Leave Approver Mandatory In Leave Application
+Field: Restrict Backdated Leave Application
+Field: Role Allowed to Create Backdated Leave Application
+Field: Expense Approver Mandatory In Expense Claim
+Field: Show Leaves Of All Department Members In Calendar
+Field: Auto Leave Encashment
+Field: Hiring Settings
+Field: Check Vacancies On Job Offer Creation
+Field: Send Interview Reminder
+Field: Interview Reminder Notification Template
+Field: Remind Before
+Field: Send Interview Feedback Reminder
+Field: Feedback Reminder Notification Template
+
+DocType: Identification Document Type
+Field: Identification Document Type
+
+DocType: Interest
+Field: Interest
+
+DocType: Interview
+Field: Details
+Field: Interview Round
+Field: Job Applicant
+Field: Job Opening
+Field: Designation
+Field: Resume link
+Field: Status
+Field: Scheduled On
+Field: From Time
+Field: To Time
+Field: Feedback
+Field: Ratings
+Field: Expected Average Rating
+Field: Obtained Average Rating
+Field: Interview Summary
+Field: Reminded
+
+DocType: Interview Detail
+Field: Interviewer
+Field: Interview Feedback
+Field: Average Rating
+Field: Result
+Field: Comments
+
+DocType: Interview Feedback
+Field: Details
+Field: Interview
+Field: Interview Round
+Field: Job Applicant
+Field: Interviewer
+Field: Result
+Field: Skill Assessment
+Field: Average Rating
+Field: Feedback
+
+DocType: Interview Round
+Field: Round Name
+Field: Interview Type
+Field: Interviewers
+Field: Designation
+Field: Expected Average Rating
+Field: Expected Skillset
+
+DocType: Interview Type
+Field: Description
+
+DocType: Interviewer
+Field: User
+
+DocType: Job Applicant
+Field: Details
+Field: Applicant Name
+Field: Email Address
+Field: Phone Number
+Field: Country
+Field: Job Opening
+Field: Designation
+Field: Status
+Field: Source and Rating
+Field: Source
+Field: Source Name
+Field: Employee Referral
+Field: Applicant Rating
+Field: Resume
+Field: Notes
+Field: Cover Letter
+Field: Resume Attachment
+Field: Resume Link
+Field: Salary Expectation
+Field: Currency
+Field: Lower Range
+Field: Upper Range
+
+DocType: Job Applicant Source
+Field: Source Name
+Field: Details
+
+DocType: Job Offer
+Field: Job Applicant
+Field: Applicant Name
+Field: Applicant Email Address
+Field: Status
+Field: Offer Date
+Field: Designation
+Field: Company
+Field: Job Offer Terms
+Field: Select Terms and Conditions
+Field: Terms and Conditions
+Field: Printing Details
+Field: Letter Head
+Field: Print Heading
+
+DocType: Job Offer Term
+Field: Offer Term
+Field: Value / Description
+
+DocType: Job Opening
+Field: Job Title
+Field: Company
+Field: Status
+Field: Designation
+Field: Department
+Field: Staffing Plan
+Field: Planned number of Positions
+Field: Publish on website
+Field: Route
+Field: Job Application Route
+Field: Description
+Field: Currency
+Field: Lower Range
+Field: Upper Range
+Field: Publish Salary Range
+
+DocType: Leave Allocation
+Field: Series
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Company
+Field: Leave Type
+Field: From Date
+Field: To Date
+Field: Allocation
+Field: New Leaves Allocated
+Field: Add unused leaves from previous allocations
+Field: Unused leaves
+Field: Total Leaves Allocated
+Field: Total Leaves Encashed
+Field: Compensatory Leave Request
+Field: Leave Period
+Field: Leave Policy
+Field: Leave Policy Assignment
+Field: Carry Forwarded Leaves
+Field: Expired
+Field: Notes
+Field: Description
+
+DocType: Leave Application
+Field: Series
+Field: Employee
+Field: Employee Name
+Field: Leave Type
+Field: Department
+Field: Leave Balance Before Application
+Field: From Date
+Field: To Date
+Field: Half Day
+Field: Half Day Date
+Field: Total Leave Days
+Field: Reason
+Field: Leave Approver
+Field: Leave Approver Name
+Field: Status
+Field: Salary Slip
+Field: Posting Date
+Field: Follow via Email
+Field: Color
+Field: Company
+Field: Letter Head
+
+DocType: Leave Block List
+Field: Leave Block List Name
+Field: Company
+Field: Applies to Company
+Field: Block Days
+Field: Leave Block List Dates
+Field: Allow Users
+Field: Leave Block List Allowed
+
+DocType: Leave Block List Allow
+Field: Allow User
+
+DocType: Leave Block List Date
+Field: Block Date
+Field: Reason
+
+DocType: Leave Control Panel
+Field: Select Employees
+Field: Company
+Field: Employment Type (optional)
+Field: Branch (optional)
+Field: Department (optional)
+Field: Designation (optional)
+Field: Employee Grade (optional)
+Field: Employee (optional)
+Field: Allocate Leaves
+Field: From Date
+Field: To Date
+Field: Carry Forward
+Field: New Leaves Allocated (In Days)
+Field: Allocate
+Field: Leave Policy
+Field: Leave Type
+
+DocType: Leave Encashment
+Field: Leave Period
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Company
+Field: Leave Type
+Field: Leave Allocation
+Field: Leave Balance
+Field: Encashable days
+Field: Payroll
+Field: Encashment Date
+Field: Additional Salary
+Field: Currency
+Field: Encashment Amount
+
+DocType: Leave Ledger Entry
+Field: Employee
+Field: Employee Name
+Field: Leave Type
+Field: Transaction Type
+Field: Transaction Name
+Field: Company
+Field: Leaves
+Field: From Date
+Field: To Date
+Field: Holiday List
+Field: Is Carry Forward
+Field: Is Expired
+Field: Is Leave Without Pay
+
+DocType: Leave Period
+Field: From Date
+Field: To Date
+Field: Is Active
+Field: Company
+Field: Holiday List for Optional Leave
+
+DocType: Leave Policy
+Field: Leave Allocations
+Field: Leave Policy Details
+
+DocType: Leave Policy Assignment
+Field: Employee
+Field: Employee name
+Field: Company
+Field: Leave Policy
+Field: Add unused leaves from previous allocations
+Field: Assignment based on
+Field: Leave Period
+Field: Effective From
+Field: Effective To
+Field: Leaves Allocated
+
+DocType: Leave Policy Detail
+Field: Leave Type
+Field: Annual Allocation
+
+DocType: Leave Type
+Field: Leave Type Name
+Field: Maximum Leave Allocation Allowed
+Field: Applicable After (Working Days)
+Field: Maximum Consecutive Leaves Allowed
+Field: Is Carry Forward
+Field: Is Leave Without Pay
+Field: Is Partially Paid Leave
+Field: Fraction of Daily Salary per Leave
+Field: Is Optional Leave
+Field: Allow Negative Balance
+Field: Allow Over Allocation
+Field: Include holidays within leaves as leaves
+Field: Is Compensatory
+Field: Carry Forward
+Field: Maximum Carry Forwarded Leaves
+Field: Expire Carry Forwarded Leaves (Days)
+Field: Encashment
+Field: Allow Encashment
+Field: Encashment Threshold Days
+Field: Earning Component
+Field: Earned Leave
+Field: Is Earned Leave
+Field: Earned Leave Frequency
+Field: Based On Date Of Joining
+Field: Rounding
+
+DocType: Offer Term
+Field: Offer Term
+
+DocType: Purpose of Travel
+Field: Purpose of Travel
+
+DocType: Shift Assignment
+Field: Employee
+Field: Employee Name
+Field: Shift Type
+Field: Status
+Field: Company
+Field: Start Date
+Field: End Date
+Field: Shift Request
+Field: Department
+
+DocType: Shift Request
+Field: Shift Type
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Status
+Field: Company
+Field: Approver
+Field: From Date
+Field: To Date
+
+DocType: Shift Type
+Field: Start Time
+Field: End Time
+Field: Holiday List
+Field: Enable Auto Attendance
+Field: Auto Attendance Settings
+Field: Determine Check-in and Check-out
+Field: Working Hours Calculation Based On
+Field: Begin check-in before shift start time (in minutes)
+Field: Allow check-out after shift end time (in minutes)
+Field: Working Hours Threshold for Half Day
+Field: Working Hours Threshold for Absent
+Field: Process Attendance After
+Field: Last Sync of Checkin
+Field: Grace Period Settings For Auto Attendance
+Field: Enable Entry Grace Period
+Field: Late Entry Grace Period
+Field: Enable Exit Grace Period
+Field: Early Exit Grace Period
+
+DocType: Skill
+Field: Skill Name
+Field: Description
+
+DocType: Skill Assessment
+Field: Skill
+Field: Rating
+
+DocType: Staffing Plan
+Field: Company
+Field: Department
+Field: From Date
+Field: To Date
+Field: Staffing Plan Details
+Field: Staffing Plan Detail
+Field: Total Estimated Budget
+
+DocType: Staffing Plan Detail
+Field: Designation
+Field: Vacancies
+Field: Estimated Cost Per Position
+Field: Total Estimated Cost
+Field: Current Count
+Field: Current Openings
+Field: Number Of Positions
+
+DocType: Training Event
+Field: Event Name
+Field: Training Program
+Field: Event Status
+Field: Has Certificate
+Field: Type
+Field: Level
+Field: Company
+Field: Trainer Name
+Field: Trainer Email
+Field: Supplier
+Field: Contact Number
+Field: Course
+Field: Location
+Field: Start Time
+Field: End Time
+Field: Introduction
+Field: Attendees
+Field: Employees
+Field: Employee Emails
+
+DocType: Training Event Employee
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Status
+Field: Attendance
+Field: Is Mandatory
+
+DocType: Training Feedback
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Course
+Field: Training Event
+Field: Event Name
+Field: Trainer Name
+Field: Feedback
+
+DocType: Training Program
+Field: Training Program
+Field: Status
+Field: Company
+Field: Trainer Name
+Field: Trainer Email
+Field: Supplier
+Field: Contact Number
+Field: Description
+
+DocType: Training Result
+Field: Training Event
+Field: Employees
+Field: Employee Emails
+
+DocType: Training Result Employee
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Hours
+Field: Grade
+Field: Comments
+
+DocType: Travel Itinerary
+Field: Travel From
+Field: Travel To
+Field: Mode of Travel
+Field: Meal Preference
+Field: Travel Advance Required
+Field: Advance Amount
+Field: Departure Datetime
+Field: Arrival Datetime
+Field: Lodging Required
+Field: Preferred Area for Lodging
+Field: Check-in Date
+Field: Check-out Date
+Field: Other Details
+
+DocType: Travel Request
+Field: Travel Type
+Field: Travel Funding
+Field: Copy of Invitation/Announcement
+Field: Purpose of Travel
+Field: Details of Sponsor (Name, Location)
+Field: Employee Details
+Field: Employee
+Field: Employee Name
+Field: Contact Number
+Field: Contact Email
+Field: Date of Birth
+Field: Identification Document Type
+Field: Identification Document Number
+Field: Passport Number
+Field: Description
+Field: Any other details
+Field: Travel Itinerary
+Field: Costing Details
+Field: Costing
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Event Details
+Field: Name of Organizer
+Field: Address of Organizer
+Field: Other Details
+
+DocType: Travel Request Costing
+Field: Expense Type
+Field: Sponsored Amount
+Field: Funded Amount
+Field: Total Amount
+Field: Comments
+
+DocType: Upload Attendance
+Field: Download Template
+Field: Attendance From Date
+Field: Attendance To Date
+Field: Get Template
+Field: Import Attendance
+Field: Upload HTML
+Field: Import Log
+
+DocType: Vehicle
+Field: License Plate
+Field: Make
+Field: Model
+Field: Details
+Field: Odometer Value (Last)
+Field: Acquisition Date
+Field: Location
+Field: Chassis No
+Field: Vehicle Value
+Field: Employee
+Field: Insurance Details
+Field: Insurance Company
+Field: Policy No
+Field: Start Date
+Field: End Date
+Field: Additional Details
+Field: Fuel Type
+Field: Fuel UOM
+Field: Last Carbon Check
+Field: Color
+Field: Wheels
+Field: Doors
+
+DocType: Vehicle Log
+Field: Series
+Field: License Plate
+Field: Employee
+Field: Model
+Field: Make
+Field: Odometer Reading
+Field: Date
+Field: Current Odometer value 
+Field: Last Odometer Value 
+Field: Refuelling Details
+Field: Fuel Qty
+Field: Fuel Price
+Field: Supplier
+Field: Invoice Ref
+Field: Service Details
+
+DocType: Vehicle Service
+Field: Service Item
+Field: Type
+Field: Frequency
+Field: Expense

@@ -1,0 +1,58 @@
+Module: Hotels
+DocType: Hotel Room
+Field: Hotel Room Type
+Field: Capacity
+Field: Extra Bed Capacity
+
+DocType: Hotel Room Amenity
+Field: Item
+Field: Billable
+
+DocType: Hotel Room Package
+Field: Hotel Room Type
+Field: Item
+Field: Amenities
+
+DocType: Hotel Room Pricing
+Field: Enabled
+Field: Currency
+Field: From Date
+Field: To Date
+Field: Items
+
+DocType: Hotel Room Pricing Item
+Field: Item
+Field: Rate
+
+DocType: Hotel Room Pricing Package
+Field: From Date
+Field: To Date
+Field: Hotel Room Package
+Field: Rate
+
+DocType: Hotel Room Reservation
+Field: Guest Name
+Field: Customer
+Field: From Date
+Field: To Date
+Field: Late Checkin
+Field: Status
+Field: Items
+Field: Net Total
+
+DocType: Hotel Room Reservation Item
+Field: Item
+Field: Qty
+Field: Currency
+Field: Rate
+Field: Amount
+
+DocType: Hotel Room Type
+Field: Capacity
+Field: Extra Bed Capacity
+Field: Amenities
+
+DocType: Hotel Settings
+Field: Default Customer
+Field: Default Taxes and Charges
+Field: Default Invoice Naming Series

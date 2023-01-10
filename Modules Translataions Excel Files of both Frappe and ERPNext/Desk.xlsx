@@ -1,0 +1,389 @@
+Module: Desk
+DocType: Bulk Update
+Field: Document Type
+Field: Field
+Field: Update Value
+Field: Condition
+Field: Limit
+
+DocType: Calendar View
+Field: Reference Document Type
+Field: Subject Field
+Field: Start Date Field
+Field: End Date Field
+Field: All Day
+
+DocType: Console Log
+Field: Script
+Field: Output
+
+DocType: Dashboard
+Field: Dashboard Name
+Field: Is Default
+Field: Is Standard
+Field: Module
+Field: Charts
+Field: Chart Options
+Field: Cards
+
+DocType: Dashboard Chart
+Field: Is Standard
+Field: Module
+Field: Chart Name
+Field: Chart Type
+Field: Report Name
+Field: Use Report Chart
+Field: X Field
+Field: Y Axis
+Field: Chart Source
+Field: Document Type
+Field: Parent Document Type
+Field: Time Series Based On
+Field: Value Based On
+Field: Group By Type
+Field: Group By Based On
+Field: Aggregate Function Based On
+Field: Number of Groups
+Field: Is Public
+Field: Year
+Field: Timespan
+Field: From Date
+Field: To Date
+Field: Time Interval
+Field: Time Series
+Field: Type
+Field: Filters
+Field: Filters JSON
+Field: Dynamic Filters
+Field: Dynamic Filters JSON
+Field: Chart Options
+Field: Custom Options
+Field: Color
+Field: Last Synced On
+Field: Roles
+
+DocType: Dashboard Chart Field
+Field: Y Field
+Field: Color
+
+DocType: Dashboard Chart Link
+Field: Chart
+Field: Width
+
+DocType: Dashboard Chart Source
+Field: Source Name
+Field: Module
+Field: Timeseries
+
+DocType: Dashboard Settings
+Field: User
+Field: Chart Configuration
+
+DocType: Desktop Icon
+Field: Module Name
+Field: Label
+Field: Standard
+Field: Custom
+Field: App
+Field: Description
+Field: Category
+Field: Hidden
+Field: Blocked
+Field: Force Show
+Field: Type
+Field: _doctype
+Field: _report
+Field: Link
+Field: Color
+Field: Icon
+Field: Reverse Icon Color
+Field: Idx
+
+DocType: Event
+Field: Details
+Field: Subject
+Field: Event Category
+Field: Event Type
+Field: Color
+Field: Send an email reminder in the morning
+Field: Repeat this Event
+Field: Starts on
+Field: Ends on
+Field: Status
+Field: Sender
+Field: All Day
+Field: Sync with Google Calendar
+Field: Google Calendar
+Field: Google Calendar
+Field: Pulled from Google Calendar
+Field: Google Calendar ID
+Field: Google Calendar Event ID
+Field: Repeat On
+Field: Repeat Till
+Field: Monday
+Field: Tuesday
+Field: Wednesday
+Field: Thursday
+Field: Friday
+Field: Saturday
+Field: Sunday
+Field: Description
+Field: Participants
+Field: Event Participants
+
+DocType: Event Participants
+Field: Reference Document Type
+Field: Reference Name
+
+DocType: Form Tour
+Field: Title
+Field: Reference Document
+Field: Mark as Completed
+Field: Steps
+
+DocType: Form Tour Step
+Field: Field
+Field: Title
+Field: Description
+Field: Position
+Field: Fieldname
+Field: Label
+Field: Next Step Condition
+
+DocType: Global Search DocType
+Field: Document Type
+
+DocType: Global Search Settings
+Field: Search Priorities
+
+DocType: Kanban Board
+Field: Kanban Board Name
+Field: Reference Document Type
+Field: Field Name
+Field: Private
+Field: Show Labels
+Field: Columns
+Field: Filters
+Field: Fields
+
+DocType: Kanban Board Column
+Field: Column Name
+Field: Status
+Field: Indicator
+Field: Order
+
+DocType: List Filter
+Field: Filter Name
+Field: Reference Document Type
+Field: For User
+Field: Filters
+
+DocType: List View Settings
+Field: Disable Count
+Field: Disable Sidebar Stats
+Field: Disable Auto Refresh
+Field: Maximum Number of Fields
+Field: Fields
+Field: Fields
+
+DocType: Module Onboarding
+Field: Title
+Field: Subtitle
+Field: Module
+Field: Allow Roles
+Field: Success Message
+Field: Documentation URL
+Field: Is Complete
+Field: Steps
+
+DocType: Note
+Field: Title
+Field: Public
+Field: Notify users with a popup when they log in
+Field: Notify Users On Every Login
+Field: Expire Notification On
+Field: Content
+Field: Seen By
+Field: Seen By Table
+
+DocType: Note Seen By
+Field: User
+
+DocType: Notification Log
+Field: Subject
+Field: For User
+Field: Type
+Field: Message
+Field: Document Type
+Field: Read
+Field: Document Link
+Field: Attached File
+Field: Attachment Link
+Field: Open Reference Document
+Field: From User
+
+DocType: Notification Settings
+Field: Enabled
+Field: Open Documents
+Field: Email Settings
+Field: Enable Email Notifications
+Field: Mentions
+Field: Assignments
+Field: Energy Points
+Field: Document Share
+Field: User
+Field: Seen
+Field: System Notifications
+Field: Energy Points
+
+DocType: Notification Subscribed Document
+Field: Document
+
+DocType: Number Card
+Field: Is Standard
+Field: Module
+Field: Label
+Field: Type
+Field: Report Name
+Field: Method
+Field: Function
+Field: Aggregate Function Based On
+Field: Document Type
+Field: Parent Document Type
+Field: Field
+Field: Function
+Field: Is Public
+Field: Custom Configuration
+Field: Filters Configuration
+Field: Stats
+Field: Show Percentage Stats
+Field: Stats Time Interval
+Field: Filters Section
+Field: Filters JSON
+Field: Dynamic Filters Section
+Field: Dynamic Filters JSON
+Field: Color
+
+DocType: Number Card Link
+Field: Card
+
+DocType: Onboarding Permission
+Field: Role
+
+DocType: Onboarding Step
+Field: Title
+Field: Is Complete
+Field: Is Skipped
+Field: Description
+Field: Description
+Field: Intro Video URL
+Field: Action
+Field: Action Label
+Field: Reference Document
+Field: Show Full Form?
+Field: Show Form Tour
+Field: Is Single
+Field: Reference Report
+Field: Report Reference Doctype
+Field: Report Type
+Field: Report Description
+Field: Path
+Field: Callback Title
+Field: Callback Message
+Field: Validate Field
+Field: Field
+Field: Value to Validate
+Field: Video URL
+
+DocType: Onboarding Step Map
+Field: Step
+
+DocType: Route History
+Field: Route
+Field: User
+
+DocType: System Console
+Field: Console
+Field: Commit
+Field: Output
+
+DocType: Tag
+Field: Description
+
+DocType: Tag Link
+Field: Document Type
+Field: Document Name
+Field: Document Tag
+Field: Document Title
+
+DocType: ToDo
+Field: Status
+Field: Priority
+Field: Color
+Field: Due Date
+Field: Allocated To
+Field: Description
+Field: Reference
+Field: Reference Type
+Field: Reference Name
+Field: Role
+Field: Assigned By
+Field: Assigned By Full Name
+Field: Sender
+Field: Assignment Rule
+
+DocType: Workspace
+Field: Name
+Field: For User
+Field: Extends
+Field: Module
+Field: Category
+Field: Icon
+Field: Restrict to Domain
+Field: Onboarding
+Field: Extends Another Page
+Field: Is Default
+Field: Is Standard
+Field: Developer Mode Only
+Field: Disable User Customization
+Field: Pin To Top
+Field: Pin To Bottom
+Field: Hide Custom DocTypes and Reports
+Field: Dashboards
+Field: Label
+Field: Charts
+Field: Shortcuts
+Field: Label
+Field: Shortcuts
+Field: Link Cards
+Field: Label
+Field: Links
+
+DocType: Workspace Chart
+Field: Chart Name
+Field: Label
+
+DocType: Workspace Link
+Field: Type
+Field: Label
+Field: Icon
+Field: Only for
+Field: Hidden
+Field: Link Details
+Field: Link Type
+Field: Link To
+Field: Dependencies
+Field: Onboard
+Field: Is Query Report
+
+DocType: Workspace Shortcut
+Field: Type
+Field: Link To
+Field: DocType View
+Field: Label
+Field: Icon
+Field: Restrict to Domain
+Field: Count Filter
+Field: Count Filter
+Field: Color
+Field: Format

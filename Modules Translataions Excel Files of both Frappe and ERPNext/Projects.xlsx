@@ -1,0 +1,212 @@
+Module: Projects
+DocType: Activity Cost
+Field: Activity Type
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: Billing Rate
+Field: Costing Rate
+Field: title
+
+DocType: Activity Type
+Field: Activity Type
+Field: Default Costing Rate
+Field: Default Billing Rate
+Field: Disabled
+
+DocType: Dependent Task
+Field: Task
+
+DocType: Project
+Field: Series
+Field: Project Name
+Field: Status
+Field: Project Type
+Field: Is Active
+Field: % Complete Method
+Field: % Completed
+Field: From Template
+Field: Expected Start Date
+Field: Expected End Date
+Field: Priority
+Field: Department
+Field: Customer Details
+Field: Customer
+Field: Sales Order
+Field: Users
+Field: Users
+Field: Copied From
+Field: Notes
+Field: Notes
+Field: Start and End Dates
+Field: Actual Start Date
+Field: Actual Time (in Hours)
+Field: Actual End Date
+Field: Costing and Billing
+Field: Estimated Cost
+Field: Total Costing Amount (via Timesheets)
+Field: Total Expense Claim (via Expense Claims)
+Field: Total Purchase Cost (via Purchase Invoice)
+Field: Company
+Field: Total Sales Amount (via Sales Order)
+Field: Total Billable Amount (via Timesheets)
+Field: Total Billed Amount (via Sales Invoices)
+Field: Total Consumed Material Cost  (via Stock Entry)
+Field: Default Cost Center
+Field: Margin
+Field: Gross Margin
+Field: Gross Margin %
+Field: Monitor Progress
+Field: Collect Progress
+Field: Holiday List
+Field: Frequency To Collect Progress
+Field: From Time
+Field: To Time
+Field: First Email
+Field: Second Email
+Field: Time to send
+Field: Day to Send
+Field: Time to send
+Field: Message
+
+DocType: Project Template
+Field: Project Type
+Field: Tasks
+
+DocType: Project Template Task
+Field: Task
+Field: Subject
+
+DocType: Project Type
+Field: Project Type
+Field: Description
+
+DocType: Project Update
+Field: Series
+Field: Project
+Field: Sent
+Field: Date
+Field: Time
+Field: Users
+
+DocType: Project User
+Field: User
+Field: Email
+Field: Image
+Field: Full Name
+Field: Welcome email sent
+Field: View attachments
+Field: Project Status
+
+DocType: Projects Settings
+Field: Timesheets
+Field: Ignore Workstation Time Overlap
+Field: Ignore User Time Overlap
+Field: Ignore Employee Time Overlap
+
+DocType: Task
+Field: Subject
+Field: Project
+Field: Issue
+Field: Type
+Field: Color
+Field: Is Group
+Field: Is Template
+Field: Status
+Field: Priority
+Field: Weight
+Field: Parent Task
+Field: Completed By
+Field: Completed On
+Field: Timeline
+Field: Expected Start Date
+Field: Expected Time (in hours)
+Field: Begin On (Days)
+Field: Expected End Date
+Field: % Progress
+Field: Duration (Days)
+Field: Is Milestone
+Field: Details
+Field: Task Description
+Field: Dependencies
+Field: Dependent Tasks
+Field: Depends on Tasks
+Field: Actual Start Date (via Time Sheet)
+Field: Actual Time (in hours)
+Field: Actual End Date (via Time Sheet)
+Field: Costing
+Field: Total Costing Amount (via Time Sheet)
+Field: Total Expense Claim (via Expense Claim)
+Field: Total Billing Amount (via Time Sheet)
+Field: More Info
+Field: Review Date
+Field: Closing Date
+Field: Department
+Field: Company
+Field: lft
+Field: rgt
+Field: Old Parent
+
+DocType: Task Depends On
+Field: Task
+Field: Subject
+Field: Project
+
+DocType: Task Type
+Field: Weight
+Field: Description
+
+DocType: Timesheet
+Field: Title
+Field: Series
+Field: Company
+Field: Customer
+Field: Currency
+Field: Exchange Rate
+Field: Sales Invoice
+Field: Salary Slip
+Field: Status
+Field: Project
+Field: Employee Detail
+Field: Employee
+Field: Employee Name
+Field: Department
+Field: User
+Field: Start Date
+Field: End Date
+Field: Time Sheets
+Field: Total Working Hours
+Field: Billing Details
+Field: Total Billable Hours
+Field: Total Billable Amount
+Field: Total Billed Amount
+Field: Total Costing Amount
+Field: Total Billed Hours
+Field: Total Billable Amount
+Field: Total Billed Amount
+Field: Total Costing Amount
+Field: % Amount Billed
+Field: Note
+
+DocType: Timesheet Detail
+Field: Activity Type
+Field: From Time
+Field: Description
+Field: Expected Hrs
+Field: To Time
+Field: Hrs
+Field: Completed
+Field: Project
+Field: Project Name
+Field: Task
+Field: Is Billable
+Field: Sales Invoice
+Field: Billing Hours
+Field: Billing Rate
+Field: Billing Amount
+Field: Costing Rate
+Field: Costing Amount
+Field: Billing Rate
+Field: Billing Amount
+Field: Costing Rate
+Field: Costing Amount

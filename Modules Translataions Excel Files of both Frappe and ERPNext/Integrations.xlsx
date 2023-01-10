@@ -1,0 +1,305 @@
+Module: Integrations
+DocType: Braintree Settings
+Field: Payment Gateway Name
+Field: Merchant ID
+Field: Public Key
+Field: Private Key
+Field: Use Sandbox
+Field: Header Image
+
+DocType: Connected App
+Field: Provider Name
+Field: OpenID Configuration
+Field: Client Credentials
+Field: Client Id
+Field: Redirect URI
+Field: Client Secret
+Field: Scopes
+Field: Scopes
+Field: Endpoints
+Field: Authorization URI
+Field: Token URI
+Field: Revocation URI
+Field: Userinfo URI
+Field: Introspection URI
+Field: Extra Parameters
+Field: Query Parameters
+
+DocType: Dropbox Settings
+Field: Enabled
+Field: Send Notifications To
+Field: Send Email for Successful Backup
+Field: Backup Frequency
+Field: Limit Number of DB Backups
+Field: Number of DB Backups
+Field: File Backup
+Field: App Access Key
+Field: App Secret Key
+Field: Allow Dropbox Access
+Field: Dropbox Access Key
+Field: Dropbox Access Secret
+Field: Dropbox Access Token
+
+DocType: Google Calendar
+Field: Enable
+Field: Google Calendar
+Field: Calendar Name
+Field: User
+Field: Authorize Google Calendar Access
+Field: Sync
+Field: Pull from Google Calendar
+Field: Push to Google Calendar
+Field: Google Calendar ID
+Field: Refresh Token
+Field: Authorization Code
+Field: Next Sync Token
+
+DocType: Google Contacts
+Field: Enable
+Field: Google Contacts
+Field: Email Address
+Field: Authorize Google Contacts Access
+Field: Last Sync On
+Field: Authorization Code
+Field: Refresh Token
+Field: Next Sync Token
+Field: Sync
+Field: Pull from Google Contacts
+Field: Push to Google Contacts
+
+DocType: Google Drive
+Field: Enable
+Field: Google Drive
+Field: Backup Folder Name
+Field: Frequency
+Field: Send Notification To
+Field: Send Email for Successful backup
+Field: File Backup
+Field: Authorize Google Drive Access
+Field: Backup Folder ID
+Field: Last Backup On
+Field: Refresh Token
+Field: Authorization Code
+
+DocType: Google Settings
+Field: Enable
+Field: OAuth Client ID
+Field: Client ID
+Field: Client Secret
+Field: API Key
+Field: API Key
+Field: Google Drive Picker
+Field: Google Drive Picker Enabled
+Field: App ID
+
+DocType: Integration Request
+Field: Integration Type
+Field: Integration Request Service
+Field: Status
+Field: Data
+Field: Output
+Field: Error
+Field: Reference Document Type
+Field: Reference Docname
+
+DocType: LDAP Group Mapping
+Field: LDAP Group
+Field: User Role
+
+DocType: LDAP Settings
+Field: Enabled
+Field: LDAP Server Settings
+Field: Directory Server
+Field: LDAP Server Url
+Field: LDAP Auth
+Field: Base Distinguished Name (DN)
+Field: Password for Base DN
+Field: LDAP Search and Paths
+Field: LDAP search path for Users
+Field: LDAP Search String
+Field: LDAP search path for Groups
+Field: LDAP User Creation and Mapping
+Field: LDAP Email Field
+Field: LDAP Username Field
+Field: LDAP First Name Field
+Field: Do Not Create New User 
+Field: LDAP Middle Name Field
+Field: LDAP Last Name Field
+Field: LDAP Phone Field
+Field: LDAP Mobile Field
+Field: LDAP Security
+Field: SSL/TLS Mode
+Field: Require Trusted Certificate
+Field: Path to private Key File
+Field: Path to Server Certificate
+Field: Path to CA Certs File
+Field: LDAP Custom Settings
+Field: Group Object Class
+Field: Custom Group Search
+Field: LDAP Group Member attribute
+Field: LDAP Group Mappings
+Field: Default User Type
+Field: Default User Role
+Field: LDAP Group Mappings
+Field: LDAP Group Field
+
+DocType: OAuth Authorization Code
+Field: Client
+Field: User
+Field: Scopes
+Field: Authorization Code
+Field: Expiration time
+Field: Redirect URI Bound To Auth Code
+Field: Validity
+Field: nonce
+Field: Code Challenge
+Field: Code challenge method
+
+DocType: OAuth Bearer Token
+Field: Client
+Field: User
+Field: Scopes
+Field: Access Token
+Field: Refresh Token
+Field: Expiration time
+Field: Expires In
+Field: Status
+
+DocType: OAuth Client
+Field: App Client ID
+Field: App Name
+Field: User
+Field: App Client Secret
+Field: Skip Authorization
+Field: 
+Field: Scopes
+Field: Redirect URIs
+Field: Default Redirect URI
+Field: Advanced Settings
+Field: Grant Type
+Field: Response Type
+
+DocType: OAuth Provider Settings
+Field: Skip Authorization
+
+DocType: OAuth Scope
+Field: Scope
+
+DocType: PayPal Settings
+Field: API Username
+Field: API Password
+Field: Signature
+Field: Use Sandbox
+Field: Redirect To
+
+DocType: Paytm Settings
+Field: Merchant ID
+Field: Merchant Key
+Field: Staging
+Field: Industry Type ID
+Field: Website
+
+DocType: Query Parameters
+Field: Key
+Field: Value
+
+DocType: Razorpay Settings
+Field: API Key
+Field: API Secret
+Field: Redirect To
+
+DocType: S3 Backup Settings
+Field: Enable Automatic Backup
+Field: API Access
+Field: Access Key ID
+Field: Access Key Secret
+Field: Notification
+Field: Send Notifications To
+Field: Send Email for Successful Backup
+Field: S3 Bucket Details
+Field: Bucket Name
+Field: Endpoint URL
+Field: Backup Details
+Field: Backup Frequency
+Field: Backup Files
+
+DocType: Slack Webhook URL
+Field: Name
+Field: Webhook URL
+Field: Show link to document
+
+DocType: Social Login Key
+Field: Enable Social Login
+Field: Client Credentials
+Field: Social Login Provider
+Field: Client ID
+Field: Provider Name
+Field: Client Secret
+Field: Identity Details
+Field: Icon
+Field: Base URL
+Field: Client URLs
+Field: Authorize URL
+Field: Access Token URL
+Field: Redirect URL
+Field: API Endpoint
+Field: Custom Base URL
+Field: Client Information
+Field: API Endpoint Args
+Field: Auth URL Data
+Field: User ID Property
+
+DocType: Stripe Settings
+Field: Payment Gateway Name
+Field: Publishable Key
+Field: Secret Key
+Field: Header Image
+Field: Redirect URL
+
+DocType: Token Cache
+Field: User
+Field: Connected App
+Field: Provider Name
+Field: Access Token
+Field: Refresh Token
+Field: Expires In
+Field: State
+Field: Scopes
+Field: Success URI
+Field: Token Type
+
+DocType: Webhook
+Field: Doc Events
+Field: Naming Series
+Field: DocType
+Field: Doc Event
+Field: Enabled
+Field: Webhook Trigger
+Field: Condition
+Field: Webhook Request
+Field: Request URL
+Field: Request Method
+Field: Request Structure
+Field: Webhook Security
+Field: Enable Security
+Field: Webhook Secret
+Field: Webhook Headers
+Field: Headers
+Field: Webhook Data
+Field: Data
+Field: JSON Request Body
+
+DocType: Webhook Data
+Field: Fieldname
+Field: Key
+
+DocType: Webhook Header
+Field: Key
+Field: Value
+
+DocType: Webhook Request Log
+Field: User
+Field: Headers
+Field: Data
+Field: URL
+Field: Response

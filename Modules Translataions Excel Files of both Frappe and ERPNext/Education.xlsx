@@ -1,0 +1,687 @@
+Module: Education
+DocType: Academic Term
+Field: Academic Year
+Field: Term Name
+Field: Term Start Date
+Field: Term End Date
+Field: Title
+
+DocType: Academic Year
+Field: Academic Year Name
+Field: Year Start Date
+Field: Year End Date
+
+DocType: Article
+Field: Title
+Field: Author
+Field: Content
+Field: Publish Date
+
+DocType: Assessment Criteria
+Field: Assessment Criteria
+Field: Assessment Criteria Group
+
+DocType: Assessment Criteria Group
+Field: Assessment Criteria Group
+
+DocType: Assessment Group
+Field: Assessment Group Name
+Field: Is Group
+Field: Parent Assessment Group
+Field: lft
+Field: rgt
+Field: old_parent
+
+DocType: Assessment Plan
+Field: Student Group
+Field: Assessment Name
+Field: Assessment Group
+Field: Grading Scale
+Field: Program
+Field: Course
+Field: Academic Year
+Field: Academic Term
+Field: Schedule
+Field: Schedule Date
+Field: Room
+Field: Examiner
+Field: Examiner Name
+Field: From Time
+Field: To Time
+Field: Supervisor
+Field: Supervisor Name
+Field: Evaluate
+Field: Maximum Assessment Score
+Field: Assessment Criteria
+
+DocType: Assessment Plan Criteria
+Field: Assessment Criteria
+Field: 
+Field: Maximum Score
+
+DocType: Assessment Result
+Field: Assessment Plan
+Field: Program
+Field: Course
+Field: Academic Year
+Field: Academic Term
+Field: Student
+Field: Student Name
+Field: Student Group
+Field: Assessment Group
+Field: Grading Scale
+Field: Result
+Field: Details
+Field: Maximum Score
+Field: Total Score
+Field: Grade
+Field: Summary
+Field: Comment
+
+DocType: Assessment Result Detail
+Field: Assessment Criteria
+Field: Maximum Score
+Field: Score
+Field: Grade
+
+DocType: Assessment Result Tool
+Field: Assessment Plan
+Field: Student Group
+Field: Result HTML
+
+DocType: Content Activity
+Field: Content
+Field: Content Type
+Field: Last Activity 
+
+DocType: Content Question
+Field: Question Link
+
+DocType: Course
+Field: Course Name
+Field: Department
+Field: Portal Settings
+Field: Topics
+Field: Description
+Field: Hero Image
+Field: Assessment
+Field: Default Grading Scale
+Field: Assessment Criteria
+
+DocType: Course Activity
+Field: Course Enrollment
+Field: Course
+Field: Student
+Field: Content Type
+Field: Content
+Field: Activity Date
+
+DocType: Course Assessment Criteria
+Field: Assessment Criteria
+Field: 
+Field: Weightage
+
+DocType: Course Content
+Field: Content Type
+Field: 
+Field: Content
+
+DocType: Course Enrollment
+Field: Program Enrollment
+Field: Student
+Field: Course
+Field: Enrollment Date
+
+DocType: Course Schedule
+Field: Student Group
+Field: Instructor
+Field: Instructor Name
+Field: Naming Series
+Field: Course
+Field: Color
+Field: Schedule Date
+Field: Room
+Field: From Time
+Field: To Time
+Field: Title
+
+DocType: Course Scheduling Tool
+Field: Student Group
+Field: Course
+Field: Program
+Field: Academic Year
+Field: Academic Term
+Field: Instructor
+Field: Instructor Name
+Field: Room
+Field: Days HTML
+Field: From Time
+Field: Course Start Date
+Field: To TIme
+Field: Course End Date
+Field: Reschedule
+
+DocType: Course Topic
+Field: Topic
+Field: Topic Name
+
+DocType: Education Settings
+Field: Current Academic Year
+Field: Current Academic Term
+Field: Attendance Freeze Date
+Field: Validate Batch for Students in Student Group
+Field: Validate Enrolled Course for Students in Student Group
+Field: Make Academic Term Mandatory
+Field: Skip User creation for new Student
+Field: Instructor Records to be created by
+Field: Learning Management System Settings
+Field: Enable Learning Management System
+Field: Learning Management System Title
+Field: Description
+
+DocType: Fee Category
+Field: Name
+Field: Description
+
+DocType: Fee Component
+Field: Fees Category
+Field: Description
+Field: Amount
+
+DocType: Fee Schedule
+Field: Fee Structure
+Field: Posting Date
+Field: Due Date
+Field: Naming Series
+Field: Fee Creation Status
+Field: Send Payment Request Email
+Field: Student Category
+Field: Program
+Field: Academic Year
+Field: Academic Term
+Field: Currency
+Field: Fee Breakup for each student
+Field: Total Amount per Student
+Field: Grand Total
+Field: In Words
+Field: Printing Settings
+Field: Letter Head
+Field: Print Heading
+Field: Accounting
+Field: Receivable Account
+Field: Income Account
+Field: Institution
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Error Log
+Field: Error Log
+
+DocType: Fee Schedule Program
+Field: Program
+Field: Student Batch
+Field: Total Students
+
+DocType: Fee Schedule Student Group
+Field: Student Group
+Field: Total Students
+
+DocType: Fee Structure
+Field: Naming Series
+Field: Program
+Field: Student Category
+Field: Academic Year
+Field: Academic Term
+Field: Components
+Field: Total Amount
+Field: Accounts
+Field: Receivable Account
+Field: Income Account
+Field: Company
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: Fees
+Field: Naming Series
+Field: Student
+Field: Student Name
+Field: Fee Schedule
+Field: Include Payment
+Field: Send Payment Request
+Field: Institution
+Field: Date
+Field: Posting Time
+Field: Edit Posting Date and Time
+Field: Due Date
+Field: Student Details
+Field: Program Enrollment
+Field: Program
+Field: Student Batch
+Field: Student Email
+Field: Student Category
+Field: Academic Term
+Field: Academic Year
+Field: Currency
+Field: Fee Structure
+Field: Components
+Field: Grand Total
+Field: In Words
+Field: Outstanding Amount
+Field: Printing Settings
+Field: Letter Head
+Field: Print Heading
+Field: Accounting
+Field: Receivable Account
+Field: Income Account
+Field: Accounting Dimensions
+Field: Cost Center
+
+DocType: Grading Scale
+Field: Grading Scale Name
+Field: Grading Scale Intervals
+Field: Intervals
+Field: Description
+
+DocType: Grading Scale Interval
+Field: Grade Code
+Field: Threshold
+Field: Grade Description
+
+DocType: Guardian
+Field: Guardian Name
+Field: Email Address
+Field: Mobile Number
+Field: Alternate Number
+Field: Date of Birth
+Field: User Id
+Field: Education
+Field: Occupation
+Field: Designation
+Field: Work Address
+Field: Image
+Field: Guardian Of 
+Field: Students
+Field: Guardian Interests
+Field: Interests
+
+DocType: Guardian Interest
+Field: Interest
+
+DocType: Guardian Student
+Field: Student
+Field: Student Name
+
+DocType: Instructor
+Field: Instructor Name
+Field: Employee
+Field: Gender
+Field: Status
+Field: Naming Series
+Field: Department
+Field: Image
+Field: Instructor Log
+Field: Instructor Log
+
+DocType: Instructor Log
+Field: Academic Year
+Field: Academic Term
+Field: Department
+Field: Program
+Field: Course
+Field: Student Group
+Field: Other details
+
+DocType: Options
+Field: Option
+Field: Is Correct
+
+DocType: Program
+Field: Program Name
+Field: Department
+Field: Program Abbreviation
+Field: Courses
+Field: Courses
+Field: Portal Settings
+Field: Is Published
+Field: Allow Self Enroll
+Field: Is Featured
+Field: Intro Video
+Field: Hero Image
+Field: Description
+
+DocType: Program Course
+Field: Course
+Field: Course Name
+Field: Mandatory
+
+DocType: Program Enrollment
+Field: Student
+Field: Student Name
+Field: Student Category
+Field: Student Batch
+Field: School House
+Field: Program
+Field: Academic Year
+Field: Academic Term
+Field: Enrollment Date
+Field: Boarding Student
+Field: Enrolled courses
+Field: Courses
+Field: Transportation
+Field: Mode of Transportation
+Field: Vehicle/Bus Number
+Field: Fees
+Field: Fees
+Field: Image
+
+DocType: Program Enrollment Course
+Field: Course
+Field: Course Name
+
+DocType: Program Enrollment Fee
+Field: Academic Term
+Field: Fee Structure
+Field: Due Date
+Field: Amount
+
+DocType: Program Enrollment Tool
+Field: Get Students From
+Field: Program
+Field: Student Batch
+Field: Academic Year
+Field: Academic Term
+Field: Get Students
+Field: Students
+Field: Enrollment Details
+Field: New Program
+Field: New Student Batch
+Field: Enroll Students
+Field: New Academic Year
+Field: New Academic Term
+
+DocType: Program Enrollment Tool Student
+Field: Student Applicant
+Field: Student
+Field: Student Name
+Field: Student Batch Name
+Field: Student Category
+
+DocType: Program Fee
+Field: Academic Term
+Field: Fee Structure
+Field: Student Category
+Field: Due Date
+Field: Amount
+
+DocType: Question
+Field: Question
+Field: Options
+Field: Type
+
+DocType: Quiz
+Field: Title
+Field: Question
+Field: Quiz Configuration
+Field: Passing Score
+Field: Max Attempts
+Field: Grading Basis
+Field: Is Time-Bound
+Field: Duration
+
+DocType: Quiz Activity
+Field: Enrollment
+Field: Student
+Field: Course
+Field: Quiz
+Field: Status
+Field: Result
+Field: Activity Date
+Field: Score
+Field: Time Taken
+
+DocType: Quiz Question
+Field: Question Link
+Field: Question
+
+DocType: Quiz Result
+Field: Question
+Field: Selected Option
+Field: Result
+
+DocType: Room
+Field: Room Name
+Field: Room Number
+Field: Seating Capacity
+
+DocType: School House
+Field: House Name
+
+DocType: Student
+Field: Enabled
+Field: First Name
+Field: Middle Name
+Field: Last Name
+Field: User ID
+Field: Naming Series
+Field: Student Email Address
+Field: Student Mobile Number
+Field: Joining Date
+Field: Image
+Field: Personal Details
+Field: Date of Birth
+Field: Blood Group
+Field: Gender
+Field: Nationality
+Field: Student Applicant
+Field: Home Address
+Field: Address Line 1
+Field: Address Line 2
+Field: Pincode
+Field: City
+Field: State
+Field: Guardian Details
+Field: Guardians
+Field: Sibling Details
+Field: Siblings
+Field: Exit
+Field: Date of Leaving
+Field: Leaving Certificate Number
+Field: Reason For Leaving
+Field: Title
+
+DocType: Student Admission
+Field: Title
+Field: Route
+Field: Academic Year
+Field: Admission Start Date
+Field: Admission End Date
+Field: Publish on website
+Field: Enable Admission Application
+Field: Eligibility and Details
+Field: Eligibility and Details
+Field: Introduction
+
+DocType: Student Admission Program
+Field: Program
+Field: Minimum Age
+Field: Maximum Age
+Field: Description
+Field: Application Fee
+Field: Naming Series (for Student Applicant)
+
+DocType: Student Applicant
+Field: First Name
+Field: Middle Name
+Field: Last Name
+Field: Program
+Field: Student Category
+Field: LMS Only
+Field: Paid
+Field: Naming Series
+Field: Application Status
+Field: Application Date
+Field: Academic Year
+Field: Academic Term
+Field: Student Admission
+Field: Image
+Field: Personal Details
+Field: Date of Birth
+Field: Gender
+Field: Blood Group
+Field: Student Email Address
+Field: Student Mobile Number
+Field: Nationality
+Field: Home Address
+Field: Address Line 1
+Field: Address Line 2
+Field: Pincode
+Field: City
+Field: State
+Field: Guardian Details
+Field: Guardians
+Field: Sibling Details
+Field: Siblings
+Field: Title
+
+DocType: Student Attendance
+Field: Series
+Field: Student
+Field: Student Name
+Field: Student Mobile Number
+Field: Course Schedule
+Field: Student Group
+Field: Date
+Field: Status
+Field: Leave Application
+
+DocType: Student Attendance Tool
+Field: Based On
+Field: Group Based On
+Field: Student Group
+Field: Academic Year
+Field: Academic Term
+Field: Course Schedule
+Field: Date
+Field: Attendance
+Field: Students HTML
+
+DocType: Student Batch Name
+Field: Batch Name
+
+DocType: Student Category
+Field: Category
+
+DocType: Student Group
+Field: Academic Year
+Field: Group Based on
+Field: Student Group Name
+Field: Max Strength
+Field: Academic Term
+Field: Program
+Field: Batch
+Field: Student Category
+Field: Course
+Field: Disabled
+Field: Students
+Field: Get Students
+Field: Students
+Field: Instructors
+Field: Instructors
+
+DocType: Student Group Creation Tool
+Field: Academic Year
+Field: Academic Term
+Field: Get Courses
+Field: Program
+Field: Separate course based Group for every Batch
+Field: Courses
+
+DocType: Student Group Creation Tool Course
+Field: Group Based On
+Field: Course
+Field: Batch
+Field: Student Group Name
+Field: Course Code
+Field: Max Strength
+
+DocType: Student Group Instructor
+Field: Instructor
+Field: Instructor Name
+
+DocType: Student Group Student
+Field: Student
+Field: Student Name
+Field: Group Roll Number
+Field: Active
+
+DocType: Student Guardian
+Field: Guardian
+Field: Guardian Name
+Field: Relation
+
+DocType: Student Language
+Field: Language Name
+
+DocType: Student Leave Application
+Field: Student
+Field: Student Name
+Field: From Date
+Field: To Date
+Field: Total Leave Days
+Field: Attendance Based On
+Field: Student Group
+Field: Course Schedule
+Field: Mark as Present
+Field: Reason
+
+DocType: Student Log
+Field: Student
+Field: Student Name
+Field: Type
+Field: Date
+Field: Academic Year
+Field: Academic Term
+Field: Program
+Field: Student Batch
+Field: Log
+
+DocType: Student Report Generation Tool
+Field: Student
+Field: Student Name
+Field: Program
+Field: Batch
+Field: Include All Assessment Group
+Field: Show Marks
+Field: Add letterhead
+Field: Assessment Group
+Field: Academic Year
+Field: Academic Term
+Field: Letter Head
+Field: Print Section
+Field: Total Parents Teacher Meeting
+Field: Attended by Parents
+Field: Terms
+Field: Assessment Terms
+
+DocType: Student Sibling
+Field: Studying in Same Institute
+Field: Full Name
+Field: Gender
+Field: Student ID
+Field: Institution
+Field: Program
+Field: Date of Birth
+
+DocType: Student Siblings
+Field: Name
+Field: Gender
+Field: Date of Birth
+
+DocType: Topic
+Field: Name
+Field: Topic Content
+Field: Description
+Field: Hero Image
+
+DocType: Topic Content
+Field: Content Type
+Field: Content

@@ -1,0 +1,34 @@
+Module: Utilities
+DocType: Rename Tool
+Field: Select DocType
+Field: File to Rename
+Field: Rename Log
+
+DocType: SMS Log
+Field: Sender Name
+Field: Sent On
+Field: Message
+Field: No of Requested SMS
+Field: Requested Numbers
+Field: No of Sent SMS
+Field: Sent To
+
+DocType: Video
+Field: Title
+Field: Provider
+Field: URL
+Field: Youtube ID
+Field: Publish Date
+Field: Duration
+Field: Youtube Statistics
+Field: Likes
+Field: Views
+Field: Dislikes
+Field: Comments
+Field: Description
+Field: Image
+
+DocType: Video Settings
+Field: Enable YouTube Tracking
+Field: API Key
+Field: Frequency

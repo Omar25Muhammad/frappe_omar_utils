@@ -1,0 +1,80 @@
+Module: Printing
+DocType: Letter Head
+Field: Letter Head Name
+Field: Letter Head Based On
+Field: Footer Based On
+Field: Disabled
+Field: Default Letter Head
+Field: Letter Head Image
+Field: Image
+Field: Header
+Field: Header HTML
+Field: Footer
+Field: Footer HTML
+Field: Footer Image
+Field: Image
+Field: Image Height
+Field: Image Width
+Field: Align
+Field: Align
+Field: Image Height
+Field: Image Width
+
+DocType: Network Printer Settings
+Field: Server IP
+Field: Port
+Field: Printer Name
+
+DocType: Print Format
+Field: DocType
+Field: Module
+Field: Default Print Language
+Field: Standard
+Field: Custom Format
+Field: Disabled
+Field: Print Format Type
+Field: Raw Printing
+Field: HTML
+Field: Raw Commands
+Field: Style Settings
+Field: Align Labels to the Right
+Field: Show Section Headings
+Field: Show Line Breaks after Sections
+Field: Show Absolute Values
+Field: Font
+Field: Custom CSS
+Field: Custom HTML Help
+Field: Print Format Help
+Field: Format Data
+Field: Print Format Builder
+
+DocType: Print Settings
+Field: PDF Settings
+Field: Send Print as PDF
+Field: Repeat Header and Footer in PDF
+Field: PDF Page Size
+Field: PDF Page Height (in mm)
+Field: PDF Page Width (in mm)
+Field: Page Settings
+Field: Print with letterhead
+Field: Allow Print for Draft
+Field: Always add "Draft" Heading for printing draft documents
+Field: Allow page break inside tables
+Field: Allow Print for Cancelled
+Field: Print Server
+Field: Enable Print Server
+Field: Raw Printing
+Field: Enable Raw Printing
+Field: Print Style
+Field: Print Style
+Field: Print Style Preview
+Field: Fonts
+Field: Font
+Field: Font Size
+
+DocType: Print Style
+Field: Print Style Name
+Field: Disabled
+Field: Standard
+Field: CSS
+Field: Preview

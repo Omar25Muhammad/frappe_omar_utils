@@ -1,0 +1,49 @@
+Module: Restaurant
+DocType: Restaurant
+Field: Image
+Field: Company
+Field: Default Customer
+Field: Invoice Series Prefix
+Field: Active Menu
+Field: Default Tax Template
+Field: Address
+
+DocType: Restaurant Menu
+Field: Restaurant
+Field: Enabled
+Field: Price List (Auto created)
+Field: Items
+Field: Items
+
+DocType: Restaurant Menu Item
+Field: Item
+Field: Rate
+
+DocType: Restaurant Order Entry
+Field: Restaurant Table
+Field: Add Item
+Field: Grand Total
+Field: Last Sales Invoice
+Field: Current Order
+Field: Items
+
+DocType: Restaurant Order Entry Item
+Field: Item
+Field: Qty
+Field: Served
+Field: Rate
+
+DocType: Restaurant Reservation
+Field: Status
+Field: Restaurant
+Field: No of People
+Field: Reservation Time
+Field: Reservation End Time
+Field: Customer
+Field: Customer Name
+Field: Contact Number
+
+DocType: Restaurant Table
+Field: Restaurant
+Field: No of Seats
+Field: Minimum Seating

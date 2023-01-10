@@ -1,0 +1,47 @@
+Module: Social
+DocType: Energy Point Log
+Field: User
+Field: Type
+Field: Points
+Field: Rule
+Field: Reference Document Type
+Field: Reference Name
+Field: Reverted
+Field: Revert Of
+Field: Reason
+Field: Seen
+
+DocType: Energy Point Rule
+Field: Enabled
+Field: Rule Name
+Field: Reference Document Type
+Field: For Document Event
+Field: Field To Check
+Field: Points
+Field: Allot Points To Assigned Users
+Field: User Field
+Field: Multiplier Field
+Field: Maximum Points
+Field: Apply Only Once
+Field: Condition
+
+DocType: Energy Point Settings
+Field: Enabled
+Field: Review Levels
+Field: Point Allocation Periodicity
+Field: Last Point Allocation Date
+
+DocType: Post
+Field: Content
+Field: comments
+Field: Liked By
+Field: Is Pinned
+Field: Is Globally Pinned
+
+DocType: Post Comment
+Field: Content
+
+DocType: Review Level
+Field: Level Name
+Field: Role
+Field: Review Points

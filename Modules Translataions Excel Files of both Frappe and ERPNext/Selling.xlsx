@@ -1,0 +1,520 @@
+Module: Selling
+DocType: Campaign
+Field: Campaign
+Field: Campaign Name
+Field: Naming Series
+Field: Campaign Schedules
+Field: Campaign Schedules
+Field: Description
+
+DocType: Customer
+Field: Name and Type
+Field: Series
+Field: Salutation
+Field: Full Name
+Field: Gender
+Field: Type
+Field: PAN
+Field: Tax Withholding Category
+Field: Default Company Bank Account
+Field: From Lead
+Field: From Opportunity
+Field: Image
+Field: Account Manager
+Field: Customer Group
+Field: Territory
+Field: Tax ID
+Field: Tax Category
+Field: Allow Sales Invoice Creation Without Sales Order
+Field: Allow Sales Invoice Creation Without Delivery Note
+Field: Disabled
+Field: Is Internal Customer
+Field: Represents Company
+Field: Allowed To Transact With
+Field: Allowed To Transact With
+Field: Currency and Price List
+Field: Billing Currency
+Field: Default Price List
+Field: Address and Contact
+Field: Address HTML
+Field: Website
+Field: Contact HTML
+Field: Primary Address and Contact Detail
+Field: Customer Primary Contact
+Field: Mobile No
+Field: Email Id
+Field: Customer Primary Address
+Field: Primary Address
+Field: Accounting
+Field: Accounts
+Field: Credit Limit and Payment Terms
+Field: Default Payment Terms Template
+Field: Credit Limit
+Field: More Information
+Field: Customer Details
+Field: Market Segment
+Field: Industry
+Field: Print Language
+Field: Is Frozen
+Field: Loyalty Points
+Field: Loyalty Program
+Field: Loyalty Program Tier
+Field: Sales Partner and Commission
+Field: Sales Partner
+Field: Commission Rate
+Field: Sales Team
+Field: Sales Team Details
+Field: Customer POS id
+
+DocType: Customer Credit Limit
+Field: Company
+Field: Credit Limit
+Field: Bypass Credit Limit Check at Sales Order
+
+DocType: Industry Type
+Field: Industry
+
+DocType: Installation Note
+Field: Installation Note
+Field: Series
+Field: Customer
+Field: Customer Address
+Field: Contact Person
+Field: Name
+Field: Address
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Territory
+Field: Customer Group
+Field: Installation Date
+Field: Installation Time
+Field: Status
+Field: Company
+Field: Remarks
+Field: 
+Field: Items
+
+DocType: Installation Note Item
+Field: Item Code
+Field: Serial No
+Field: Installed Qty
+Field: Description
+Field: Against Document Detail No
+Field: Against Document No
+Field: Document Type
+
+DocType: Party Specific Item
+Field: Party Type
+Field: Party Name
+Field: Restrict Items Based On
+Field: Based On Value
+
+DocType: Product Bundle
+Field: 
+Field: Parent Item
+Field: Description
+Field: Items
+Field: Items
+Field: 
+
+DocType: Product Bundle Item
+Field: Item
+Field: Qty
+Field: Description
+Field: Rate
+Field: UOM
+
+DocType: Quotation
+Field: Title
+Field: Series
+Field: Quotation To
+Field: Party
+Field: Customer Name
+Field: Company
+Field: Date
+Field: Valid Till
+Field: Order Type
+Field: Address and Contact
+Field: Customer Address
+Field: Address
+Field: Contact Person
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Shipping Address
+Field: Shipping Address
+Field: Company Address Name
+Field: Company Address
+Field: Customer Group
+Field: Territory
+Field: Currency and Price List
+Field: Currency
+Field: Exchange Rate
+Field: Price List
+Field: Price List Currency
+Field: Price List Exchange Rate
+Field: Ignore Pricing Rule
+Field: Items
+Field: Bundle Items
+Field: Bundle Items
+Field: Pricing Rules
+Field: Pricing Rule Detail
+Field: Total Quantity
+Field: Total (Company Currency)
+Field: Net Total (Company Currency)
+Field: Total
+Field: Net Total
+Field: Total Net Weight
+Field: Taxes and Charges
+Field: Tax Category
+Field: Shipping Rule
+Field: Sales Taxes and Charges Template
+Field: Sales Taxes and Charges
+Field: Tax Breakup
+Field: Taxes and Charges Calculation
+Field: Total Taxes and Charges (Company Currency)
+Field: Total Taxes and Charges
+Field: Additional Discount and Coupon Code
+Field: Coupon Code
+Field: Referral Sales Partner
+Field: Apply Additional Discount On
+Field: Additional Discount Amount (Company Currency)
+Field: Additional Discount Percentage
+Field: Additional Discount Amount
+Field: Grand Total (Company Currency)
+Field: Rounding Adjustment (Company Currency)
+Field: In Words (Company Currency)
+Field: Rounded Total (Company Currency)
+Field: Grand Total
+Field: Rounding Adjustment
+Field: Rounded Total
+Field: In Words
+Field: Payment Terms
+Field: Payment Terms Template
+Field: Payment Schedule
+Field: Terms and Conditions
+Field: Terms
+Field: Term Details
+Field: Print Settings
+Field: Letter Head
+Field: Group same items
+Field: Print Heading
+Field: Print Language
+Field: Auto Repeat Section
+Field: Auto Repeat
+Field: Update Auto Repeat Reference
+Field: More Information
+Field: Campaign
+Field: Source
+Field: Detailed Reason
+Field: Status
+Field: Opportunity Item
+Field: Supplier Quotation
+Field: Opportunity
+Field: Lost Reasons
+
+DocType: Quotation Item
+Field: Item Code
+Field: Customer's Item Code
+Field: Item Name
+Field: Description
+Field: Description
+Field: Item Group
+Field: Brand
+Field: Image
+Field: Image
+Field: Image View
+Field: Quantity and Rate
+Field: Quantity
+Field: Stock UOM
+Field: UOM
+Field: UOM Conversion Factor
+Field: Qty as per Stock UOM
+Field: Price List Rate
+Field: Price List Rate (Company Currency)
+Field: Discount and Margin
+Field: Margin Type
+Field: Margin Rate or Amount
+Field: Rate With Margin
+Field: Discount (%) on Price List Rate with Margin
+Field: Discount Amount
+Field: Rate With Margin (Company Currency)
+Field: Rate
+Field: Net Rate
+Field: Amount
+Field: Net Amount
+Field: Item Tax Template
+Field: Rate (Company Currency)
+Field: Net Rate (Company Currency)
+Field: Amount (Company Currency)
+Field: Net Amount (Company Currency)
+Field: Pricing Rules
+Field: Rate of Stock UOM
+Field: Is Free Item
+Field: Valuation Rate
+Field: Gross Profit
+Field: Item Weight Details
+Field: Weight Per Unit
+Field: Total Weight
+Field: Weight UOM
+Field: Warehouse and Reference
+Field: Warehouse
+Field: Against Blanket Order
+Field: Blanket Order
+Field: Blanket Order Rate
+Field: Against Doctype
+Field: Against Docname
+Field: Planning
+Field: Projected Qty
+Field: Actual Qty
+Field: Stock Balance
+Field: Item Tax Rate
+Field: Shopping Cart
+Field: Additional Notes
+Field: Page Break
+
+DocType: Sales Order
+Field: Title
+Field: Series
+Field: Customer
+Field: Customer Name
+Field: Order Type
+Field: Skip Delivery Note
+Field: Company
+Field: Date
+Field: Delivery Date
+Field: Customer's Purchase Order
+Field: Customer's Purchase Order Date
+Field: Tax Id
+Field: Accounting Dimensions
+Field: Cost Center
+Field: Project
+Field: Address and Contact
+Field: Customer Address
+Field: Address
+Field: Contact Person
+Field: Contact
+Field: Phone
+Field: Mobile No
+Field: Contact Email
+Field: Company Address Name
+Field: Company Address
+Field: Shipping Address Name
+Field: Shipping Address
+Field: Dispatch Address Name
+Field: Dispatch Address
+Field: Customer Group
+Field: Territory
+Field: Currency and Price List
+Field: Currency
+Field: Exchange Rate
+Field: Price List
+Field: Price List Currency
+Field: Price List Exchange Rate
+Field: Ignore Pricing Rule
+Field: Set Source Warehouse
+Field: Scan Barcode
+Field: Items
+Field: Packing List
+Field: Packed Items
+Field: Pricing Rules
+Field: Pricing Rule Detail
+Field: Total Quantity
+Field: Total (Company Currency)
+Field: Net Total (Company Currency)
+Field: Total Net Weight
+Field: Total
+Field: Net Total
+Field: Taxes and Charges
+Field: Tax Category
+Field: Shipping Rule
+Field: Sales Taxes and Charges Template
+Field: Sales Taxes and Charges
+Field: Tax Breakup
+Field: Taxes and Charges Calculation
+Field: Total Taxes and Charges (Company Currency)
+Field: Total Taxes and Charges
+Field: Loyalty Points Redemption
+Field: Loyalty Points
+Field: Loyalty Amount
+Field: Additional Discount and Coupon Code
+Field: Coupon Code
+Field: Apply Additional Discount On
+Field: Additional Discount Amount (Company Currency)
+Field: Additional Discount Percentage
+Field: Additional Discount Amount
+Field: Grand Total (Company Currency)
+Field: Rounding Adjustment (Company Currency)
+Field: Rounded Total (Company Currency)
+Field: In Words (Company Currency)
+Field: Grand Total
+Field: Rounding Adjustment
+Field: Rounded Total
+Field: In Words
+Field: Advance Paid
+Field: Disable Rounded Total
+Field: Payment Terms
+Field: Payment Terms Template
+Field: Payment Schedule
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions Details
+Field: More Information
+Field: Is Internal Customer
+Field: Represents Company
+Field: Inter Company Order Reference
+Field: Party Account Currency
+Field: Source
+Field: Campaign
+Field: Print Settings
+Field: Print Language
+Field: Letter Head
+Field: Print Heading
+Field: Group same items
+Field: Billing and Delivery Status
+Field: Status
+Field: Delivery Status
+Field: %  Delivered
+Field: % Amount Billed
+Field: % Picked
+Field: Billing Status
+Field: Commission
+Field: Sales Partner
+Field: Amount Eligible for Commission
+Field: Commission Rate
+Field: Total Commission
+Field: Sales Team
+Field: Sales Team
+Field: Auto Repeat Section
+Field: From Date
+Field: To Date
+Field: Auto Repeat
+Field: Update Auto Repeat Reference
+
+DocType: Sales Order Item
+Field: Item Code
+Field: Customer's Item Code
+Field: Ensure Delivery Based on Produced Serial No
+Field: Delivery Date
+Field: Item Name
+Field: Description
+Field: Description
+Field: Item Group
+Field: Brand Name
+Field: Image
+Field: Image
+Field: Image View
+Field: Quantity and Rate
+Field: Quantity
+Field: Stock UOM
+Field: Picked Qty (in Stock UOM)
+Field: UOM
+Field: UOM Conversion Factor
+Field: Qty as per Stock UOM
+Field: Price List Rate
+Field: Price List Rate (Company Currency)
+Field: Discount and Margin
+Field: Margin Type
+Field: Margin Rate or Amount
+Field: Rate With Margin
+Field: Discount (%) on Price List Rate with Margin
+Field: Discount Amount
+Field: Rate With Margin (Company Currency)
+Field: Rate
+Field: Amount
+Field: Item Tax Template
+Field: Basic Rate (Company Currency)
+Field: Amount (Company Currency)
+Field: Pricing Rules
+Field: Rate of Stock UOM
+Field: Is Free Item
+Field: Grant Commission
+Field: Net Rate
+Field: Net Amount
+Field: Net Rate (Company Currency)
+Field: Net Amount (Company Currency)
+Field: Billed Amt
+Field: Valuation Rate
+Field: Gross Profit
+Field: Drop Ship
+Field: Supplier delivers to Customer
+Field: Supplier
+Field: Item Weight Details
+Field: Weight Per Unit
+Field: Total Weight
+Field: Weight UOM
+Field: Warehouse and Reference
+Field: Delivery Warehouse
+Field: Customer Warehouse (Optional)
+Field: Quotation
+Field: Against Blanket Order
+Field: Blanket Order
+Field: Blanket Order Rate
+Field: Manufacturing Section
+Field: BOM No
+Field: Planning
+Field: Projected Qty
+Field: Actual Qty
+Field: Ordered Qty
+Field: Planned Quantity
+Field: Work Order Qty
+Field: Produced Quantity
+Field: Delivered Qty
+Field: Returned Qty
+Field: Shopping Cart
+Field: Additional Notes
+Field: Page Break
+Field: Item Tax Rate
+Field: Sales Order Date
+
+DocType: Sales Partner Type
+Field: Sales Partner Type
+
+DocType: Sales Team
+Field: Sales Person
+Field: Contact No.
+Field: Contribution (%)
+Field: Contribution to Net Total
+Field: Commission Rate
+Field: Incentives
+
+DocType: Selling Settings
+Field: Customer Defaults
+Field: Customer Naming By
+Field: Default Customer Group
+Field: Default Territory
+Field: CRM Settings
+Field: Campaign Naming By
+Field: Contract Naming By
+Field: Default Quotation Validity Days
+Field: Close Opportunity After Days
+Field: Item Price Settings
+Field: Default Price List
+Field: Action if Same Rate is Not Maintained Throughout Sales Cycle
+Field: Role Allowed to Override Stop Action
+Field: Maintain Same Rate Throughout Sales Cycle
+Field: Allow User to Edit Price List Rate in Transactions
+Field: Validate Selling Price for Item Against Purchase Rate or Valuation Rate
+Field: Calculate Product Bundle Price based on Child Items' Rates
+Field: Transaction Settings
+Field: Is Sales Order Required for Sales Invoice & Delivery Note Creation?
+Field: Is Delivery Note Required for Sales Invoice Creation?
+Field: Sales Update Frequency
+Field: Allow Item to Be Added Multiple Times in a Transaction
+Field: Allow Multiple Sales Orders Against a Customer's Purchase Order
+Field: Hide Customer's Tax ID from Sales Transactions
+
+DocType: SMS Center
+Field: Send To
+Field: Customer
+Field: Supplier
+Field: Sales Partner
+Field: Department
+Field: Branch
+Field: Create Receiver List
+Field: Receiver List
+Field: Message
+Field: Total Characters
+Field: Total Message(s)
+Field: Send SMS

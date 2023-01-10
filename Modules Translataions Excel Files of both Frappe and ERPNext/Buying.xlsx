@@ -1,0 +1,571 @@
+Module: Buying
+DocType: Buying Settings
+Field: Supplier Naming By
+Field: Default Supplier Group
+Field: Default Buying Price List
+Field: Action If Same Rate is Not Maintained
+Field: Role Allowed to Override Stop Action
+Field: Is Purchase Order Required for Purchase Invoice & Receipt Creation?
+Field: Is Purchase Receipt Required for Purchase Invoice Creation?
+Field: Maintain Same Rate Throughout the Purchase Cycle
+Field: Allow Item To Be Added Multiple Times in a Transaction
+Field: Bill for Rejected Quantity in Purchase Invoice
+Field: Subcontract
+Field: Backflush Raw Materials of Subcontract Based On
+Field: Over Transfer Allowance (%)
+
+DocType: Purchase Order
+Field: Title
+Field: Series
+Field: Supplier
+Field: Get Items from Open Material Requests
+Field: Supplier Name
+Field: Apply Tax Withholding Amount
+Field: Tax Withholding Category
+Field: Company
+Field: Date
+Field: Required By
+Field: Order Confirmation No
+Field: Order Confirmation Date
+Field: Accounting Dimensions 
+Field: Cost Center
+Field: Project
+Field: Drop Ship
+Field: Customer
+Field: Customer Name
+Field: Customer Contact
+Field: Customer Contact
+Field: Customer Mobile No
+Field: Customer Contact Email
+Field: Address and Contact
+Field: Supplier Address
+Field: Supplier Address Details
+Field: Supplier Contact
+Field: Contact Name
+Field: Contact Mobile No
+Field: Contact Email
+Field: Shipping Address
+Field: Shipping Address Details
+Field: Company Billing Address
+Field: Billing Address Details
+Field: Currency and Price List
+Field: Currency
+Field: Exchange Rate
+Field: Price List
+Field: Price List Currency
+Field: Price List Exchange Rate
+Field: Ignore Pricing Rule
+Field: Subcontracting
+Field: Supply Raw Materials
+Field: Supplier Warehouse
+Field: Scan Barcode
+Field: Set Target Warehouse
+Field: Items
+Field: Total Quantity
+Field: Total (Company Currency)
+Field: Net Total (Company Currency)
+Field: Total Net Weight
+Field: Total
+Field: Net Total
+Field: Pricing Rules
+Field: Purchase Order Pricing Rule
+Field: Raw Materials Supplied
+Field: Set Reserve Warehouse
+Field: Supplied Items
+Field: Tax Category
+Field: Shipping Rule
+Field: Purchase Taxes and Charges Template
+Field: Purchase Taxes and Charges
+Field: Tax Breakup
+Field: Taxes and Charges Calculation
+Field: Taxes and Charges
+Field: Taxes and Charges Added (Company Currency)
+Field: Taxes and Charges Deducted (Company Currency)
+Field: Total Taxes and Charges (Company Currency)
+Field: Taxes and Charges Added
+Field: Taxes and Charges Deducted
+Field: Total Taxes and Charges
+Field: Additional Discount
+Field: Apply Additional Discount On
+Field: Additional Discount Amount (Company Currency)
+Field: Additional Discount Percentage
+Field: Additional Discount Amount
+Field: Totals
+Field: Grand Total (Company Currency)
+Field: Rounding Adjustment (Company Currency)
+Field: In Words (Company Currency)
+Field: Rounded Total (Company Currency)
+Field: Grand Total
+Field: Rounding Adjustment
+Field: Rounded Total
+Field: Disable Rounded Total
+Field: In Words
+Field: Advance Paid
+Field: Payment Terms
+Field: Payment Terms Template
+Field: Payment Schedule
+Field: Order Status
+Field: Status
+Field: % Billed
+Field: % Received
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions
+Field: Printing Settings
+Field: Letter Head
+Field: Print Heading
+Field: Print Language
+Field: Group same items
+Field: Subscription Section
+Field: From Date
+Field: To Date
+Field: Auto Repeat
+Field: Update Auto Repeat Reference
+Field: More Information
+Field: Supplier Quotation
+Field: Party Account Currency
+Field: Is Internal Supplier
+Field: Represents Company
+Field: Inter Company Order Reference
+
+DocType: Purchase Order Item
+Field: Item Code
+Field: Supplier Part Number
+Field: Item Name
+Field: Product Bundle
+Field: Required By
+Field: Expected Delivery Date
+Field: Description
+Field: Description
+Field: Image
+Field: Image View
+Field: Quantity and Rate
+Field: Quantity
+Field: Stock UOM
+Field: UOM
+Field: UOM Conversion Factor
+Field: Qty in Stock UOM
+Field: Price List Rate
+Field: Last Purchase Rate
+Field: Price List Rate (Company Currency)
+Field: Discount and Margin
+Field: Margin Type
+Field: Margin Rate or Amount
+Field: Rate With Margin
+Field: Discount on Price List Rate (%)
+Field: Discount Amount
+Field: Rate With Margin (Company Currency)
+Field: Rate
+Field: Amount
+Field: Item Tax Template
+Field: Rate (Company Currency)
+Field: Amount (Company Currency)
+Field: Pricing Rules
+Field: Rate of Stock UOM
+Field: Is Free Item
+Field: Net Rate
+Field: Net Amount
+Field: Net Rate (Company Currency)
+Field: Net Amount (Company Currency)
+Field: Warehouse and Reference
+Field: Warehouse
+Field: Available Qty at Warehouse
+Field: Available Qty at Company
+Field: Material Request
+Field: Material Request Item
+Field: Sales Order
+Field: Sales Order Item
+Field: Sales Order Packed Item
+Field: Supplier Quotation
+Field: Supplier Quotation Item
+Field: To be Delivered to Customer
+Field: Against Blanket Order
+Field: Blanket Order
+Field: Blanket Order Rate
+Field: Item Group
+Field: Brand
+Field: Billed, Received & Returned
+Field: Received Qty
+Field: Returned Qty
+Field: Billed Amount
+Field: Accounting Details
+Field: Expense Account
+Field: Manufacture
+Field: Manufacturer
+Field: Manufacturer Part Number
+Field: BOM
+Field: Include Exploded Items
+Field: Item Weight Details
+Field: Weight Per Unit
+Field: Total Weight
+Field: Weight UOM
+Field: Accounting Dimensions 
+Field: Project
+Field: Cost Center
+Field: More Information
+Field: Is Fixed Asset
+Field: Item Tax Rate
+Field: Production Plan
+Field: Production Plan Item
+Field: Production Plan Sub Assembly Item
+Field: Page Break
+
+DocType: Purchase Order Item Supplied
+Field: Item Code
+Field: Raw Material Item Code
+Field: Stock Uom
+Field: Reserve Warehouse
+Field: Conversion Factor
+Field: BOM Detail No
+Field: Reference Name
+Field: Rate
+Field: Amount
+Field: Required Qty
+Field: Supplied Qty
+Field: Consumed Qty
+Field: Returned Qty
+Field: Total Supplied Qty
+
+DocType: Purchase Receipt Item Supplied
+Field: Item Code
+Field: Raw Material Item Code
+Field: Item Name
+Field: BOM Detail No
+Field: Description
+Field: Stock Uom
+Field: Conversion Factor
+Field: Reference Name
+Field: Rate
+Field: Amount
+Field: Available Qty For Consumption
+Field: Qty to Be Consumed
+Field: Current Stock
+Field: Batch No
+Field: Serial No
+Field: Purchase Order
+
+DocType: Request for Quotation
+Field: Series
+Field: Company
+Field: Supplier
+Field: Date
+Field: Required Date
+Field: Status
+Field: Suppliers
+Field: Items
+Field: Email Details
+Field: Salutation
+Field: Subject
+Field: Email Template
+Field: Preview Email
+Field: Message for Supplier
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions
+Field: Printing Settings
+Field: Print Heading
+Field: Letter Head
+Field: More Information
+Field: Opportunity
+
+DocType: Request for Quotation Item
+Field: Item Code
+Field: Supplier Part No
+Field: Item Name
+Field: Required Date
+Field: Description
+Field: Description
+Field: Item Group
+Field: Brand
+Field: Image
+Field: Image
+Field: Image View
+Field: Quantity & Stock
+Field: Quantity
+Field: Stock UOM
+Field: UOM
+Field: UOM Conversion Factor
+Field: Qty as per Stock UOM
+Field: Warehouse and Reference
+Field: Warehouse
+Field: Material Request
+Field: Material Request Item
+Field: Accounting Dimensions
+Field: Project
+Field: Page Break
+
+DocType: Request for Quotation Supplier
+Field: Supplier
+Field: Contact
+Field: Quote Status
+Field: Supplier Name
+Field: Email Id
+Field: Send Email
+Field: Email Sent
+
+DocType: Supplier
+Field: Name and Type
+Field: Series
+Field: Supplier Name
+Field: Country
+Field: Default Company Bank Account
+Field: Tax ID
+Field: Tax Category
+Field: Tax Withholding Category
+Field: Is Transporter
+Field: Is Internal Supplier
+Field: Represents Company
+Field: Image
+Field: Supplier Group
+Field: Supplier Type
+Field: PAN
+Field: Allow Purchase Invoice Creation Without Purchase Order
+Field: Allow Purchase Invoice Creation Without Purchase Receipt
+Field: Disabled
+Field: Warn RFQs
+Field: Warn POs
+Field: Prevent RFQs
+Field: Prevent POs
+Field: Allowed To Transact With
+Field: Allowed To Transact With
+Field: Currency and Price List
+Field: Billing Currency
+Field: Price List
+Field: Credit Limit
+Field: Default Payment Terms Template
+Field: Block Supplier
+Field: Hold Type
+Field: Release Date
+Field: Address and Contacts
+Field: Address HTML
+Field: Contact HTML
+Field: Primary Address and Contact Detail
+Field: Supplier Primary Contact
+Field: Mobile No
+Field: Email Id
+Field: Supplier Primary Address
+Field: Primary Address
+Field: Default Payable Accounts
+Field: Accounts
+Field: Default Tax Withholding Config
+Field: More Information
+Field: Website
+Field: Supplier Details
+Field: Print Language
+Field: Is Frozen
+
+DocType: Supplier Quotation
+Field: Title
+Field: Series
+Field: Supplier
+Field: Name
+Field: Company
+Field: Date
+Field: Valid Till
+Field: Quotation Number
+Field: Address and Contact
+Field: Supplier Address
+Field: Contact Person
+Field: Address
+Field: Contact
+Field: Mobile No
+Field: Contact Email
+Field: Currency and Price List
+Field: Currency
+Field: Exchange Rate
+Field: Price List
+Field: Price List Currency
+Field: Price List Exchange Rate
+Field: Ignore Pricing Rule
+Field: Items
+Field: Pricing Rules
+Field: Pricing Rule Detail
+Field: Total Quantity
+Field: Total (Company Currency)
+Field: Net Total (Company Currency)
+Field: Total
+Field: Net Total
+Field: Total Net Weight
+Field: Taxes and Charges
+Field: Tax Category
+Field: Shipping Rule
+Field: Purchase Taxes and Charges Template
+Field: Purchase Taxes and Charges
+Field: Tax Breakup
+Field: Taxes and Charges Calculation
+Field: Taxes and Charges Added (Company Currency)
+Field: Taxes and Charges Deducted (Company Currency)
+Field: Total Taxes and Charges (Company Currency)
+Field: Taxes and Charges Added
+Field: Taxes and Charges Deducted
+Field: Total Taxes and Charges
+Field: Additional Discount
+Field: Apply Additional Discount On
+Field: Additional Discount Amount (Company Currency)
+Field: Additional Discount Percentage
+Field: Additional Discount Amount
+Field: Grand Total (Company Currency)
+Field: Rounding Adjustment (Company Currency
+Field: Rounded Total (Company Currency)
+Field: In Words (Company Currency)
+Field: Grand Total
+Field: Rounding Adjustment
+Field: Rounded Total
+Field: In Words
+Field: Disable Rounded Total
+Field: Terms and Conditions
+Field: Terms
+Field: Terms and Conditions
+Field: Printing Settings
+Field: Print Heading
+Field: Group same items
+Field: Letter Head
+Field: Print Language
+Field: Auto Repeat Section
+Field: Auto Repeat
+Field: Update Auto Repeat Reference
+Field: More Information
+Field: Status
+Field: Is Subcontracted
+Field: Reference
+Field: Opportunity
+
+DocType: Supplier Quotation Item
+Field: Item Code
+Field: Supplier Part Number
+Field: Item Name
+Field: Supplier Lead Time (days)
+Field: Expected Delivery Date
+Field: Is Free Item
+Field: Description
+Field: Description
+Field: Item Group
+Field: Brand
+Field: Image
+Field: Image View
+Field: Quantity and Rate
+Field: Quantity
+Field: Stock UOM
+Field: UOM
+Field: UOM Conversion Factor
+Field: Qty as per Stock UOM
+Field: Price List Rate
+Field: Discount on Price List Rate (%)
+Field: Discount Amount
+Field: Price List Rate (Company Currency)
+Field: Rate
+Field: Amount
+Field: Item Tax Template
+Field: Rate (Company Currency)
+Field: Amount (Company Currency)
+Field: Pricing Rules
+Field: Net Rate
+Field: Net Amount
+Field: Net Rate (Company Currency)
+Field: Net Amount (Company Currency)
+Field: Item Weight Details
+Field: Weight Per Unit
+Field: Total Weight
+Field: Weight UOM
+Field: Warehouse and Reference
+Field: Warehouse
+Field: Reference Document Type
+Field: Material Request
+Field: Sales Order
+Field: Request for Quotation
+Field: Material Request Item
+Field: Request for Quotation Item
+Field: Item Tax Rate
+Field: Manufacture
+Field: Manufacturer
+Field: Manufacturer Part Number
+Field: Accounting Dimensions
+Field: Project
+Field: Page Break
+
+DocType: Supplier Scorecard
+Field: Supplier
+Field: Supplier Score
+Field: Indicator Color
+Field: Status
+Field: Evaluation Period
+Field: Scoring Setup
+Field: Weighting Function
+Field: Scoring Standings
+Field: Criteria Setup
+Field: Load All Criteria
+Field: Scoring Criteria
+Field: Scorecard Actions
+Field: Warn for new Request for Quotations
+Field: Warn for new Purchase Orders
+Field: Prevent RFQs
+Field: Prevent POs
+Field: Notify Supplier
+Field: Notify Employee
+Field: Employee
+
+DocType: Supplier Scorecard Criteria
+Field: Criteria Name
+Field: Max Score
+Field: Criteria Formula
+Field: Criteria Weight
+
+DocType: Supplier Scorecard Period
+Field: Supplier
+Field: Naming Series
+Field: Period Score
+Field: Start Date
+Field: End Date
+Field: Calculations
+Field: Criteria
+Field: Variables
+Field: Reference
+Field: Supplier Scorecard Setup
+
+DocType: Supplier Scorecard Scoring Criteria
+Field: Criteria Name
+Field: Score
+Field: Criteria Weight
+Field: Max Score
+Field: Criteria Formula
+
+DocType: Supplier Scorecard Scoring Standing
+Field: Standing Name
+Field: Color
+Field: Min Grade
+Field: Max Grade
+Field: Actions
+Field: Warn RFQs
+Field: Warn Purchase Orders
+Field: Prevent RFQs
+Field: Prevent Purchase Orders
+Field: Notify Supplier
+Field: Notify Employee
+Field: Employee 
+
+DocType: Supplier Scorecard Scoring Variable
+Field: Variable Name
+Field: Description
+Field: Value
+Field: Parameter Name
+Field: Path
+
+DocType: Supplier Scorecard Standing
+Field: Standing Name
+Field: Color
+Field: Min Grade
+Field: Max Grade
+Field: Warn RFQs
+Field: Warn Purchase Orders
+Field: Prevent RFQs
+Field: Prevent Purchase Orders
+Field: Notify Supplier
+Field: Notify Other
+Field: Other
+
+DocType: Supplier Scorecard Variable
+Field: Variable Name
+Field: Custom?
+Field: Parameter Name
+Field: Path
+Field: Description

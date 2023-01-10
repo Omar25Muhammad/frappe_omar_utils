@@ -1,0 +1,15 @@
+Module: Communication
+DocType: Communication Medium
+Field: Communication Channel
+Field: Communication Medium Type
+Field: Catch All
+Field: Provider
+Field: Disabled
+Field: Timeslots
+Field: Timeslots
+
+DocType: Communication Medium Timeslot
+Field: Day of Week
+Field: From Time
+Field: To Time
+Field: Employee Group

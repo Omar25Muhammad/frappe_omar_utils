@@ -1,0 +1,879 @@
+Module: Core
+DocType: Access Log
+Field: Log Data
+Field: Export From
+Field: User 
+Field: Show Document
+Field: Reference Document
+Field: Timestamp
+Field: File Information
+Field: File Type
+Field: Method
+Field: Report Information
+Field: Report Name
+Field: Filters
+Field: Show Report
+Field: RAW Information Log
+Field: HTML Page
+Field: Columns / Fields
+
+DocType: Activity Log
+Field: Subject
+Field: Message
+Field: More Information
+Field: Date
+Field: Operation
+Field: Status
+Field: Reference
+Field: Reference Document Type
+Field: Reference Name
+Field: Reference Owner
+Field: Timeline DocType
+Field: Timeline Name
+Field: Link DocType
+Field: Link Name
+Field: User
+Field: Full Name
+
+DocType: Block Module
+Field: Module
+
+DocType: Comment
+Field: Comment Type
+Field: Comment Email
+Field: Subject
+Field: Comment By
+Field: Published
+Field: Seen
+Field: Reference Document Type
+Field: Reference Name
+Field: Link DocType
+Field: Link Name
+Field: Reference Owner
+Field: Content
+
+DocType: Communication
+Field: Subject
+Field: To and CC
+Field: Type
+Field: From
+Field: To
+Field: CC
+Field: BCC
+Field: Phone No.
+Field: Delivery Status
+Field: Message
+Field: Status
+Field: Text Content
+Field: Communication Type
+Field: Comment Type
+Field: Status
+Field: Sent or Received
+Field: More Information
+Field: Date
+Field: Sent Read Receipt
+Field: From Full Name
+Field: Read by Recipient
+Field: Read by Recipient On
+Field: Reference
+Field: Reference Document Type
+Field: Reference Name
+Field: Reference Owner
+Field: Email Account
+Field: In Reply To
+Field: User
+Field: Email Template
+Field: Unread Notification Sent
+Field: Seen
+Field: User Tags
+Field: Timeline Links
+Field: Timeline Links
+Field: Email Inbox
+Field: Message ID
+Field: UID
+Field: Email Status
+Field: Has  Attachment
+Field: Feedback
+Field: Rating
+Field: Feedback Request
+
+DocType: Communication Link
+Field: Link DocType
+Field: Link Name
+Field: Link Title
+
+DocType: Custom DocPerm
+Field: Reference Document Type
+Field: Role and Level
+Field: Role
+Field: If user is the owner
+Field: Level
+Field: Permissions
+Field: Select
+Field: Read
+Field: Write
+Field: Create
+Field: Delete
+Field: Submit
+Field: Cancel
+Field: Amend
+Field: Additional Permissions
+Field: Report
+Field: Export
+Field: Import
+Field: Set User Permissions
+Field: Share
+Field: Print
+Field: Email
+
+DocType: Custom Role
+Field: Page
+Field: Report
+Field: Permission Rules
+Field: Role
+Field: response
+Field: Reference Document Type
+
+DocType: Data Export
+Field: Select Doctype
+Field: File Type
+Field: Filter List
+Field: Fields Multicheck
+
+DocType: Data Import
+Field: Document Type
+Field: Import Type
+Field: Download Template
+Field: Import File
+Field: Import from Google Sheets
+Field: Refresh Google Sheet
+Field: Status
+Field: Submit After Import
+Field: Don't Send Emails
+Field: Template Options
+Field: Import File Errors and Warnings
+Field: Template Warnings
+Field: Import Warnings
+Field: Preview
+Field: Import Preview
+Field: Import Log
+Field: Import Log
+Field: Show Failed Logs
+Field: Import Log Preview
+
+DocType: Data Import Legacy
+Field: Document Type
+Field: Action
+Field: Insert new records
+Field: Update records
+Field: Don't create new records
+Field: Attach file for Import
+Field: Generated File
+Field: Skip rows with errors
+Field: Submit after importing
+Field: Ignore encoding errors
+Field: Do not send Emails
+Field: Import Log
+Field: Import Status
+Field: Show only errors
+Field: Import Log
+Field: Log Details
+Field: Total Rows
+
+DocType: DefaultValue
+Field: Key
+Field: Value
+
+DocType: Deleted Document
+Field: Deleted Name
+Field: Deleted DocType
+Field: Restored
+Field: New Name
+Field: Data
+
+DocType: DocField
+Field: Label
+Field: Type
+Field: Name
+Field: Precision
+Field: Length
+Field: Non Negative
+Field: Hide Days
+Field: Hide Seconds
+Field: Mandatory
+Field: Index
+Field: In List View
+Field: In Standard Filter
+Field: In Global Search
+Field: In Preview
+Field: Allow in Quick Entry
+Field: Bold
+Field: Translatable
+Field: Collapsible
+Field: Collapsible Depends On
+Field: Options
+Field: Default
+Field: Fetch From
+Field: Fetch If Empty
+Field: Permissions
+Field: Display Depends On
+Field: Hidden
+Field: Read Only
+Field: Unique
+Field: Set Only Once
+Field: Allow Bulk Edit
+Field: Perm Level
+Field: Ignore User Permissions
+Field: Allow on Submit
+Field: Report Hide
+Field: Remember Last Selected Value
+Field: Ignore XSS Filter
+Field: Hide Border
+Field: Property Depends On
+Field: Mandatory Depends On
+Field: Read Only Depends On
+Field: Display
+Field: In Filter
+Field: No Copy
+Field: Print Hide
+Field: Print Hide If No Value
+Field: Print Width
+Field: Width
+Field: Columns
+Field: Description
+
+DocType: DocPerm
+Field: Role and Level
+Field: Role
+Field: If user is the owner
+Field: Level
+Field: Permissions
+Field: Select
+Field: Read
+Field: Write
+Field: Create
+Field: Delete
+Field: Submit
+Field: Cancel
+Field: Amend
+Field: Additional Permissions
+Field: Report
+Field: Export
+Field: Import
+Field: Set User Permissions
+Field: Share
+Field: Print
+Field: Email
+
+DocType: DocShare
+Field: User
+Field: Document Type
+Field: Document Name
+Field: Read
+Field: Write
+Field: Share
+Field: Submit
+Field: Everyone
+Field: Notify by email
+
+DocType: DocType
+Field: Module
+Field: Is Submittable
+Field: Is Child Table
+Field: Is Single
+Field: Is Tree
+Field: Editable Grid
+Field: Quick Entry
+Field: Track Changes
+Field: Track Seen
+Field: Track Views
+Field: Custom?
+Field: Beta
+Field: Is Virtual
+Field: Fields
+Field: Fields
+Field: Naming
+Field: Auto Name
+Field: Name Case
+Field: Allow Rename
+Field: Description
+Field: Documentation Link
+Field: Form Settings
+Field: Image Field
+Field: Timeline Field
+Field: Parent Field (Tree)
+Field: Max Attachments
+Field: Hide Sidebar and Menu
+Field: Hide Copy
+Field: Allow Import (via Data Import Tool)
+Field: Allow events in timeline
+Field: Allow Auto Repeat
+Field: Make Attachments Public by Default
+Field: View Settings
+Field: Title Field
+Field: Translate Link Fields
+Field: Search Fields
+Field: Default Print Format
+Field: Default Sort Field
+Field: Default Sort Order
+Field: Show in Module Section
+Field: Icon
+Field: Color
+Field: Show Preview Popup
+Field: Make "name" searchable in Global Search
+Field: Email Settings
+Field: Default Email Template
+Field: Allow document creation via Email
+Field: Sender Field
+Field: Subject Field
+Field: Permission Rules
+Field: Permissions
+Field: Restrict To Domain
+Field: User Cannot Search
+Field: User Cannot Create
+Field: Actions
+Field: Actions
+Field: Linked Documents
+Field: Links
+Field: Web View
+Field: Has Web View
+Field: Allow Guest to View
+Field: Index Web Pages for Search
+Field: Route
+Field: Is Published Field
+Field: Advanced
+Field: Database Engine
+
+DocType: DocType Action
+Field: Label
+Field: Action Type
+Field: Action / Route
+Field: Group
+Field: Hidden
+Field: Custom
+
+DocType: DocType Link
+Field: Link DocType
+Field: Link Fieldname
+Field: Parent DocType
+Field: Table Fieldname
+Field: Group
+Field: Hidden
+Field: Is Child Table
+Field: Custom
+
+DocType: Document Naming Rule
+Field: Document Type
+Field: Disabled
+Field: Priority
+Field: Rule Conditions
+Field: Conditions
+Field: Naming
+Field: Prefix
+Field: Digits
+Field: Counter
+
+DocType: Document Naming Rule Condition
+Field: Field
+Field: Condition
+Field: Value
+
+DocType: Document Share Key
+Field: Reference Document Type
+Field: Reference Document Name
+Field: Key
+Field: Expires On
+
+DocType: Domain
+Field: Domain
+
+DocType: Domain Settings
+Field: Active Domains
+Field: Domains HTML
+Field: Active Domains
+
+DocType: Dynamic Link
+Field: Link Document Type
+Field: Link Name
+Field: Link Title
+
+DocType: Error Log
+Field: Seen
+Field: Title
+Field: Error
+
+DocType: Error Snapshot
+Field: Snapshot View
+Field: Seen
+Field: Friendly Title
+Field: Timestamp
+Field: Relapses
+Field: Exception Type
+Field: Traceback
+Field: Parent Error Snapshot
+Field: Pyver
+Field: Exception
+Field: Locals
+Field: Frames
+
+DocType: Feedback
+Field: Reference Document Type
+Field: Reference Name
+Field: Rating
+Field: IP Address
+Field: Feedback
+
+DocType: File
+Field: File Name
+Field: Is Private
+Field: Preview
+Field: Preview HTML
+Field: Is Home Folder
+Field: Is Attachments Folder
+Field: File Size
+Field: File URL
+Field: Thumbnail URL
+Field: Folder
+Field: Is Folder
+Field: Attached To DocType
+Field: Attached To Name
+Field: Attached To Field
+Field: old_parent
+Field: Content Hash
+Field: Uploaded To Dropbox
+Field: Uploaded To Google Drive
+
+DocType: Has Domain
+Field: Domain
+
+DocType: Has Role
+Field: Role
+
+DocType: Installed Application
+Field: Application Name
+Field: Application Version
+Field: Git Branch
+
+DocType: Installed Applications
+Field: Installed Applications
+
+DocType: Language
+Field: Enabled
+Field: Language Code
+Field: Language Name
+Field: Flag
+Field: Based On
+
+DocType: Log Setting User
+Field: User
+
+DocType: Log Settings
+Field: Error Log Notification
+Field: Users To Notify
+Field: Log Cleanup
+Field: Clear Error log After
+Field: Clear Activity Log After
+Field: Clear Email Queue After
+
+DocType: Module Def
+Field: Module Name
+Field: Custom
+Field: App Name
+Field: Restrict To Domain
+
+DocType: Module Profile
+Field: Module Profile Name
+Field: Module HTML
+Field: Block Modules
+
+DocType: Navbar Item
+Field: Item Label
+Field: Item Type
+Field: Route
+Field: Action
+Field: Hidden
+Field: Is Standard
+
+DocType: Navbar Settings
+Field: Application Logo
+Field: Application Logo
+Field: Logo Width
+Field: Dropdowns
+Field: Settings Dropdown
+Field: Help Dropdown
+
+DocType: Page
+Field: System Page
+Field: Page HTML
+Field: Page Name
+Field: Title
+Field: icon
+Field: Module
+Field: Restrict To Domain
+Field: Standard
+Field: Roles
+
+DocType: Patch Log
+Field: Patch
+
+DocType: Payment Gateway
+Field: Gateway
+Field: Gateway Settings
+Field: Gateway Controller
+
+DocType: Prepared Report
+Field: Report Name
+Field: Ref Report DocType
+Field: Status
+Field: Report Start Time
+Field: Report End Time
+Field: Error Message
+Field: Filters
+Field: Filters
+Field: Filter Values
+Field: Columns
+
+DocType: Report
+Field: Report Name
+Field: Ref DocType
+Field: Reference Report
+Field: Is Standard
+Field: Module
+Field: Report Type
+Field: Letter Head
+Field: Add Total Row
+Field: Disabled
+Field: Disable Prepared Report
+Field: Prepared Report
+Field: Filters
+Field: Filters
+Field: Columns
+Field: Columns
+Field: Query / Script
+Field: Query
+Field: Script
+Field: Client Code
+Field: Javascript
+Field: JSON
+Field: Roles
+
+DocType: Report Column
+Field: Fieldname
+Field: Label
+Field: Fieldtype
+Field: Options
+Field: Width
+
+DocType: Report Filter
+Field: Fieldname
+Field: Label
+Field: Fieldtype
+Field: Mandatory
+Field: Options
+Field: Wildcard Filter
+
+DocType: Role
+Field: Role Name
+Field: Home Page
+Field: Restrict To Domain
+Field: Disabled
+Field: Is Custom
+Field: Desk Access
+Field: Two Factor Authentication
+Field: Navigation Settings
+Field: Search Bar
+Field: Notifications
+Field: List Settings
+Field: Sidebar
+Field: Bulk Actions
+Field: View Switcher
+Field: Form Settings
+Field: Sidebar
+Field: Timeline
+Field: Dashboard
+
+DocType: Role Permission for Page and Report
+Field: Set Role For
+Field: Page
+Field: Report
+Field: Disable Prepared Report
+Field: Allow Roles
+Field: Roles Html
+Field: Roles
+
+DocType: Role Profile
+Field: Role Name
+Field: Roles HTML
+Field: Roles Assigned
+
+DocType: Scheduled Job Log
+Field: Status
+Field: Scheduled Job
+Field: Details
+
+DocType: Scheduled Job Type
+Field: Stopped
+Field: Method
+Field: Server Script
+Field: Frequency
+Field: Cron Format
+Field: Last Execution
+Field: Create Log
+
+DocType: Server Script
+Field: Script Type
+Field: Reference Document Type
+Field: Event Frequency
+Field: DocType Event
+Field: API Method
+Field: Allow Guest
+Field: Disabled
+Field: Script
+Field: Help
+
+DocType: Session Default
+Field: Document Type
+
+DocType: Session Default Settings
+Field: Session Defaults
+
+DocType: SMS Parameter
+Field: Parameter
+Field: Value
+Field: Header
+
+DocType: SMS Settings
+Field: SMS Gateway URL
+Field: Message Parameter
+Field: Receiver Parameter
+Field: Static Parameters
+Field: Use POST
+
+DocType: Success Action
+Field: Reference Document Type
+Field: First Success Message
+Field: Message
+Field: Next Actions HTML
+Field: Action Timeout (Seconds)
+
+DocType: System Settings
+Field: Application Name
+Field: Country
+Field: Language
+Field: Time Zone
+Field: Is First Startup
+Field: Enable Onboarding
+Field: Setup Complete
+Field: Date and Number Format
+Field: Date Format
+Field: Time Format
+Field: Number Format
+Field: Float Precision
+Field: Currency Precision
+Field: First Day of the Week
+Field: Backups
+Field: Number of Backups
+Field: Background Workers
+Field: Enable Scheduled Jobs
+Field: Run Jobs only Daily if Inactive For (Days)
+Field: Permissions
+Field: Apply Strict User Permissions
+Field: Allow Guests to Upload Files
+Field: Security
+Field: Session Expiry
+Field: Session Expiry Mobile
+Field: Document Share Key Expiry (in Days)
+Field: Allow only one session per user
+Field: Allow Login using Mobile Number
+Field: Allow Login using User Name
+Field: Show Full Error and Allow Reporting of Issues to the Developer
+Field: Strip EXIF tags from uploaded images
+Field: Allow Older Web View Links (Insecure)
+Field: Password
+Field: Logout All Sessions on Password Reset
+Field: Force User to Reset Password
+Field: Password Reset Link Generation Limit
+Field: Enable Password Policy
+Field: Minimum Password Score
+Field: Brute Force Security
+Field: Allow Consecutive Login Attempts 
+Field: Allow Login After Fail
+Field: Two Factor Authentication
+Field: Enable Two Factor Auth
+Field: Bypass Two Factor Auth for users who login from restricted IP Address
+Field: Bypass restricted IP Address check If Two Factor Auth Enabled
+Field: Two Factor Authentication method
+Field: Expiry time of QR Code Image Page
+Field: OTP Issuer Name
+Field: Email
+Field: Email Footer Address
+Field: Email Retry Limit
+Field: Disable Standard Email Footer
+Field: Hide footer in auto email reports
+Field: Send document Web View link in email
+Field: Reports
+Field: Enable Auto-deletion of Prepared Reports
+Field: Prepared Report Expiry Period (Days)
+Field: Max auto email report per user
+Field: System Updates
+Field: Disable System Update Notification
+Field: Disable Change Log Notification
+
+DocType: test
+Field: Test
+
+DocType: Transaction Log
+Field: Row Index
+Field: Reference Document Type
+Field: Document Name
+Field: Timestamp
+Field: Checksum Version
+Field: Previous Hash
+Field: Transaction Hash
+Field: Chaining Hash
+Field: Data
+
+DocType: Translation
+Field: Contributed
+Field: Language
+Field: Source Text
+Field: Context
+Field: Translated Text
+Field: Contribution Status
+Field: Contribution Document Name
+
+DocType: User
+Field: Enabled
+Field: Basic Info
+Field: Email
+Field: First Name
+Field: Middle Name
+Field: Last Name
+Field: Full Name
+Field: Username
+Field: Language
+Field: Time Zone
+Field: Send Welcome Email
+Field: Unsubscribed
+Field: User Image
+Field: Roles
+Field: Role Profile
+Field: Roles HTML
+Field: Roles Assigned
+Field: More Information
+Field: Gender
+Field: Birth Date
+Field: Interests
+Field: Banner Image
+Field: Desk Theme
+Field: Phone
+Field: Location
+Field: Bio
+Field: Mute Sounds
+Field: Mobile No
+Field: Change Password
+Field: Set New Password
+Field: Logout From All Devices After Changing Password
+Field: Reset Password Key
+Field: Last Password Reset Date
+Field: Redirect URL
+Field: Document Follow
+Field: Send Notifications For Documents Followed By Me
+Field: Frequency
+Field: Email
+Field: Email Signature
+Field: Send Notifications For Email Threads
+Field: Send Me A Copy of Outgoing Emails
+Field: Allowed In Mentions
+Field: User Emails
+Field: Allow Modules
+Field: Module Profile
+Field: Modules HTML
+Field: Block Modules
+Field: Home Settings
+Field: Defaults
+Field: User Defaults
+Field: Security Settings
+Field: Simultaneous Sessions
+Field: Restrict IP
+Field: Last IP
+Field: Login After
+Field: User Type
+Field: Last Active
+Field: Login Before
+Field: Bypass Restricted IP Address Check If Two Factor Auth Enabled
+Field: Last Login
+Field: Last Known Versions
+Field: Third Party Authentication
+Field: Social Logins
+Field: API Access
+Field: API Key
+Field: Generate Keys
+Field: API Secret
+
+DocType: User Document Type
+Field: Document Type
+Field: Is Custom
+Field: Role Permissions
+Field: Read
+Field: Write
+Field: Create
+Field: Submit
+Field: Cancel
+Field: Amend
+Field: Delete
+
+DocType: User Email
+Field: Email Account
+Field: Email ID
+Field: Awaiting Password
+Field: Enable Outgoing
+
+DocType: User Group
+Field: User Group Members
+
+DocType: User Group Member
+Field: User
+
+DocType: User Permission
+Field: User
+Field: Allow
+Field: For Value
+Field: Is Default
+Field: Advanced Control
+Field: Apply To All Document Types
+Field: Applicable For
+Field: Hide Descendants
+
+DocType: User Select Document Type
+Field: Document Type
+
+DocType: User Social Login
+Field: Provider
+Field: Username
+Field: User ID
+
+DocType: User Type
+Field: Is Standard
+Field: Document Types and Permissions
+Field: Role
+Field: Apply User Permission On
+Field: User Id Field
+Field: Document Types
+Field: Custom Document Types (Select Permission)
+Field: Document Types (Select Permissions Only)
+Field: Allowed Modules
+
+DocType: User Type Module
+Field: Module
+
+DocType: Version
+Field: DocType
+Field: Document Name
+Field: Data
+Field: Table HTML
+
+DocType: View Log
+Field: Viewed By
+Field: Reference Document Type
+Field: Reference name
