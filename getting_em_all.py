@@ -1,48 +1,52 @@
-"""
-This is a simple algorithm to fetch Frappe apps components (Modules, DocTypes, Fields)
-"""
+@frappe.whitelist()
+def get_em_all():
+    """
+    This is a simple algorithm to fetch Frappe apps components (Modules, DocTypes, Fields)
+    """
 
-import frappe
+    # Define the directory path to store the files
+    path = "exported_files"  # You can change this to your desired directory
 
- # Getting all DocTypes of the site
-doctypes = frappe.get_list('DocType', pluck='name')
+    # Ensure the directory exists or create it if not
+    os.makedirs(path, exist_ok=True)
 
-# Getting all Modules of the site
-# Set is to remove duplicates
-modules = list(set(frappe.get_list('DocType', pluck='module')))
+    # Getting all DocTypes of the site
+    doctypes = frappe.get_list("DocType", pluck="name")
 
-# Exporting data
-file_type = 'xlsx'
+    # Getting all Modules of the site
+    # IBFO: { Set } is to remove duplicates
+    modules = list(set(frappe.get_list("DocType", pluck="module")))
 
-# Initializaing the where and files
-path = ''
-for module in modules:
-    with open(f'{path}/{module}.{file_type}', 'w') as file:
-        file.write('')
+    # Exporting data
+    file_type = "xlsx"
 
-# Getting DocType Fileds
+    # Initialize the where and files
+    for module in modules:
+        with open(f"{path}/{module}.{file_type}", "w") as file:
+            file.write("")
+
+    # Start the algorithm
+    for module in modules:
+        doctypes_of_each_module = frappe.get_list(
+            "DocType", filters={"module": module}, pluck="name"
+        )
+        with open(f"{path}/{module}.{file_type}", "a") as file:
+            file.write(f"Module: {module}")
+        for doctype in doctypes_of_each_module:
+            with open(f"{path}/{module}.{file_type}", "a") as file:
+                file.write(f"\nDocType: {doctype}")
+            for field in get_fields(doctype):
+                with open(f"{path}/{module}.{file_type}", "a") as file:
+                    file.write(f"\nField: {field}\n")
+
+    return f"Files exported to {path}"
+
+
 def get_fields(doctype):
-    fields = frappe.get_doc('DocType', doctype).fields
+    """Getting Fields of DocType"""
+    fields = frappe.get_doc("DocType", doctype).fields
     r = []
     for field in fields:
-        if field.label != None and field.label != 'Amended From':
+        if field.label is not None and field.label != "Amended From":
             r.append(field.label)
     return r
-
-
-# Start the algorithm
-for module in modules:
-    doctypes_of_each_module = frappe.db.sql(f'''SELECT name FROM `tabDocType` WHERE module='{module}';''')
-    with open(f'Modules Translataions Excel Files of Each Frappe and ERPNext/{module}.{file_type}', 'a') as file:
-        file.write(f'Module: {module}')
-         # print(f'Module: {module}')
-    for doctype in doctypes_of_each_module:
-        with open(f'Modules Translataions Excel Files of Each Frappe and ERPNext/{module}.{file_type}', 'a') as file:
-            file.write(f'\nDocType: {doctype[0]}')
-        # print(f'\tDocType: {doctype[0]}')
-        for field in get_fields(doctype[0]):
-            with open(f'Modules Translataions Excel Files of Each Frappe and ERPNext/{module}.{file_type}', 'a') as file:
-                file.write(f'\nField: {field}')
-            # print(f'\t\tField: {field}')
-                with open(f'Modules Translataions Excel Files of Each Frappe and ERPNext/{module}.{file_type}', 'a') as file:
-                    file.write('\n')
